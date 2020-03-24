@@ -1,0 +1,37 @@
+The northwestern blot, also known as the northwestern assay, is a hybrid analytical technique of the western blot and the northern blot, and is used in molecular biology to detect interactions between RNA and proteins.  A related technique, the western blot, is used to detect a protein of interest that involves transferring proteins that are separated by gel electrophoresis onto a nitrocellulose membrane.  A colored precipitate clusters along the band on the membrane containing a particular target protein.  A northern blot is a similar analytical technique that, instead of detecting a protein of interest, is used to study gene expression by detection of RNA (or isolated mRNA) on a similar membrane.  The northwestern blot combines the two techniques, and specifically involves the identification of labeled RNA that interact with proteins that are immobilized on a similar nitrocellulose membrane.
+
+
+== History ==
+Edwin Southern first created the Southern blot, an analytical technique used to detect DNA.  The technique involves using gel electrophoresis, an important analytical method that involves the use of an electric field and the subsequent migration of charged DNA, RNA or proteins through that electric field based on size and charge.  With a Southern Blot, the separated DNA fragments are then transferred to a filter membrane for detection.  Detection occurs as bands become visible on the membrane and correlate with a particular molecule of interest.  Subsequently, other similar blotting techniques were created with similar nomenclature to detect different molecules or interactions between molecules.  These techniques include the western blot (protein detection), the northern blot (RNA detection), the southwestern blot (DNA-protein interaction detection), the eastern blot (post translational modification detection) and the northwestern blot (RNA-protein interaction detection).
+
+
+== Technique specifics ==
+Running a northwestern blot involves separating the RNA binding proteins by gel electrophoresis, which will separate the RNA binding proteins based upon their size and charge.  Individual samples can be loaded in to the agarose or polyacrylamide gel (usually an SDS-PAGE) in order to analyze multiple samples at the same time. Once the gel electrophoresis is complete, the gel and associated RNA binding proteins are transferred to a nitrocellulose transfer paper.The newly transferred blots are then soaked in a blocking solution; non-fat milk and bovine serum albumin are common blocking buffers.  This blocking solution assists with preventing non-specific binding of the primary and/or secondary antibodies to the nitrocellulose membrane.  Once the blocking solution has adequate contact time with the blot, a specific competitor RNA is applied and given time to incubate at room temperature.  During this time, the competitor RNA binds to the RNA binding proteins in the samples that are on the blot.  The incubation time during this process can vary depending on the concentration of the competitor RNA applied; though incubation time is typically one hour.  After the incubation is complete, the blot is usually washed at least 3 times for 5 minutes each wash, in order to dilute out the RNA in the solution.  Common wash buffers include Phosphate buffered saline (PBS) or a 10% Tween 20 solution.  Improper or inadequate washing will affect the clarity of the development of the blot.  Once washing is complete the blot is then typically developed by x-ray or similar autoradiography methods.
+
+
+== Applications ==
+After developing the blot using xray or autoradiography, the results can be analyzed and interpreted to determine the approximate size and concentration of the RNA binding protein(s) of interest to further study the protein(s).  The location and concentration of the RNA binding protein on the blot can affect the results, and bands can sometimes appear after development.  These bands can help researchers determine the size and concentration of the RNA binding protein of interest.  When the approximate size of the protein is known, the original sample can be run on a chromatography machine to separate it by size.  In addition, once the protein is isolated, it can be digested with trypsin, and Mass Spectrometry can be utilized to sequence the peptides in order to determine the identity of the specific protein.
+
+
+== Advantages and disadvantages ==
+Advantages of northwestern blotting include the expedited detection of specific proteins that bind RNA, as well as the assessment of the approximate molecular weights of those proteins.  The northwestern blot allows for detection of identified proteins in a way that is inexpensive.  The blot is typically a first step in research, as it allows for the identification of the approximate molecular weights, once the molecular weight is known it allows for further research or purification through other methods like chromatography.  Another advantage of the northwestern blot is that it aides in the building of expression libraries of cognate ligands.A noted disadvantage is that some RNA-Protein interactions with poor RNA binding properties may not be as detectable with this technique.  Also the procedure for blotting can take from 3 to 5 hours.  If the procedure is not done correctly it can result in significant background which can result in an unclear blot of the proteins identified.  In addition, proteins need to renature after being separated and transferred to the nitrocellulose membrane.  One last disadvantage is that proteins must consist of a single polypeptide or two subunits that comigrate in the gel matrix.
+
+
+== See also ==
+Southern blot
+Western blot
+Northern blot
+Southwestern blot
+Eastern blot
+Gel electrophoresis
+SDS-PAGE
+Chromatography
+
+
+== Protocols ==
+Northwestern Blot of Protein-RNA Interaction from Young Rice Panicles
+RNA Isolation and Northern Blot Analysis
+Protein Blotting
+
+
+== References ==

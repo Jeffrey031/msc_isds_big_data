@@ -1,0 +1,23 @@
+BlueGriffon is a WYSIWYG content editor for the World Wide Web. It is based on the discontinued Nvu editor, which in turn is based on the Composer component of the Mozilla Application Suite. Powered by Gecko, the rendering engine of Firefox, it can edit Web pages in conformance to Web Standards. It runs on Microsoft Windows, macOS and Linux.
+BlueGriffon complies with the W3C's web standards. It can create and edit pages in accordance to HTML 4, XHTML 1.1, HTML 5 and XHTML 5. It supports CSS 2.1 and all parts of CSS 3 already implemented by Gecko. BlueGriffon also includes SVG-edit, an XUL-based editor for SVG that is originally distributed as an add-on to Firefox and was adapted to BlueGriffon.
+A version without the CSS Stylesheet editor is free to download and is available on Microsoft Windows, macOS and Linux.
+Many enhancements are available via add-ons. Most add-ons such as 'Project Manager', 'CSS Stylesheet editor', 'MathML Editor', 'Word Count' and 'FullScreen view/edit' must be paid for, while only two ('FireFTP' and 'Dictionaries') are free to download.
+
+
+== Awards ==
+Disruptive Innovations was one of five Innovation award winners for its BlueGriffon project during the Demo Cup organized as part of the 2010 Open World Forum held in Paris in October 2010.
+In 2013, Disruptive Innovations received the META Seal of Recognition from the Multilingual Europe Technology Alliance for being the first editor to implement the three main data categories of the W3C Internationalization Tag Set 2.0
+
+
+== See also ==
+
+Comparison of HTML editors
+KompoZer, also based on Nvu
+Maqetta
+
+
+== References ==
+
+
+== External links ==
+Official website

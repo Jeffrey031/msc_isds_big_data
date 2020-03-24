@@ -1,0 +1,83 @@
+Double patenting is the granting of two patents for a single invention, to the same proprietor and in the same country or countries. According to the European Patent Office, it is an accepted principle in most patent systems that two patents cannot be granted to the same applicant for one invention. However, the threshold for double patenting varies from jurisdiction to jurisdiction.
+
+
+== By jurisdiction ==
+
+
+=== Australia ===
+Australian patent law includes a statutory bar on double patenting to the same inventor, but not to different inventors, for the same invention. Subsection 64(1) firstly grants the Commissioner of Patents a discretion to grant multiple patents for the same invention:
+
+"Subject to this section, where there are 2 or more applications for patents for identical, or substantially identical, inventions, the granting of a patent on one of those applications does not prevent the granting of a patent on any of the other applications."However, Subsection 64(2) prohibits such grant where multiple patents would be granted to the same inventor:
+
+"Where:
+(a)  an application for a standard patent claims an invention that is the same as an invention that is the subject of a patent and is made by the same inventor; and
+(b)  the relevant claim or claims in each of the complete specifications have the same priority date or dates;
+a standard patent cannot be granted on the application."The statutory provisions contained in the Patents Act 1990 are a codification of the law established in the Dreyfus case. An application may be examined and accepted, but the double patenting provision will prevent a patent being granted on a second application unless and until the objection is removed by amendment of the offending claim or claims or surrender of the granted patent in favor of the second application.
+
+
+=== Canada ===
+In Canada, the Supreme Court has indicated that there are two branches of double patenting. The first branch of double patenting ("same invention" or "novelty-type" double patenting) requires that claims of two issued patents must not be identical or conterminous. The second branch of double patenting (termed "obviousness-type" double patenting) requires that claims of two issued patents be "patentably distinct" (non-obvious) in view of one another. Even applications that expire on the same day may be open to double patenting challenges, as the courts have viewed possession of two patents for one invention to constitute an undue benefit.Technically, double patenting can only exist between issued patents. However, double patenting objections may be raised by an examiner during an application's pendency. The position of the Patent Office is that such objections are raised as a courtesy; examiners are under no obligation to identify double patenting situations during prosecution. Canadian practice differs significantly from U.S. practice on this front, in that, once a double patenting objection is encountered, there is no statutory provision for terminal disclaimer in the Canadian Patent Act. Thus, terminal disclaimer is not available to overcome double patenting objections. Instead, the applicant must demonstrate (by arguing or amending the claims) that the claims are patentably distinct in view of those of the co-pending application.
+Divisional applications filed voluntarily may be susceptible to attacks on the grounds of double patenting.  However, where a divisional is forced by the Patent Office during prosecution (i.e. to overcome a unity of invention objection), the Supreme Court of Canada has indicated that such an application and its parent should not be open to double patenting challenges.
+
+
+=== European Patent Convention ===
+The European Patent Convention (EPC) does not contain any specific provisions relating to double patenting. The European Patent Office's (EPO) Boards of Appeal addressed the issue in several cases however, and a referral to the Enlarged Board of Appeal was eventually announced in February 2019.
+
+
+==== T 587/98 ====
+In 2000, the EPO's Technical Board of Appeal 3.5.2, in case T 587/98, held that, "There is no express or implicit provision in the EPC which prohibits the presence in a divisional application of an independent claim -explicitly or as a notional claim arrived at by partitioning of an actual claim into notional claims reciting explicit alternatives-which is related to an independent claim in the parent application (or patent if, as in the present case, it has already been granted) in such a way that the 'parent' claim includes all the features of the 'divisional' claim combined with an additional feature."
+
+
+==== Obiter dictum in G 1/05 and G 1/06 ====
+However, in June 2007, the Enlarged Board of Appeal of the EPO in cases G 1/05 and G 1/06 accepted, by way of obiter dictum, that
+
+"the principle of prohibition of double patenting exists on the basis that an applicant has no legitimate interest in proceedings leading to the grant of a second patent for the same subject-matter if he already possesses one granted patent therefor.The Board therefore accepted the practice of the EPO "that amendments to a divisional application are objected to and refused when the amended divisional application claims the same subject-matter as a pending parent application or a granted parent patent." 
+
+
+==== T 307/03 ====
+Soon after, in July 2007, the Technical Board 3.3.07 in case T 307/03 followed the Enlarged Board of Appeal reasoning and held that a "principle of prohibition of double patenting" was applicable under EPC. It additionally held that the double patenting prohibition was also applicable for a "later claim more broadly formulated" (compared to a claim already granted in the parent application). The Board notably based its reasoning on the wording of Article 60 EPC according to which "[the] right to a European patent shall belong to the inventor or his successor in title". In other words,
+
+"[once] a patent has been granted to the inventor (or his successor in title) this right to a patent has been exhausted, and the European Patent Office is entitled to refuse to grant a further patent to the inventor (or his successor in title) for the subject-matter for which he has already been granted a patent."The Board in case T 307/03 explicitly disagreed with the apparent conclusion of earlier decision T 587/98 that there would be no basis in the EPC prohibiting "conflicting claims".In case T 307/03, which related to a pending divisional application of a granted European patent, three requests were pending. In the main request, the subject-matter of claim 1 corresponded exactly to the subject-matter of claim 3 when dependent on claim 1 of the granted European patent (that is, the patent granted on the parent application). The claim was therefore objected for double patenting and the main request was not allowed into the proceedings. The first auxiliary request was not allowed into the proceedings for essentially the same reasons. Finally, in the second auxiliary request, the subject-matter of the main claim encompassed by the subject-matter of claim 3 of the parent application as granted. This request was also not allowed into the proceedings on the ground of double patenting. The divisional application was therefore refused.
+
+
+==== T 1391/07 ====
+In case T 1391/07 (November 2008), the Board 3.4.02 held that a double patenting objection did not arise when the claims of two applications only overlap, in such a manner that the scope of protection sought by the invention claimed in the divisional application was notionally different from the scope of protection conferred by the claims of the granted parent patent. In other words, the Board held that when there was a partial overlap in the respective scopes of protection:
+
+"there is at least one technical feature in each of claim 1 [of the divisional application] and claim 1 of the granted parent patent clearly distinguishing the subject-matter of the respective claim from that of the other one of the claims, and that these distinguishing features are such that the scope of protection sought by the invention claimed in the [divisional] application is notionally different from the scope of protection conferred by claim 1 of the granted parent patent",this did not lead to a double patenting objection. This was found by the Board 3.4.02 to be in line with decisions T 118/91, point 2.4.1 of the reasons, T 80/98, point 9, T 587/98 (OJ EPO 2000, 497), point 3.3, T 475/02, point 8.6, T 411/03, point 4.2, T 425/03, point 4.2, T 467/03, point 4.2, T 468/03, point 4.2, and T 579/05, point 2.2, and the obiter dictum in decisions G 1/05 and G 1/06.
+
+
+==== Not a ground of opposition (T 936/04) ====
+In 2008, in case T 936/04, the Board 3.3.07 held that double patenting was not a ground of opposition. However:
+
+"[it] is within the discretion of the instances of the EPO to raise the objection in opposition or opposition appeal proceedings against proposed amended claims, but this should be done only in clear cases. The purpose behind the principle of prohibition of double patenting is to avoid unnecessary duplication of effort, and not to impose on the instances of the EPO an obligation to make a complex comparison between the case before them and the claims that may have been granted in some other proceedings."
+
+
+=== Singapore ===
+Since July 2004, the issue of double patenting provides one possible ground for revocation of all Singapore patent applications. Under section 80(1)(g) of the Singapore Patents Act, a patent may be revoked if "the patent is one of two or more patents for the same invention having the same priority date and filed by the same party or his successor in title".
+
+
+=== United Kingdom ===
+The patent law in the United Kingdom (UK) contains an express provision relating to the prohibition of double patenting. UK Patents Act 1977 (as amended) states in Section 18(5):
+
+"Where two or more applications for a patent for the same invention having the same priority date are filed by the same applicant or his successor in title, the comptroller may on that ground refuse to grant a patent in pursuance of more than one of the applications."The prohibition extends to United Kingdom patent applications corresponding to European patents having been granted for the same invention. The Act states in Section 73(2):
+
+"If it appears to the comptroller that a patent under this Act and a European patent (UK) have been granted for the same invention having the same priority date, and that the applications for the patents were filed by the same applicant or his successor in title, he shall give the proprietor of the patent under this Act an opportunity of making observations and of amending the specification of the patent, and if the proprietor fails to satisfy the comptroller that there are not two patents in respect of the same invention, or to amend the specification so as to prevent there being two patents in respect of the same invention, the comptroller shall revoke the patent."The interpretation of the section is to be a literal one. Citing Marley's Patent case ([1994] RPC 231), in Intel Corporation's case (United Kingdom Patent No. 2373896), Hearing Officer Mr. Ben Buchannan said:
+
+"The test for conflict is not whether two patents define the same inventive concept, but whether the claims in each patent, when properly construed, define the same invention."
+
+
+=== United States ===
+The United States has two types of double patenting rejections. One is the "same invention" type double patenting rejection, based on 35 U.S.C. § 101, which states in the singular that an inventor "...may obtain a patent." The second rejection type precludes what is referred to as "obviousness-type" or "nonstatutory" double patenting. The nonstatutory double patenting rejection is based on a judicially created doctrine grounded in public policy and primarily is intended to prevent prolonging the patent term by prohibiting claims in a second patent that are obvious variations on claims in an earlier patent. This type of double patenting rejection requires only a single common inventor and does not require common ownership. The terminology "not patentably distinct" or "distinguished" from the earlier claims is often used to describe "obviousness type" double patenting.
+Double patenting rejections are commonly seen in continuing patent applications.  A rejection for obviousness-type double patenting, but not for same-invention double patenting, can usually be overcome if the patent applicant files a terminal disclaimer and disclaims the term of the later-issuing patent that extends beyond the term of the earlier patent. The disclaimer may be filed, however, only if the same inventor or combination of inventors is named in both patents. Even then, the rejections may stand because of unfavorable facts. The disclaimer is not an admission that the invention is the "same", and will not create an estoppel or contractual obligation when the inventor has made admissions about "the invention".If a restriction requirement necessitated the filing of a divisional patent application, 35 U.S.C. § 121 provides protection against a rejection for double patenting.
+
+
+== References and notes ==
+
+
+== External links ==
+European Patent Convention
+Guidelines for Examination in the EPO, section g-iv, 5.4 : "Double patenting".
+Guidelines for Examination in the EPO, section c-ix, 1.6 : "Claims" (Divisional applications)
+Legal Research Service for the Boards of Appeal, European Patent Office, Case Law of the Boards of Appeal of the EPO (8th edition, July 2016), ii.f.5 : "Double patenting"
+United States
+MPEP 804

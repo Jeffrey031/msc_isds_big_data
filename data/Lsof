@@ -1,0 +1,66 @@
+lsof is a command meaning "list open files", which is used in many Unix-like systems to report a list of all open files and the processes that opened them. This open source utility was developed and supported by Victor A. Abell, the retired Associate Director of the Purdue University Computing Center. It works in and supports several Unix flavors.
+
+
+== Examples ==
+Open files in the system include disk files, named pipes, network sockets and devices opened by all processes. One use for this command is when a disk cannot be unmounted because (unspecified) files are in use. The listing of open files can be consulted (suitably filtered if necessary) to identify the process that is using the files.
+
+To view the port associated with a daemon:
+
+From the above one can see that "sendmail" is listening on its standard port of "25".
+
+-i
+Lists IP sockets.
+-n
+Do not resolve hostnames (no DNS).
+-P
+Do not resolve port names (list port number instead of its name).One can also list Unix Sockets by using lsof -U.
+
+
+== Lsof output ==
+The lsof output describes:
+
+the identification number of the process (PID) that has opened the file;
+the process group identification number (PGID) of the process (optional);
+the process identification number of the parent process (PPID) (optional);
+the command the process is executing;
+the owner of the process;
+for all files in use by the process, including the executing text file and the shared libraries it is using:
+the file descriptor number of the file, if applicable;
+the file's access mode;
+the file's lock status;
+the file's device numbers;
+the file's inode number;
+the file's size or offset;
+the name of the file system containing the file;
+any available components of the file's path name;
+the names of the file's stream components;
+the file's local and remote network addresses;
+the TLI network (typically UDP) state of the file;
+the TCP state, read queue length, and write queue length of the file;
+the file's TCP window read and write lengths (Solaris only); and
+other file or dialect-specific values.
+
+
+== See also ==
+fuser (Unix)
+stat (Unix)
+netstat
+strace
+List of Unix commands
+
+
+== References ==
+
+
+== External links ==
+Old site
+lsof-l mailing list
+mirror of legacy sources
+lsof(8) – Linux Administration and Privileged Commands Manual
+lsof(8) – Darwin and macOS System Manager's Manual
+Using lsof
+Lsof FAQ
+Sam Nelson's PCP script, an alternative to "lsof -i" for Solaris.
+Glsof is two separate utilities (Queries and Filemonitor) based on lsof.
+Sloth is a macOS graphical interface for lsof
+Manpage of LSOF

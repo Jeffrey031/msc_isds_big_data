@@ -1,0 +1,48 @@
+TriDAR, or Triangulation and LIDAR Automated Rendezvous and Docking, is a relative navigation vision system developed by Neptec Design Group and funded by the Canadian Space Agency and NASA.  It provides guidance information that can be used to guide an unmanned vehicle during rendezvous and docking operations in space.  TriDAR does not rely on any reference markers positioned on the target spacecraft.  Instead, TriDAR relies on a laser based 3D sensor and a thermal imager.  TriDAR's proprietary software uses the geometric information contained in successive 3D images to match against the known shape of the target object and calculate its position and orientation.
+TriDAR made its inaugural demonstration space flight onboard Space Shuttle Discovery on the STS-128 mission, launched on 28 August 2009. On STS-128, TriDAR provided astronauts with real-time guidance information during rendezvous and docking with the International Space Station (ISS). It automatically acquired and tracked the ISS using only knowledge about its shape. This marked the first time a 3D sensor based "targetless" tracking vision system was used in space.
+
+
+== Background ==
+To date, most operational tracking solutions for pose estimation and tracking on-orbit have relied on cooperative markers placed on the target object(s).  The Space Vision System (SVS) used black on white or white on black dot targets.  These targets were imaged with Space Shuttle or International Space Station (ISS) video cameras to compute the relative pose of ISS modules to be assembled.The Trajectory Control System (TCS) is currently used on board the space shuttle to provide guidance information during rendezvous and docking with the International Space Station (ISS).  This laser-based system tracks retro reflectors located on the ISS to provide bearing, range and closing rate information.  While reliable, target based systems have operational limitations as targets must be installed on target payloads.  This is not always practical or even possible. For example, servicing existing satellites that do not have reflectors installed would require a targetless tracking capability.
+
+
+== STS-128 ==
+
+TriDAR was tested for the first time in Space on board Space Shuttle Discovery during the STS-128 mission to the ISS.  The objective of the test was to demonstrate the capability of the TriDAR system to track an object in space without using targets markers such as retro-reflectors.  For this mission, TriDAR was located in the payload bay on the Orbiter Docking System (ODS) next to the Shuttle's Trajectory Control System (TCS).
+The system was activated during rendezvous when the Shuttle was approximately 75 km (47 mi) away from the ISS.  Once in range of the 3D sensor, TriDAR automatically determined bearing and range to the ISS.  During rendezvous, TriDAR entered shape based tracking which provided full 6 degree of freedom guidance and closing rate.  Key system information was provided in real-time to the crew via enhanced docking displays on a laptop computer located on the shuttle's crew compartment.
+The system was designed to perform the entire mission autonomously.  It self-monitored its tracking solution and automatically re-acquired the ISS if tracking had been lost.  TriDAR was also tested during undocking and fly-around operations.
+
+
+== STS-131 ==
+
+TriDAR was again carried onboard Space Shuttle Discovery during the STS-131 mission to the International Space Station.  The TriDAR operated during shuttle rendezvous with the ISS, and acquired useful data up till the shuttle R-bar Pitch Maneuver.  At that point, a cabling issue resulted in a loss of communications. Using a backup cable for undock and flyaround, the TriDAR operated "flawlessly", according to flight director Richard Jones.
+
+
+== STS-135 ==
+TriDAR was onboard Space Shuttle Atlantis during the STS-135 mission to the International Space Station.
+
+
+== Capabilities ==
+TriDAR builds on recent developments in 3D sensing technologies and computer vision achieving lighting immunity in space vision systems. This technology provides the ability to automatically rendezvous and dock with vehicles that were not designed for such operations.
+The system includes a 3D active sensor, a thermal imager and Neptec's model based tracking software.  Using only knowledge about the target spacecraft's geometry and 3D data acquired from the sensor, the system computes the 6 Degree Of Freedom (6DOF) relative pose directly.  The computer vision algorithms developed by Neptec allow this process to happen in real-time on a flight computer while achieving the necessary robustness and reliability expected for mission critical operations.  Fast data acquisition has been achieved by implementing a smart scanning strategy referred to as More Information Less Data (MILD) where only the necessary data to perform the pose estimation is acquired by the sensor.  This strategy minimizes the requirements on acquisition time, data bandwidth, memory and processing power.
+
+
+== Hardware ==
+The TriDAR sensor is a hybrid 3D camera that combines auto-synchronous laser triangulation technology with laser radar (LIDAR) in a single optical package.  This configuration takes advantage of the complementary nature of these two imaging technologies to provide 3D data at both short and long range without compromising on performance. The laser triangulation subsystem is largely based on the Laser Camera System (LCS) used to inspect the Space Shuttle's thermal protection system after each launch. By multiplexing the two active subsystem's optical paths, the TriDAR can provide the functionalities of two 3D scanners into a compact package.  The subsystems also share the same control and processing electronics thus providing further savings compared to using two separate 3D sensors.  A thermal imager is also included to extend the range of the system beyond the LIDAR operating range.
+
+
+== Applications ==
+
+Because of its wide operating range, the TriDAR sensor can be used for several applications within the same mission.  TriDAR can be used for rendezvous and docking, planetary landing, rover navigation, site and vehicle inspection.  TriDAR's capabilities for planetary exploration have been demonstrated recently during field trials in Hawaii held by NASA and the Canadian Space Agency (CSA). For these tests, TriDAR was mounted on Carnegie Mellon University's Scarab lunar rover and enabled it to automatically navigate to its destination. Once the rover arrived at its destination, TriDAR was used to acquire high resolution 3D images of the surrounding area, searching for ideal drill sites to obtain lunar samples.
+TriDAR applications are not limited to space. TriDAR technology is the basis of Neptec's OPAL product. OPAL provides vision to helicopter crews when their vision has been obscured by brownouts or whiteouts. TriDAR technology can also be applied to numerous terrestrial applications such as automated vehicles, hazard detection, radiotherapy patient positioning, assembly of large structure as well as human body tracking for motion capture or video game controls.
+
+
+== See also ==
+Kurs (docking navigation system), used on Soyuz and Progress spacecraft
+
+
+== References ==
+
+
+== External links ==
+Neptec website

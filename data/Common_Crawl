@@ -1,0 +1,23 @@
+Common Crawl is a nonprofit 501(c)(3) organization that crawls the web and freely provides its archives and datasets to the public. Common Crawl's web archive consists of petabytes of data collected since 2011. It completes crawls generally every month.Common Crawl was founded by Gil Elbaz. Advisors to the non-profit include Peter Norvig and Joi Ito. The organization's crawlers respect nofollow and robots.txt policies. Open source code for processing Common Crawl's data set is publicly available.
+
+
+== History ==
+Amazon Web Services began hosting Common Crawl's archive through its Public Data Sets program in 2012.The organization began releasing metadata files and the text output of the crawlers alongside .arc files in July of that year. Common Crawl's archives had only included .arc files previously.In December 2012, blekko donated to Common Crawl search engine metadata blekko gathered from crawls it conducted from February to October 2012. The donated data helped Common Crawl "improve its crawl while avoiding spam, porn and the influence of excessive SEO."In 2013, Common Crawl began using Apache Software Foundation's Nutch webcrawler instead of a custom crawler. Common Crawl switched from using .arc files to .warc files with its November 2013 crawl.
+
+
+== History of Common Crawl data ==
+The following data have been collected from the official Common Crawl Blog
+
+
+== Norvig Web Data Science Award ==
+In corroboration with SURFsara, Common Crawl sponsors the Norvig Web Data Science Award, a competition open to students and researchers in Benelux. The award is named for Peter Norvig who also chairs the judging committee for the award.
+
+
+== References ==
+
+
+== External links ==
+Common Crawl in California, United States
+Common Crawl GitHub Repository with the crawler, libraries and example code
+Common Crawl Discussion Group
+Common Crawl Blog

@@ -1,0 +1,22 @@
+The Witty worm  was a computer worm that attacked the firewall and other computer security products written by a particular company, the Internet Security Systems (ISS) now IBM Internet Security Systems. It was the first worm to take advantage of vulnerabilities in the very pieces of software designed to enhance network security, and carried a destructive payload, unlike previous worms. It is so named because the phrase "(^.^) insert witty message here (^.^)" appears in the worm's payload.
+The Witty worm incident was unique in that the worm spread very rapidly after announcement of the ISS vulnerability (a day later), and infected a much smaller and presumably harder-to-infect (because the administrators had taken security measures) host population than previous worms.
+
+
+== Propagation ==
+On March 19, 2004, the 'Witty' worm began infecting hosts connected to the Internet (and running the vulnerable ISS software) without any seed population. Within a half-hour it infected 12,000 computers and was generating 90 Gbit/s (gigabits per second) of UDP traffic.
+
+
+== Effect of worm ==
+Once Witty infects a computer by exploiting a vulnerability in the ISS software packages (RealSecure Network, RealSecure Server Sensor, RealSecure Desktop, and BlackICE), it attempts to infect other computers using the same vulnerability.
+Witty launches these attacks as fast as possible, attacking a pseudo-random subset of IP addresses as quickly as allowed by the computer's Internet connection. It repeats these attacks in groups of 20,000, alternately launching attacks and overwriting sections of the computer's hard disk(s).
+
+
+== References ==
+Shannon, Colleen and David Moore (2004). "The Spread of the Witty Worm". (Last updated June 21, 2005; Retrieved November 14, 2005.)
+Abhishek Kumar, Vern Paxson and Nicholas Weaver (2005). "Outwitting the Witty worm". (Last updated May 24, 2005; Retrieved February 2, 2006.)
+
+
+== External links ==
+ISS vulnerability announcement (from Internet Archive)
+Analysis of the worm propagation by CAIDA (Cooperative Association for Internet Data Analysis)
+Slashdot article

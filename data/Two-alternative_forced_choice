@@ -1,0 +1,778 @@
+Two-alternative forced choice (2AFC) is a method for measuring the subjective experience of a person or animal through their pattern of choices and response times. The subject is presented with two alternative options, only one of which contains the target stimulus, and is forced to choose which one was the correct option. Both options can be presented concurrently or sequentially in two intervals (also known as two-interval forced choice, 2IFC). The term 2AFC is often mistakenly used for describing the more common yes-no task, where a subject is presented with one option only and is forced to choose whether it belongs to one or another category. 2AFC is a method of psychophysics developed by Gustav Theodor Fechner.
+
+
+== Behavioural experiments ==
+There are various manipulations in the design of the task, engineered to test specific behavioral dynamics of choice. In one well known experiment of attention that examines the attentional shift, the Posner Cueing Task uses a 2AFC design to present two stimuli representing two given locations.  In this design there is an arrow that cues which stimulus (location) to attend to. The person then has to make a response between the two stimuli (locations) when prompted. In animals, the 2AFC task has been used to test reinforcement probability learning, for example such as choices in pigeons after reinforcement of trials. A 2AFC task has also been designed to test decision making and the interaction of reward and probability learning in monkeys.
+Monkeys were trained to look at a center stimulus and were then presented with two salient stimuli side by side. A response can then be made in the form of a saccade to the left or to the right stimulus. A juice reward is then administered after each response. The amount of juice reward is then varied to modulate choice.
+In a different application, the 2AFC is designed to test discrimination of motion perception. The random dot motion coherence task, introduces a random dot kinetogram, with a percentage of net coherent motion distributed across the random dots.
+The percentage of dots moving together in a given direction determines the coherence of motion towards the direction. In most experiments, the participant must make a choice response between two directions of motion (e.g. up or down), usually indicated by a motor response such as a saccade or pressing a button.
+
+
+=== Biases in decision making ===
+It is possible to introduce biases in decision making in the 2AFC task. For example, if one stimulus occurs with more frequency than the other, then the frequency of exposure to the stimuli may influence the participant's beliefs about the probability of the occurrence of the alternatives. Introducing biases in the 2AFC task is used to modulate decision making and examine the underlying processes.
+
+
+== Computational models of decision making ==
+The 2AFC task has yielded consistent behavioral results on decision making, which lead to the development of formal models attempting to model the dynamics of decision making.
+There are typically three assumptions made by computational models using the 2AFC:i) evidence favoring each alternative is integrated over time; ii) the process is subject to random fluctuations; and iii) the decision is made when sufficient evidence has accumulated favoring one alternative over the other.
+It is typically assumed that the difference in evidence favoring each alternative is the quantity tracked over time and that which ultimately informs the decision; however, evidence for different alternatives could be tracked separately.
+
+
+=== Drift-diffusion model ===
+
+The drift-diffusion model (DDM) is a well defined model, that is proposed to implement an optimal decision policy for 2AFC. It is the continuous analog of a random walk model.
+The DDM assumes that in a 2AFC task, the subject is accumulating evidence for one or other of the alternatives at each time step, and integrating that evidence until a decision threshold is reached. As the sensory input which constitutes the evidence is noisy, the accumulation to the threshold is stochastic rather than deterministic – this gives rise to the directed random walk-like behavior.
+The DDM has been shown to describe accuracy and reaction times in human data for 2AFC tasks.
+
+
+==== Formal model ====
+
+The accumulation of evidence in the DDM is governed according to the following formula:
+
+  
+    
+      
+        d
+        x
+        =
+        A
+        d
+        t
+        +
+        c
+        d
+        W
+         
+        ,
+         
+        x
+        (
+        0
+        )
+        =
+        0
+      
+    
+    {\displaystyle dx=Adt+cdW\ ,\ x(0)=0}
+  At time zero, the evidence accumulated, x, is set equal to zero. At each time step, some evidence, A, is accumulated for one of the two possibilities in the 2AFC. A is positive if the correct response is represented by the upper threshold, and negative if the lower. In addition, a noise term, cdW, is added to represent noise in input. On average, the noise will integrate to zero. The extended DDM allows for selection of 
+  
+    
+      
+        A
+      
+    
+    {\displaystyle A}
+   and the starting value of 
+  
+    
+      
+        x
+        (
+        0
+        )
+      
+    
+    {\displaystyle x(0)}
+   from separate distributions – this provides a better fit to experimental data for both accuracy and reaction times.
+
+
+=== Other models ===
+
+
+==== Ornstein–Uhlenbeck model ====
+The Ornstein–Uhlenbeck model extends the DDM by adding another term, 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+  , to the accumulation that is dependent on the current accumulation of evidence – this has the net effect of increasing the rate of accumulation towards the initially preferred option.
+
+  
+    
+      
+        d
+        x
+         
+        =
+         
+        (
+        λ
+        x
+        +
+        A
+        )
+        d
+        t
+         
+        +
+         
+        c
+        d
+        W
+      
+    
+    {\displaystyle dx\ =\ (\lambda x+A)dt\ +\ cdW}
+  
+
+
+==== Race model ====
+In the race model, evidence for each alternative is accumulated separately, and a decision made either when one of the accumulators reaches a predetermined threshold, or when a decision is forced and then the decision associated with the accumulator with the highest evidence is chosen. This can be represented formally by:
+
+  
+    
+      
+        
+          
+            
+              
+                d
+                
+                  y
+                  
+                    1
+                  
+                
+                 
+                =
+                 
+                
+                  I
+                  
+                    1
+                  
+                
+                d
+                t
+                 
+                +
+                 
+                c
+                d
+                
+                  W
+                  
+                    1
+                  
+                
+              
+            
+            
+              
+                d
+                
+                  y
+                  
+                    2
+                  
+                
+                 
+                =
+                 
+                
+                  I
+                  
+                    2
+                  
+                
+                d
+                t
+                 
+                +
+                 
+                c
+                d
+                
+                  W
+                  
+                    2
+                  
+                
+              
+            
+          
+        
+        ,
+        
+        
+          y
+          
+            1
+          
+        
+        (
+        0
+        )
+         
+        =
+         
+        
+          y
+          
+            2
+          
+        
+        (
+        0
+        )
+        =
+        0
+      
+    
+    {\displaystyle {\begin{aligned}dy_{\text{1}}\ =\ I_{\text{1}}dt\ +\ cdW_{\text{1}}\\dy_{\text{2}}\ =\ I_{\text{2}}dt\ +\ cdW_{\text{2}}\end{aligned}},\quad y_{\text{1}}(0)\ =\ y_{\text{2}}(0)=0}
+  The race model is not mathematically reducible to the DDM, and hence cannot be used to implement an optimal decision procedure.
+
+
+==== Mutual inhibition model ====
+The mutual inhibition model also uses two accumulators to model the accumulation of evidence, as with the race model. In this model the two accumulators have an inhibitory effect on each other, so as evidence is accumulated in one, it dampens the accumulation of evidence in the other. In addition, leaky accumulators are used, so that over time evidence accumulated decays – this helps to prevent runaway accumulation towards one alternative based on a short run of evidence in one direction. Formally, this can be shown as:
+
+  
+    
+      
+        
+          
+            
+              
+                d
+                
+                  y
+                  
+                    1
+                  
+                
+                 
+                =
+                 
+                (
+                −
+                k
+                
+                  y
+                  
+                    1
+                  
+                
+                −
+                w
+                
+                  y
+                  
+                    2
+                  
+                
+                +
+                
+                  I
+                  
+                    1
+                  
+                
+                )
+                d
+                t
+                 
+                +
+                 
+                c
+                d
+                
+                  W
+                  
+                    1
+                  
+                
+              
+            
+            
+              
+                d
+                
+                  y
+                  
+                    2
+                  
+                
+                 
+                =
+                 
+                (
+                −
+                k
+                
+                  y
+                  
+                    2
+                  
+                
+                −
+                w
+                
+                  y
+                  
+                    1
+                  
+                
+                +
+                
+                  I
+                  
+                    2
+                  
+                
+                )
+                d
+                t
+                 
+                +
+                 
+                c
+                d
+                
+                  W
+                  
+                    2
+                  
+                
+              
+            
+          
+        
+        ,
+        
+        
+          y
+          
+            1
+          
+        
+        (
+        0
+        )
+         
+        =
+         
+        
+          y
+          
+            2
+          
+        
+        (
+        0
+        )
+        =
+        0
+      
+    
+    {\displaystyle {\begin{aligned}dy_{\text{1}}\ =\ (-ky_{\text{1}}-wy_{\text{2}}+I_{\text{1}})dt\ +\ cdW_{\text{1}}\\dy_{\text{2}}\ =\ (-ky_{\text{2}}-wy_{\text{1}}+I_{\text{2}})dt\ +\ cdW_{\text{2}}\end{aligned}},\quad y_{\text{1}}(0)\ =\ y_{\text{2}}(0)=0}
+  Where 
+  
+    
+      
+        k
+      
+    
+    {\displaystyle k}
+   is a shared decay rate of the accumulators, and 
+  
+    
+      
+        w
+      
+    
+    {\displaystyle w}
+   is the rate of mutual inhibition.
+
+
+==== Feedforward inhibition model ====
+The feedforward inhibition model is similar to the mutual inhibition model, but instead of being inhibited by the current value of the other accumulator, each accumulator is inhibited by a fraction of the input to the other. It can be formally stated thus:
+
+  
+    
+      
+        
+          
+            
+              
+                d
+                
+                  y
+                  
+                    1
+                  
+                
+                 
+                =
+                 
+                
+                  I
+                  
+                    1
+                  
+                
+                d
+                t
+                 
+                +
+                 
+                c
+                d
+                
+                  W
+                  
+                    1
+                  
+                
+                 
+                −
+                 
+                u
+                (
+                
+                  I
+                  
+                    2
+                  
+                
+                d
+                t
+                 
+                +
+                 
+                c
+                d
+                
+                  W
+                  
+                    2
+                  
+                
+                )
+              
+            
+            
+              
+                d
+                
+                  y
+                  
+                    2
+                  
+                
+                 
+                =
+                 
+                
+                  I
+                  
+                    2
+                  
+                
+                d
+                t
+                 
+                +
+                 
+                c
+                d
+                
+                  W
+                  
+                    2
+                  
+                
+                 
+                −
+                 
+                u
+                (
+                
+                  I
+                  
+                    1
+                  
+                
+                d
+                t
+                 
+                +
+                 
+                c
+                d
+                
+                  W
+                  
+                    1
+                  
+                
+                )
+              
+            
+          
+        
+        ,
+        
+        
+          y
+          
+            1
+          
+        
+        (
+        0
+        )
+         
+        =
+         
+        
+          y
+          
+            2
+          
+        
+        (
+        0
+        )
+        =
+        0
+      
+    
+    {\displaystyle {\begin{aligned}dy_{\text{1}}\ =\ I_{\text{1}}dt\ +\ cdW_{\text{1}}\ -\ u(I_{\text{2}}dt\ +\ cdW_{\text{2}})\\dy_{\text{2}}\ =\ I_{\text{2}}dt\ +\ cdW_{\text{2}}\ -\ u(I_{\text{1}}dt\ +\ cdW_{\text{1}})\end{aligned}},\quad y_{\text{1}}(0)\ =\ y_{\text{2}}(0)=0}
+  Where 
+  
+    
+      
+        u
+      
+    
+    {\displaystyle u}
+   is the fraction of accumulator input that inhibits the alternate accumulator.
+
+
+==== Pooled inhibition model ====
+Wang suggested the pooled inhibition model, where a third, decaying accumulator is driven by accumulation in both of the accumulators used for decision making, and in addition to the decay used in the mutual inhibition model, each of the decision driving accumulators self-reinforce based on their current value. It can be formally stated thus:
+
+  
+    
+      
+        
+          
+            
+              
+                d
+                
+                  y
+                  
+                    1
+                  
+                
+                 
+                =
+                 
+                (
+                −
+                k
+                
+                  y
+                  
+                    1
+                  
+                
+                −
+                w
+                
+                  y
+                  
+                    3
+                  
+                
+                +
+                v
+                
+                  y
+                  
+                    1
+                  
+                
+                +
+                
+                  I
+                  
+                    1
+                  
+                
+                )
+                d
+                t
+                 
+                +
+                 
+                c
+                d
+                
+                  W
+                  
+                    1
+                  
+                
+              
+            
+            
+              
+                d
+                
+                  y
+                  
+                    2
+                  
+                
+                 
+                =
+                 
+                (
+                −
+                k
+                
+                  y
+                  
+                    2
+                  
+                
+                −
+                w
+                
+                  y
+                  
+                    3
+                  
+                
+                +
+                v
+                
+                  y
+                  
+                    2
+                  
+                
+                +
+                
+                  I
+                  
+                    2
+                  
+                
+                )
+                d
+                t
+                 
+                +
+                 
+                c
+                d
+                
+                  W
+                  
+                    2
+                  
+                
+              
+            
+            
+              
+                d
+                
+                  y
+                  
+                    3
+                  
+                
+                 
+                =
+                 
+                (
+                −
+                
+                  k
+                  
+                    inh
+                  
+                
+                
+                  y
+                  
+                    3
+                  
+                
+                +
+                
+                  w
+                  ′
+                
+                (
+                
+                  y
+                  
+                    1
+                  
+                
+                +
+                
+                  y
+                  
+                    2
+                  
+                
+                )
+                )
+                d
+                t
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}dy_{\text{1}}\ =\ (-ky_{\text{1}}-wy_{\text{3}}+vy_{\text{1}}+I_{\text{1}})dt\ +\ cdW_{\text{1}}\\dy_{\text{2}}\ =\ (-ky_{\text{2}}-wy_{\text{3}}+vy_{\text{2}}+I_{\text{2}})dt\ +\ cdW_{\text{2}}\\dy_{\text{3}}\ =\ (-k_{\text{inh}}y_{\text{3}}+w'(y_{\text{1}}+y_{\text{2}}))dt\end{aligned}}}
+  The third accumulator has an independent decay coefficient, 
+  
+    
+      
+        
+          k
+          
+            inh
+          
+        
+      
+    
+    {\displaystyle k_{\text{inh}}}
+  , and increases based on the current values of the other two accumulators, at a rate modulated by 
+  
+    
+      
+        
+          w
+          ′
+        
+      
+    
+    {\displaystyle w'}
+  .
+
+
+== Neural correlates of decision making ==
+
+
+=== Brain areas ===
+In the parietal lobe, lateral intraparietal cortex (LIP) neuron firing rate in monkeys predicted the choice response of direction of motion suggesting this area is involved in decision making in the 2AFC.Neural data recorded from LIP neurons in rhesus monkeys supports the DDM, as firing rates for the direction selective neuronal populations sensitive to the two directions used in the 2AFC task increase firing rates at stimulus onset, and average activity in the neuronal populations is biased in the direction of the correct response. In addition, it appears that a fixed threshold of neuronal spiking rate is used as the decision boundary for each 2AFC task.
+
+
+== See also ==
+Choice modelling
+Choice set
+Julian Rotter
+
+
+== References ==

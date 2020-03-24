@@ -1,0 +1,15 @@
+Ubiquitin-fold modifier 1, also known as UFM1, is a protein which in humans is encoded by the UFM1 gene.UFM1 is a ubiquitin-like protein that is conjugated to target proteins by E1-like activating enzyme UBA5 (UBE1DC1) and E2-like conjugating enzyme UFC1 (see UBE2M).
+
+
+== Function ==
+UFM1 shares several common properties with ubiquitin (Ub) and the other ubiquitin-like proteins (UBLs). Ufm1 has similar tertiary structure to Ub but lacks any obvious sequence similarity. It is synthesized as an inactive precursor form (pro-Ufm1) which has 2 additional amino acids beyond the conserved glycine. The mechanism of Ufm1 conjugation is similar to that of ubiquitin. Mature Ufm1 has an exposed C-terminal glycine which is essential for subsequent activation by its cognate E1 protein (Uba5). This activation step results in the formation of a high-energy thiolester bond in the presence of ATP. The Ufm1 is subsequently transferred to its cognate E2-like enzyme (Ufc1) via a similar thioester linkage with a cysteine at the E2 active site. Ufm1 is conjugated to a variety of target proteins and forms complexes with as yet unidentified proteins. Thus, presumably there exist E3 ligases (none have been identified to date) to perform the final step in Ufm1 conjugation to relevant targets. The modification of proteins with Ufm1 is also reversible. Two novel cysteine proteases have been identified to date (UFSP1 and UFSP2) which cleave Ufm1-peptide C-terminal fusions and also removes Ufm1 from native intracellular conjugates. These proteases have no obvious homology to ubiquitin deconjugating enzymes. The proteins for Ufm1 conjugation (Uba5, Ufc1 and Ufm1) are all conserved in animals and plants (but not yeast) suggesting important roles in multicellular organisms. The exact role of Ufm1 modification in vivo is not yet known.
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+Overview of all the structural information available in the PDB for UniProt: P61960 (Human Ubiquitin-fold modifier 1) at the PDBe-KB.

@@ -1,0 +1,44 @@
+An internal ribosome entry site, abbreviated IRES, is an RNA element that allows for translation initiation in a cap-independent manner, as part of the greater process of protein synthesis. In eukaryotic translation, initiation typically occurs at the 5' end of mRNA molecules, since 5' cap recognition is required for the assembly of the initiation complex.  The location for IRES elements is often in the 5'UTR, but can also occur elsewhere in mRNAs.
+
+
+== History ==
+IRES sequences were first discovered in 1988 in the poliovirus (PV) and encephalomyocarditis virus (EMCV) RNA genomes in the labs of Nahum Sonenberg and Eckard Wimmer, respectively. They are described as distinct regions of RNA molecules that are able to recruit the eukaryotic ribosome to the mRNA. This process is also known as cap-independent translation. It has been shown that IRES elements have a distinct secondary or even tertiary structure, but similar structural features at the levels of either primary or secondary structure that are common to all IRES segments have not been reported to date.
+In recent years it has become common for molecular biologists to insert IRES sequences into their vectors to allow for expression of two genes from a single vector—for example, a transgene and a fluorescent reporter molecule. The first gene is initiated at the normal 5' cap, and the second gene is initiated at the IRES.
+
+
+== Location ==
+
+IRESs are commonly located in the 5'UTR of RNA viruses and allow translation of the RNAs in a cap-independent manner. However, mRNAs of viruses from Dicistroviridae family possess two open reading frames (ORFs), and translation of each is directed by two distinct IRESs. It has also been suggested that some mammalian cellular mRNAs also have IRESs. These cellular IRES elements are thought to be located in eukaryotic mRNAs encoding genes involved in stress survival, and other processes critical to survival. As of September 2009, there are 60 animal and 8 plant viruses reported to contain IRES elements and 115 mRNA sequences containing them as well.
+
+
+== Activation ==
+IRESs are often used by viruses as a means to ensure that viral translation is active when host translation is inhibited. These mechanisms of host translation inhibition are varied, and can be initiated by both virus and host, depending on the type of virus. However, in the case of most picornaviruses, such as poliovirus, this is accomplished by viral proteolytic cleavage of eIF4G so that it cannot interact with the 5'cap binding protein eIF4E. Interaction between these two eukaryotic initiation factors (eIFs) of the eIF4F complex is necessary for 40S ribosomal subunit recruitment to the 5' end of mRNAs, which is further thought to occur with mRNA 5'cap to 3' poly(A) tail loop formation. The virus may even use partially-cleaved eIF4G to aid in initiation of IRES-mediated translation.
+Cells may also use IRESs to increase translation of certain proteins during mitosis and programmed cell death. In mitosis, the cell dephosphorylates eIF4E so that it has little affinity for the 5'cap. As a result, the 40S ribosomal subunit , and the translational machinery is diverted to IRES within the mRNA. Many proteins involved in mitosis are encoded by IRES mRNA. In programmed cell death, cleavage of eIF-4G, such as performed by viruses, decreases translation. Lack of essential proteins contributes to the death of the cell, as does translation of IRES mRNA sequences coding proteins involved in controlling cell death.
+
+
+== Mechanism ==
+To date, the mechanism of viral IRES function is better characterized than the mechanism of cellular IRES function, which is still a matter of debate. HCV-like IRESs directly bind the 40S ribosomal subunit to position their initiator codons are located in ribosomal P-site without mRNA scanning. These IRESs still use the eukaryotic initiation factors (eIFs) eIF2, eIF3, eIF5, and eIF5B, but do not require the factors eIF1, eIF1A, and the eIF4F complex. In contrast, picornavirus IRESs do not bind the 40S subunit directly, but are recruited instead through the eIF4G-binding site. Many viral IRES (and cellular IRES) require additional proteins to mediate their function, known as IRES trans-acting factors (ITAFs). The role of ITAFs in IRES function is still under investigation.
+
+
+== Testing ==
+Testing a particular RNA sequence for IRES activity relies on a bicistronic reporter construct. When an IRES segment is located between two reporter open reading frames in a eukaryotic mRNA molecule (a bicistronic mRNA), it can drive translation of the downstream protein coding region independently of the 5'-cap structure bound to the 5' end of the mRNA molecule. In such a setup, both proteins are produced in the cell. The first reporter protein located in the first cistron is synthesized by the cap-dependent initiation, while translation initiation of the second protein is directed by the IRES element located in the intercistronic spacer between the two reporter protein coding regions. However, there are several caveats to be aware of when interpreting data produced using bicistronic reporter constructs. For example, there are several known cases of mis-reported IRES elements that were later recognized as promoter-containing regions. More recently, splice acceptor sites within several presumed IRES segments have been shown to be responsible for apparent IRES function in bicistronic reporter assays.
+
+
+== Limitations and alternatives ==
+IRES sequences are often used in molecular biology to mimic a polycistronic mRNA. You can put several genes on one plasmid and just need one promotor and terminator. The advantage of this technique is that molecular handling is improved. The problem about IRES is that the expression for each gene is decreased. Another viral element to establish polycistronic mRNA in eukaryotes are 2A-peptides.  Here the gene expression does not decrease.
+
+
+== Types ==
+
+
+== See also ==
+Ribosome binding site
+Ribosome shunting
+
+
+== References ==
+
+
+== External links ==
+IRESite
+Malys N, McCarthy JE (March 2011). "Translation initiation: variations in the mechanism can be anticipated". Cellular and Molecular Life Sciences. 68 (6): 991–1003. doi:10.1007/s00018-010-0588-z. PMID 21076851.

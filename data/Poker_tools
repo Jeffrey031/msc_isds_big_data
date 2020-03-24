@@ -1,0 +1,50 @@
+Poker tools are a variety of software or web-based applications that allow the statistical analysis of poker players, games or tournaments.
+
+
+== Hand converters ==
+Poker hand converters allow players to take text-based online poker hand history files from online cardrooms and convert them into formats friendly to the eye and suitable for posting on online message boards. Hand converters are often used to show played hands to other players for analysis and discussion. Depending on the converter used, the output may include the pot size per betting round, blind level, seating order, and stack sizes. 
+Most online cardrooms store played hands on the computer of the player, allowing players to analyze and track their own performance or to discuss poker strategy with other players. Statistics a player can track include showdown percentage, frequency of aggression, percentage of check/raise etc. Most major poker sites such as Full Tilt Poker, PokerStars and PartyPoker provide players with hand history files, while a few such as the Playtech network offer hand histories, but not in text file format.
+In addition to using hand history files to analyze and improve an individual's game, they can also be used to gather statistical data about opponents, both those a player has played against and even opponents never faced. Whether the latter constitutes cheating depends on the Acceptable Use Policy (AUP) of the cardroom. Sharing the raw hand history files is generally considered collusion and a violation of the AUP.  Even though some sites don't offer readily available hand history files, you can usually request a transcript by e-mail.
+
+
+== Heads-up display ==
+Multiple third party applications exist for the purpose of displaying simple to complex stats on online poker tables. These stats display observed information to allow the user to play multiple tables without paying close attention to the individual action.
+
+
+== Odds calculators ==
+
+Numerous programs allow people to run "hot and cold" simulations where two to ten hands are run against each other to show the approximate winning percentage for each.  The first such simulator, Poker Probe, was developed by Mike Caro in 1990.
+
+
+== Solvers ==
+Programs which produce Game Theory Optimal (GTO) solutions for some variants of poker. Most commercially available programs solve Heads-Up No Limit Texas Holdem with some predefined betting structure. Online poker sites often forbid use of solvers in-play, but allow them as a learning tool.
+
+
+== Tournament databases ==
+Several commercial websites data mine the results of online poker cardroom tournaments and then offer rankings and return on investment statistics for players who have participated in these events.
+
+
+== Game software ==
+Several commercial companies offer personal game software products where players can play against a table full of programmable robot opponents.
+
+
+== Bots ==
+
+Pokerbots are computer programs that play online poker disguised as a human opponent. Online poker rooms normally prohibit their use.
+
+
+== Datamining tools ==
+Datamining tools, also known as hand grabbers, record the game play information of online poker games without requiring the user to play in the game. This data is usually stored as a text or XML file in a format which can be parsed by analysis tools. Note that in science and market research the term "datamining" is used for the act of extracting knowledge from data, not for collecting raw data.
+
+
+== See also ==
+List of poker terms
+List of poker related topics
+Poker strategy
+
+
+== Notes ==
+
+
+== External links ==
+Poker Software and Tools at Curlie

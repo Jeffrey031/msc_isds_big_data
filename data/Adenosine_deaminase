@@ -1,0 +1,60 @@
+Adenosine deaminase (also known as adenosine aminohydrolase, or ADA) is an enzyme (EC 3.5.4.4) involved in purine metabolism. It is needed for the breakdown of adenosine from food and for the turnover of nucleic acids in tissues.
+Its primary function in humans is the development and maintenance of the immune system. However, the full physiological role of ADA is not yet completely understood.
+
+
+== Structure ==
+ADA exists in both small form (as a monomer) and large form (as a dimer-complex). In the monomer form, the enzyme is a polypeptide chain, folded into eight strands of parallel α/β barrels, which surround a central deep pocket that is the active site. In addition to the eight central β-barrels and eight peripheral α-helices, ADA also contains five additional helices: residues 19-76 fold into three helices, located between β1 and α1 folds; and two antiparallel carboxy-terminal helices are located across the amino-terminal of the β-barrel.
+The ADA active site contains a zinc ion, which is located in the deepest recess of the active site and coordinated by five atoms from His15, His17, His214, Asp295, and the substrate. Zinc is the only cofactor necessary for activity.
+The substrate, adenosine, is stabilized and bound to the active site by nine hydrogen bonds. The carboxyl group of Glu217, roughly coplanar with the substrate purine ring, is in position to form a hydrogen bond with N1 of the substrate. The carboxyl group of Asp296, also coplanar with the substrate purine ring, forms hydrogen bond with N7 of the substrate. The NH group of Gly184 is in position to form a hydrogen bond with N3 of the substrate. Asp296 forms bonds both with the Zn2+ ion as well as with 6-OH of the substrate. His238 also hydrogen bonds to substrate 6-OH. The 3'-OH of the substrate ribose forms a hydrogen bond with Asp19, while the 5'-OH forms a hydrogen bond with His17. Two further hydrogen bonds are formed to water molecules, at the opening of the active site, by the 2'-OH and 3'-OH of the substrate.
+Due to the recessing of the active site inside the enzyme, the substrate, once bound, is almost completely sequestered from solvent. The surface exposure of the substrate to solvent when bound is 0.5% the surface exposure of the substrate in the free state.
+
+
+== Reactions ==
+ADA irreversibly deaminates adenosine, converting it to the related nucleoside inosine by the substitution of the amino group by a keto group.
+
+ 
+
+Inosine can then be deribosylated (removed from ribose) by another enzyme called purine nucleoside phosphorylase (PNP), converting it to hypoxanthine.
+
+
+== Mechanism of catalysis ==
+The proposed mechanism for ADA-catalyzed deamination is stereospecific addition-elimination via tetrahedral intermediate. By either mechanism, Zn2+ as a strong electrophile activates a water molecule, which is deprotonated by the basic Asp295 to form the attacking hydroxide. His238 orients the water molecule and stabilizes the charge of the attacking hydroxide. Glu217 is protonated to donate a proton to N1 of the substrate.
+The reaction is stereospecific due to the location of the zinc, Asp295, and His238 residues, which all face the B-side of the purine ring of the substrate.Competitive inhibition has been observed for ADA, where the product inosine acts at the competitive inhibitor to enzymatic activity.
+
+
+== Function ==
+ADA is considered one of the key enzymes of purine metabolism. The enzyme has been found in bacteria, plants, invertebrates, vertebrates, and mammals, with high conservation of amino acid sequence. The high degree of amino acid sequence conservation suggests the crucial nature of ADA in the purine salvage pathway.
+Primarily, ADA in humans is involved in the development and maintenance of the immune system. However, ADA association has also been observed with epithelial cell differentiation, neurotransmission, and gestation maintenance. It has also been proposed that ADA, in addition to adenosine breakdown, stimulates release of excitatory amino acids and is necessary to the coupling of A1 adenosine receptors and heterotrimeric G proteins. Adenosine deaminase deficiency leads to pulmonary fibrosis, suggesting that chronic exposure to high levels of adenosine can exacerbate inflammation responses rather than suppressing them. It has also been recognized that adenosine deaminase protein and activity is upregulated in mouse hearts that overexpress HIF-1 alpha, which in part explains the attenuated levels of adenosine in HIF-1 alpha expressing hearts during ischemic stress.
+
+
+== Pathology ==
+Some mutations in the gene for adenosine deaminase cause it not to be expressed. The resulting deficiency is one cause of                 severe combined immunodeficiency (SCID), particularly of autosomal recessive inheritance. Deficient levels of ADA have also been associated with pulmonary inflammation, thymic cell death, and defective T-cell receptor signaling.Conversely, mutations causing this enzyme to be overexpressed are one cause of                 hemolytic anemia.There is some evidence that a different allele (ADA2) may lead to autism.Elevated levels of ADA has also been associated with AIDS.
+
+
+== Isoforms ==
+There are 2 isoforms of ADA: ADA1 and ADA2.
+
+ADA1 is found in most body cells, particularly lymphocytes and macrophages, where it is present not only in the cytosol and nucleus but also as the ecto- form on the cell membrane attached to dipeptidyl peptidase-4 (aka, CD26). ADA1 is involved mostly in intracellular activity, and exists both in small form (monomer) and large form (dimer). The interconversion of small to large forms is regulated by a 'conversion factor' in the lung.
+ADA2 was first identified in human spleen. It was subsequently found in other tissues including the macrophage where it co-exists with ADA1. The two isoforms regulate the ratio of adenosine to deoxyadenosine potentiating the killing of parasites. ADA2 is found predominantly in the human plasma and serum, and exists solely as a homodimer.
+
+
+== Clinical significance ==
+ADA2 is the predominant form present in human blood plasma and is increased in many diseases, particularly those associated with the immune system: for example rheumatoid arthritis, psoriasis, and sarcoidosis. The plasma ADA2 isoform is also increased in most cancers. ADA2 is not ubiquitous but co-exists with ADA1 only in monocytes-macrophages.Total plasma ADA can be measured using high performance liquid chromatography or enzymatic or colorimetric techniques. Perhaps the simplest system is the measurement of the ammonia released from adenosine when broken down to inosine. After incubation of plasma with a buffered solution of adenosine the ammonia is reacted with a Berthelot reagent to form a blue colour which is proportionate to the amount of enzyme activity. To measure ADA2, erythro-9-(2-hydroxy-3-nonyl) adenine (EHNA) is added prior to incubation so as to inhibit the enzymatic activity of ADA1. It is the absence of ADA1 that causes SCID.
+ADA can also be used in the workup of lymphocytic pleural effusions or peritoneal ascites, in that such specimens with low ADA levels essentially excludes tuberculosis from consideration.Tuberculosis pleural effusions can now be diagnosed accurately by increased levels of pleural fluid adenosine deaminase, above 40 U per liter.Cladribine and Pentostatin are anti-neoplastic agents used in the treatment of hairy cell leukemia; their mechanism of action is inhibition of adenosine deaminase.
+
+
+== See also ==
+Adenosine deaminase deficiency
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+ADA human gene location in the UCSC Genome Browser.
+ADA human gene details in the UCSC Genome Browser.
+PDBe-KB provides an overview of all the structure information available in the PDB for Human Adenosine deaminase
+PDBe-KB provides an overview of all the structure information available in the PDB for Mouse Adenosine deaminase

@@ -1,0 +1,1647 @@
+In mathematics, the logarithmic mean is a function of two non-negative numbers which is equal to their difference divided by the logarithm of their quotient.  
+This calculation is applicable in engineering problems involving heat and mass transfer.
+
+
+== Definition ==
+The logarithmic mean is defined symbolically as:
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  M
+                  
+                    lm
+                  
+                
+                (
+                x
+                ,
+                y
+                )
+              
+              
+                
+                =
+                
+                  lim
+                  
+                    (
+                    ξ
+                    ,
+                    η
+                    )
+                    →
+                    (
+                    x
+                    ,
+                    y
+                    )
+                  
+                
+                
+                  
+                    
+                      η
+                      −
+                      ξ
+                    
+                    
+                      ln
+                      ⁡
+                      (
+                      η
+                      )
+                      −
+                      ln
+                      ⁡
+                      (
+                      ξ
+                      )
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    {
+                    
+                      
+                        
+                          0
+                        
+                        
+                          
+                            if 
+                          
+                          x
+                          =
+                          0
+                          
+                             or 
+                          
+                          y
+                          =
+                          0
+                          ,
+                        
+                      
+                      
+                        
+                          x
+                        
+                        
+                          
+                            if 
+                          
+                          x
+                          =
+                          y
+                          ,
+                        
+                      
+                      
+                        
+                          
+                            
+                              
+                                y
+                                −
+                                x
+                              
+                              
+                                ln
+                                ⁡
+                                (
+                                y
+                                )
+                                −
+                                ln
+                                ⁡
+                                (
+                                x
+                                )
+                              
+                            
+                          
+                        
+                        
+                          
+                            otherwise,
+                          
+                        
+                      
+                    
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}M_{\text{lm}}(x,y)&=\lim _{(\xi ,\eta )\to (x,y)}{\frac {\eta -\xi }{\ln(\eta )-\ln(\xi )}}\\[6pt]&={\begin{cases}0&{\text{if }}x=0{\text{ or }}y=0,\\x&{\text{if }}x=y,\\{\frac {y-x}{\ln(y)-\ln(x)}}&{\text{otherwise,}}\end{cases}}\end{aligned}}}
+  for the positive numbers 
+  
+    
+      
+        x
+        ,
+        y
+      
+    
+    {\displaystyle x,y}
+  .
+
+
+== Inequalities ==
+The logarithmic mean of two numbers is smaller than the arithmetic mean but larger than the geometric mean (unless the numbers are the same, in which case all three means are equal to the numbers):
+
+  
+    
+      
+        
+          
+            x
+            y
+          
+        
+        ≤
+        
+          M
+          
+            lm
+          
+        
+        (
+        x
+        ,
+        y
+        )
+        ≤
+        
+          
+            
+              x
+              +
+              y
+            
+            2
+          
+        
+        
+        
+           for all 
+        
+        x
+        ≥
+        0
+        
+           and 
+        
+        y
+        ≥
+        0.
+      
+    
+    {\displaystyle {\sqrt {xy}}\leq M_{\text{lm}}(x,y)\leq {\frac {x+y}{2}}\qquad {\text{ for all }}x\geq 0{\text{ and }}y\geq 0.}
+  
+
+
+== Derivation ==
+
+
+=== Mean value theorem of differential calculus ===
+From the mean value theorem, there exists a value 
+  
+    
+      
+        ξ
+      
+    
+    {\displaystyle \xi }
+   in the interval between x and y where the derivative 
+  
+    
+      
+        
+          f
+          ′
+        
+      
+    
+    {\displaystyle f'}
+   equals the secant line:
+
+  
+    
+      
+        ∃
+        ξ
+        ∈
+        (
+        x
+        ,
+        y
+        )
+        :
+         
+        
+          f
+          ′
+        
+        (
+        ξ
+        )
+        =
+        
+          
+            
+              f
+              (
+              x
+              )
+              −
+              f
+              (
+              y
+              )
+            
+            
+              x
+              −
+              y
+            
+          
+        
+      
+    
+    {\displaystyle \exists \xi \in (x,y):\ f'(\xi )={\frac {f(x)-f(y)}{x-y}}}
+  The logarithmic mean is obtained as the value of 
+  
+    
+      
+        ξ
+      
+    
+    {\displaystyle \xi }
+   by substituting 
+  
+    
+      
+        ln
+      
+    
+    {\displaystyle \ln }
+   for 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+   and similarly for its corresponding derivative:
+
+  
+    
+      
+        
+          
+            1
+            ξ
+          
+        
+        =
+        
+          
+            
+              ln
+              ⁡
+              (
+              x
+              )
+              −
+              ln
+              ⁡
+              (
+              y
+              )
+            
+            
+              x
+              −
+              y
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {1}{\xi }}={\frac {\ln(x)-\ln(y)}{x-y}}}
+  and solving for 
+  
+    
+      
+        ξ
+      
+    
+    {\displaystyle \xi }
+  :
+
+  
+    
+      
+        ξ
+        =
+        
+          
+            
+              x
+              −
+              y
+            
+            
+              ln
+              ⁡
+              (
+              x
+              )
+              −
+              ln
+              ⁡
+              (
+              y
+              )
+            
+          
+        
+      
+    
+    {\displaystyle \xi ={\frac {x-y}{\ln(x)-\ln(y)}}}
+  
+
+
+=== Integration ===
+The logarithmic mean can also be interpreted as the area under an exponential curve.
+
+  
+    
+      
+        
+          
+            
+              
+                L
+                (
+                x
+                ,
+                y
+                )
+                =
+                
+
+                
+              
+              
+                
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    1
+                  
+                
+                
+                  x
+                  
+                    1
+                    −
+                    t
+                  
+                
+                
+                  y
+                  
+                    t
+                  
+                
+                 
+                
+                  d
+                
+                t
+                =
+                
+
+                
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    1
+                  
+                
+                
+                  
+                    (
+                    
+                      
+                        y
+                        x
+                      
+                    
+                    )
+                  
+                  
+                    t
+                  
+                
+                x
+                 
+                
+                  d
+                
+                t
+                =
+                
+
+                
+                x
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    1
+                  
+                
+                
+                  
+                    (
+                    
+                      
+                        y
+                        x
+                      
+                    
+                    )
+                  
+                  
+                    t
+                  
+                
+                
+                  d
+                
+                t
+              
+            
+            
+              
+                =
+                
+
+                
+              
+              
+                
+                  
+                    
+                    
+                      
+                        
+                          x
+                          
+                            ln
+                            ⁡
+                            
+                              (
+                              
+                                
+                                  y
+                                  x
+                                
+                              
+                              )
+                            
+                          
+                        
+                      
+                      
+                        
+                          (
+                          
+                            
+                              y
+                              x
+                            
+                          
+                          )
+                        
+                        
+                          t
+                        
+                      
+                    
+                    |
+                  
+                  
+                    t
+                    =
+                    0
+                  
+                  
+                    1
+                  
+                
+                =
+                
+
+                
+                
+                  
+                    x
+                    
+                      ln
+                      ⁡
+                      
+                        (
+                        
+                          
+                            y
+                            x
+                          
+                        
+                        )
+                      
+                    
+                  
+                
+                
+                  (
+                  
+                    
+                      
+                        y
+                        x
+                      
+                    
+                    −
+                    1
+                  
+                  )
+                
+                =
+                
+
+                
+                
+                  
+                    
+                      y
+                      −
+                      x
+                    
+                    
+                      ln
+                      ⁡
+                      
+                        (
+                        
+                          
+                            y
+                            x
+                          
+                        
+                        )
+                      
+                    
+                  
+                
+              
+            
+            
+              
+                =
+                
+
+                
+              
+              
+                
+                  
+                    
+                      y
+                      −
+                      x
+                    
+                    
+                      ln
+                      ⁡
+                      
+                        (
+                        y
+                        )
+                      
+                      −
+                      ln
+                      ⁡
+                      
+                        (
+                        x
+                        )
+                      
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}L(x,y)={}&\int _{0}^{1}x^{1-t}y^{t}\ \mathrm {d} t={}\int _{0}^{1}\left({\frac {y}{x}}\right)^{t}x\ \mathrm {d} t={}x\int _{0}^{1}\left({\frac {y}{x}}\right)^{t}\mathrm {d} t\\[3pt]={}&\left.{\frac {x}{\ln \left({\frac {y}{x}}\right)}}\left({\frac {y}{x}}\right)^{t}\right|_{t=0}^{1}={}{\frac {x}{\ln \left({\frac {y}{x}}\right)}}\left({\frac {y}{x}}-1\right)={}{\frac {y-x}{\ln \left({\frac {y}{x}}\right)}}\\[3pt]={}&{\frac {y-x}{\ln \left(y\right)-\ln \left(x\right)}}\end{aligned}}}
+  The area interpretation allows the easy derivation of some basic properties of the logarithmic mean. Since the exponential function is monotonic, the integral over an interval of length 1 is bounded by 
+  
+    
+      
+        x
+      
+    
+    {\displaystyle x}
+   and 
+  
+    
+      
+        y
+      
+    
+    {\displaystyle y}
+  . The homogeneity of the integral operator is transferred to the mean operator, that is 
+  
+    
+      
+        L
+        (
+        c
+        x
+        ,
+        c
+        y
+        )
+        =
+        c
+        L
+        (
+        x
+        ,
+        y
+        )
+      
+    
+    {\displaystyle L(cx,cy)=cL(x,y)}
+  .
+Two other useful integral representations areand
+
+
+== Generalization ==
+
+
+=== Mean value theorem of differential calculus ===
+One can generalize the mean to 
+  
+    
+      
+        n
+        +
+        1
+      
+    
+    {\displaystyle n+1}
+   variables by considering the mean value theorem for divided differences for the 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+  th derivative of the logarithm.
+We obtain
+
+  
+    
+      
+        
+          L
+          
+            MV
+          
+        
+        (
+        
+          x
+          
+            0
+          
+        
+        ,
+        
+        …
+        ,
+        
+        
+          x
+          
+            n
+          
+        
+        )
+        =
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  (
+                  n
+                  +
+                  1
+                  )
+                
+              
+              n
+              ln
+              ⁡
+              
+                (
+                
+                  [
+                  
+                    
+                      x
+                      
+                        0
+                      
+                    
+                    ,
+                    
+                    …
+                    ,
+                    
+                    
+                      x
+                      
+                        n
+                      
+                    
+                  
+                  ]
+                
+                )
+              
+            
+            
+              −
+              n
+            
+          
+        
+      
+    
+    {\displaystyle L_{\text{MV}}(x_{0},\,\dots ,\,x_{n})={\sqrt[{-n}]{(-1)^{(n+1)}n\ln \left(\left[x_{0},\,\dots ,\,x_{n}\right]\right)}}}
+  where 
+  
+    
+      
+        ln
+        ⁡
+        
+          (
+          
+            [
+            
+              
+                x
+                
+                  0
+                
+              
+              ,
+              
+              …
+              ,
+              
+              
+                x
+                
+                  n
+                
+              
+            
+            ]
+          
+          )
+        
+      
+    
+    {\displaystyle \ln \left(\left[x_{0},\,\dots ,\,x_{n}\right]\right)}
+   denotes a divided difference of the logarithm.
+For 
+  
+    
+      
+        n
+        =
+        2
+      
+    
+    {\displaystyle n=2}
+   this leads to
+
+  
+    
+      
+        
+          L
+          
+            MV
+          
+        
+        (
+        x
+        ,
+        y
+        ,
+        z
+        )
+        =
+        
+          
+            
+              
+                (
+                x
+                −
+                y
+                )
+                
+                  (
+                  
+                    y
+                    −
+                    z
+                  
+                  )
+                
+                
+                  (
+                  
+                    z
+                    −
+                    x
+                  
+                  )
+                
+              
+              
+                2
+                
+                  (
+                  
+                    
+                      (
+                      
+                        y
+                        −
+                        z
+                      
+                      )
+                    
+                    ln
+                    ⁡
+                    
+                      (
+                      x
+                      )
+                    
+                    +
+                    
+                      (
+                      
+                        z
+                        −
+                        x
+                      
+                      )
+                    
+                    ln
+                    ⁡
+                    
+                      (
+                      y
+                      )
+                    
+                    +
+                    
+                      (
+                      
+                        x
+                        −
+                        y
+                      
+                      )
+                    
+                    ln
+                    ⁡
+                    
+                      (
+                      z
+                      )
+                    
+                  
+                  )
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle L_{\text{MV}}(x,y,z)={\sqrt {\frac {(x-y)\left(y-z\right)\left(z-x\right)}{2\left(\left(y-z\right)\ln \left(x\right)+\left(z-x\right)\ln \left(y\right)+\left(x-y\right)\ln \left(z\right)\right)}}}}
+  .
+
+
+=== Integral ===
+The integral interpretation can also be generalized to more variables, but it leads to a different result. Given the simplex 
+  
+    
+      
+        S
+      
+    
+    {\textstyle S}
+   with 
+  
+    
+      
+        S
+        =
+        {
+        
+          (
+          
+            
+              α
+              
+                0
+              
+            
+            ,
+            
+            …
+            ,
+            
+            
+              α
+              
+                n
+              
+            
+          
+          )
+        
+        :
+        
+          (
+          
+            
+              α
+              
+                0
+              
+            
+            +
+            ⋯
+            +
+            
+              α
+              
+                n
+              
+            
+            =
+            1
+          
+          )
+        
+        ∧
+        
+          (
+          
+            
+              α
+              
+                0
+              
+            
+            ≥
+            0
+          
+          )
+        
+        ∧
+        ⋯
+        ∧
+        
+          (
+          
+            
+              α
+              
+                n
+              
+            
+            ≥
+            0
+          
+          )
+        
+        }
+      
+    
+    {\textstyle S=\{\left(\alpha _{0},\,\dots ,\,\alpha _{n}\right):\left(\alpha _{0}+\dots +\alpha _{n}=1\right)\land \left(\alpha _{0}\geq 0\right)\land \dots \land \left(\alpha _{n}\geq 0\right)\}}
+   and an appropriate measure 
+  
+    
+      
+        
+          d
+        
+        α
+      
+    
+    {\textstyle \mathrm {d} \alpha }
+   which assigns the simplex a volume of 1, we obtain
+
+  
+    
+      
+        
+          L
+          
+            I
+          
+        
+        
+          (
+          
+            
+              x
+              
+                0
+              
+            
+            ,
+            
+            …
+            ,
+            
+            
+              x
+              
+                n
+              
+            
+          
+          )
+        
+        =
+        
+          ∫
+          
+            S
+          
+        
+        
+          x
+          
+            0
+          
+          
+            
+              α
+              
+                0
+              
+            
+          
+        
+        ⋅
+        
+        ⋯
+        
+        ⋅
+        
+          x
+          
+            n
+          
+          
+            
+              α
+              
+                n
+              
+            
+          
+        
+         
+        
+          d
+        
+        α
+      
+    
+    {\displaystyle L_{\text{I}}\left(x_{0},\,\dots ,\,x_{n}\right)=\int _{S}x_{0}^{\alpha _{0}}\cdot \,\cdots \,\cdot x_{n}^{\alpha _{n}}\ \mathrm {d} \alpha }
+  This can be simplified using divided differences of the exponential function to
+
+  
+    
+      
+        
+          L
+          
+            I
+          
+        
+        
+          (
+          
+            
+              x
+              
+                0
+              
+            
+            ,
+            
+            …
+            ,
+            
+            
+              x
+              
+                n
+              
+            
+          
+          )
+        
+        =
+        n
+        !
+        exp
+        ⁡
+        
+          [
+          
+            ln
+            ⁡
+            
+              (
+              
+                x
+                
+                  0
+                
+              
+              )
+            
+            ,
+            
+            …
+            ,
+            
+            ln
+            ⁡
+            
+              (
+              
+                x
+                
+                  n
+                
+              
+              )
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle L_{\text{I}}\left(x_{0},\,\dots ,\,x_{n}\right)=n!\exp \left[\ln \left(x_{0}\right),\,\dots ,\,\ln \left(x_{n}\right)\right]}
+  .Example 
+  
+    
+      
+        n
+        =
+        2
+      
+    
+    {\textstyle n=2}
+  
+
+  
+    
+      
+        
+          L
+          
+            I
+          
+        
+        (
+        x
+        ,
+        y
+        ,
+        z
+        )
+        =
+        −
+        2
+        
+          
+            
+              x
+              
+                (
+                
+                  ln
+                  ⁡
+                  
+                    (
+                    y
+                    )
+                  
+                  −
+                  ln
+                  ⁡
+                  
+                    (
+                    z
+                    )
+                  
+                
+                )
+              
+              +
+              y
+              
+                (
+                
+                  ln
+                  ⁡
+                  
+                    (
+                    z
+                    )
+                  
+                  −
+                  ln
+                  ⁡
+                  
+                    (
+                    x
+                    )
+                  
+                
+                )
+              
+              +
+              z
+              
+                (
+                
+                  ln
+                  ⁡
+                  
+                    (
+                    x
+                    )
+                  
+                  −
+                  ln
+                  ⁡
+                  
+                    (
+                    y
+                    )
+                  
+                
+                )
+              
+            
+            
+              
+                (
+                
+                  ln
+                  ⁡
+                  
+                    (
+                    x
+                    )
+                  
+                  −
+                  ln
+                  ⁡
+                  
+                    (
+                    y
+                    )
+                  
+                
+                )
+              
+              
+                (
+                
+                  ln
+                  ⁡
+                  
+                    (
+                    y
+                    )
+                  
+                  −
+                  ln
+                  ⁡
+                  
+                    (
+                    z
+                    )
+                  
+                
+                )
+              
+              
+                (
+                
+                  ln
+                  ⁡
+                  
+                    (
+                    z
+                    )
+                  
+                  −
+                  ln
+                  ⁡
+                  
+                    (
+                    x
+                    )
+                  
+                
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle L_{\text{I}}(x,y,z)=-2{\frac {x\left(\ln \left(y\right)-\ln \left(z\right)\right)+y\left(\ln \left(z\right)-\ln \left(x\right)\right)+z\left(\ln \left(x\right)-\ln \left(y\right)\right)}{\left(\ln \left(x\right)-\ln \left(y\right)\right)\left(\ln \left(y\right)-\ln \left(z\right)\right)\left(\ln \left(z\right)-\ln \left(x\right)\right)}}}
+  .
+
+
+== Connection to other means ==
+Arithmetic mean: 
+  
+    
+      
+        
+          
+            
+              L
+              
+                (
+                
+                  
+                    x
+                    
+                      2
+                    
+                  
+                  ,
+                  
+                    y
+                    
+                      2
+                    
+                  
+                
+                )
+              
+            
+            
+              L
+              (
+              x
+              ,
+              y
+              )
+            
+          
+        
+        =
+        
+          
+            
+              x
+              +
+              y
+            
+            2
+          
+        
+      
+    
+    {\displaystyle {\frac {L\left(x^{2},y^{2}\right)}{L(x,y)}}={\frac {x+y}{2}}}
+  Geometric mean: 
+  
+    
+      
+        
+          
+            
+              
+                L
+                
+                  (
+                  
+                    x
+                    ,
+                    y
+                  
+                  )
+                
+              
+              
+                L
+                
+                  (
+                  
+                    
+                      
+                        1
+                        x
+                      
+                    
+                    ,
+                    
+                      
+                        1
+                        y
+                      
+                    
+                  
+                  )
+                
+              
+            
+          
+        
+        =
+        
+          
+            x
+            y
+          
+        
+      
+    
+    {\displaystyle {\sqrt {\frac {L\left(x,y\right)}{L\left({\frac {1}{x}},{\frac {1}{y}}\right)}}}={\sqrt {xy}}}
+  Harmonic mean: 
+  
+    
+      
+        
+          
+            
+              L
+              
+                (
+                
+                  
+                    
+                      1
+                      x
+                    
+                  
+                  ,
+                  
+                    
+                      1
+                      y
+                    
+                  
+                
+                )
+              
+            
+            
+              L
+              
+                (
+                
+                  
+                    
+                      1
+                      
+                        x
+                        
+                          2
+                        
+                      
+                    
+                  
+                  ,
+                  
+                    
+                      1
+                      
+                        y
+                        
+                          2
+                        
+                      
+                    
+                  
+                
+                )
+              
+            
+          
+        
+        =
+        
+          
+            2
+            
+              
+                
+                  1
+                  x
+                
+              
+              +
+              
+                
+                  1
+                  y
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {L\left({\frac {1}{x}},{\frac {1}{y}}\right)}{L\left({\frac {1}{x^{2}}},{\frac {1}{y^{2}}}\right)}}={\frac {2}{{\frac {1}{x}}+{\frac {1}{y}}}}}
+  
+
+
+== See also ==
+A different mean which is related to logarithms is the geometric mean.
+The logarithmic mean is a special case of the Stolarsky mean.
+Logarithmic mean temperature difference
+Log semiring
+
+
+== References ==
+Citations
+BibliographyOilfield Glossary: Term 'logarithmic mean'
+Weisstein, Eric W. "Arithmetic-Logarithmic-Geometric-Mean Inequality". MathWorld.
+Stolarsky, Kenneth B.: Generalizations of the logarithmic mean, Mathematics Magazine, Vol. 48, No. 2, Mar., 1975, pp 87–92

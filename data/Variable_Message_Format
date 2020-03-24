@@ -1,0 +1,19 @@
+Variable Message Format, abbreviated as "VMF" and documented in MIL-STD-6017, is a communications protocol used in communicating tactical military information. A message formatted using VMF can be sent via many communication methods. As it does not define this method, it is not a Tactical Data Link (TDL).
+
+
+== Restriction ==
+The standard is designated distribution class C, meaning that it may only be distributed to federal employees and contractors. Contractors may obtain a copy from their government POC. However, the standard for the header is openly available.
+
+
+== Format ==
+The VMF application header is defined by MIL-STD-2045-47001. The VMF message body consists of "K" Series messages.
+
+
+== See also ==
+
+
+== External links ==
+MIL-STD-2045/47001C
+
+
+== References ==

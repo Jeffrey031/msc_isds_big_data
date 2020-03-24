@@ -1,0 +1,61 @@
+A machine-check exception (MCE) is a type of computer hardware error that occurs when a computer's central processing unit detects an unrecoverable hardware error in the processor itself, the memory, the I/O devices, or on the system bus. It is not caused by software. The error usually occurs due to component failure or the overheating or overclocking of hardware components. Most machine check exceptions halt the operating system and require a restart before users can continue normal operation. Diagnosing the failure can be often difficult because so little information about what caused the problem is captured during the error.
+Modern versions of Microsoft Windows on IA-32 and x86-64 processors handle machine check exceptions through the Windows Hardware Error Architecture. When WHEA detects a machine check exception, it displays the error in a Blue Screen of Death, with the following parameters (which vary, but the first parameter is always 0x0 for a machine check exception):
+ *** STOP: 0x00000124 (0x0000000000000000, 0x0000000000000000, 0x0000000000000000, 0x0000000000000000) 
+
+Older versions of Windows handle similar exceptions through the Machine Check Architecture. In this case, the Blue Screen of Death will show an error similar to the following:
+ STOP: 0x0000009C (0x00000030, 0x00000002, 0x00000001, 0x80003CBA) 
+
+On Linux, a process (such as klogd) writes a message to the kernel log and/or the console screen (usually only to the console when the error is non-recoverable and the machine crashes as a result):
+
+CPU 0: Machine Check Exception: 0000000000000004
+Bank 2: f200200000000863
+Kernel panic: CPU context corrupt
+
+
+== Problem types ==
+Most of these errors relate specifically to the Pentium processor family. Similar errors may occur on other processors and will cause similar problems.
+Some of the main hardware problems that cause MCEs include:
+
+System bus errors: (error communicating between the processor and the motherboard).
+Memory errors: parity checking detects when a memory error has occurred. Error correction code (ECC) can correct limited memory errors so that processing can continue.
+Cache errors in the processor.
+
+
+== Possible causes ==
+Machine checks are a hardware problem, not a software problem. They are often the result of overclocking or overheating. In some cases, the CPU will shut itself off once passing a thermal limit to avoid permanent damage. But they can also be caused by bus errors introduced by other failing components, like memory or I/O devices. Possible causes include:
+
+Poor CPU cooling due to a CPU heatsink and fan that's clogged with dust or has come loose.
+Overclocking beyond the highest clock rate at which the CPU is still reliable.
+Failing motherboard.
+Failing processor.
+Failing memory.
+Failing I/O controllers, on either the motherboard or separate cards.
+Failing I/O devices.
+Inadequate or failing power supply.
+Poor general case cooling due to inadequate or clogged case fans or filters.Cooling problems are usually obvious upon inspection. A failing motherboard or processor can be identified by swapping them with functioning parts. Memory can be checked by booting to a diagnostic tool, like memtest86. Non-essential failing I/O devices and controllers can be identified by unplugging them if possible or disabling the devices to see if the problem disappears. If the failures typically only occur fairly soon after the OS is booted or not at all or not for days, it may be suggestive of a power supply issue. With a power supply problem, the failure often occurs when power demand peaks as the OS starts up any external devices for use.
+
+
+== Decoding MCEs ==
+As noted previously, decoding MCE errors can prove difficult. Normally the processor manufacturer will be able to provide information about specific codes.
+For IA-32 and Intel 64 processors, consult the Intel 64 and IA-32 Architectures Software Developer's Manual Chapter 15 (Machine-Check Architecture), or the Microsoft KB Article on Windows Exceptions.
+
+
+=== Programs to decode Intel and AMD MCEs ===
+mcat: A Windows command-line program from AMD to decode MCEs from AMD K8, Family 0x10 and 0x11 processors.
+mcelog A Linux daemon by Andi Kleen to handle MCEs for modern x86 processors. mcelog can also decode machine checks.
+parsemce a Linux program by Dave Jones to decode MCEs from AMD K7 processors.
+mced a Linux program by Tim Hockin to gather MCEs from the kernel and alert interested applications. Note that it does not try to interpret the MCE data, it simply alerts other programs.
+
+
+== See also ==
+Machine check architecture
+Blue screen of death
+Kernel panic
+
+
+== References ==
+
+
+== External links ==
+mcelog: Advanced hardware error handling for x86 Linux
+parsemce: Linux Machine check exception handler parser

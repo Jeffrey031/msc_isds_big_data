@@ -1,0 +1,4961 @@
+In probability theory and statistics, the exponential distribution is the probability distribution of the time between events in a Poisson point process, i.e., a process in which events occur continuously and independently at a constant average rate. It is a particular case of the gamma distribution. It is the continuous analogue of the geometric distribution, and it has the key property of being memoryless. In addition to being used for the analysis of Poisson point processes it is found in various other contexts.
+The exponential distribution is not the same as the class of exponential families of distributions, which is a large class of probability distributions that includes the exponential distribution as one of its members, but also includes the normal distribution, binomial distribution, gamma distribution, Poisson, and many others.
+
+
+== Definitions ==
+
+
+=== Probability density function ===
+The probability density function (pdf) of an exponential distribution is
+
+  
+    
+      
+        f
+        (
+        x
+        ;
+        λ
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  λ
+                  
+                    e
+                    
+                      −
+                      λ
+                      x
+                    
+                  
+                
+                
+                  x
+                  ≥
+                  0
+                  ,
+                
+              
+              
+                
+                  0
+                
+                
+                  x
+                  <
+                  0.
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle f(x;\lambda )={\begin{cases}\lambda e^{-\lambda x}&x\geq 0,\\0&x<0.\end{cases}}}
+  Here λ > 0 is the parameter of the distribution, often called the rate parameter. The distribution is supported on the interval [0, ∞). If a random variable X has this distribution, we write X ~ Exp(λ).
+The exponential distribution exhibits infinite divisibility.
+
+
+=== Cumulative distribution function ===
+The cumulative distribution function is given by
+
+  
+    
+      
+        F
+        (
+        x
+        ;
+        λ
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  1
+                  −
+                  
+                    e
+                    
+                      −
+                      λ
+                      x
+                    
+                  
+                
+                
+                  x
+                  ≥
+                  0
+                  ,
+                
+              
+              
+                
+                  0
+                
+                
+                  x
+                  <
+                  0.
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle F(x;\lambda )={\begin{cases}1-e^{-\lambda x}&x\geq 0,\\0&x<0.\end{cases}}}
+  
+
+
+=== Alternative parametrization ===
+The exponential distribution is sometimes parametrized in terms of the scale parameter β = 1/λ:
+
+  
+    
+      
+        f
+        (
+        x
+        ;
+        β
+        )
+        =
+        
+          
+            {
+            
+              
+                
+                  
+                    
+                      1
+                      β
+                    
+                  
+                  
+                    e
+                    
+                      −
+                      x
+                      
+                        /
+                      
+                      β
+                    
+                  
+                
+                
+                  x
+                  ≥
+                  0
+                  ,
+                
+              
+              
+                
+                  0
+                
+                
+                  x
+                  <
+                  0.
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle f(x;\beta )={\begin{cases}{\frac {1}{\beta }}e^{-x/\beta }&x\geq 0,\\0&x<0.\end{cases}}}
+  
+
+
+== Properties ==
+
+
+=== Mean, variance, moments and median ===
+
+The mean or expected value of an exponentially distributed random variable X with rate parameter λ is given by
+
+  
+    
+      
+        E
+        ⁡
+        [
+        X
+        ]
+        =
+        
+          
+            1
+            λ
+          
+        
+        .
+      
+    
+    {\displaystyle \operatorname {E} [X]={\frac {1}{\lambda }}.}
+  In light of the examples given above, this makes sense: if you receive phone calls at an average rate of 2 per hour, then you can expect to wait half an hour for every call.
+The variance of X is given by
+
+  
+    
+      
+        Var
+        ⁡
+        [
+        X
+        ]
+        =
+        
+          
+            1
+            
+              λ
+              
+                2
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle \operatorname {Var} [X]={\frac {1}{\lambda ^{2}}},}
+  so the standard deviation is equal to the mean.
+The moments of X, for 
+  
+    
+      
+        n
+        ∈
+        
+          N
+        
+      
+    
+    {\displaystyle n\in \mathbb {N} }
+   are given by
+
+  
+    
+      
+        E
+        ⁡
+        
+          [
+          
+            X
+            
+              n
+            
+          
+          ]
+        
+        =
+        
+          
+            
+              n
+              !
+            
+            
+              λ
+              
+                n
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \operatorname {E} \left[X^{n}\right]={\frac {n!}{\lambda ^{n}}}.}
+  The central moments of X, for 
+  
+    
+      
+        n
+        ∈
+        
+          N
+        
+      
+    
+    {\displaystyle n\in \mathbb {N} }
+   are given by
+
+  
+    
+      
+        
+          μ
+          
+            n
+          
+        
+        =
+        
+          
+            
+              !
+              n
+            
+            
+              λ
+              
+                n
+              
+            
+          
+        
+        =
+        
+          
+            
+              n
+              !
+            
+            
+              λ
+              
+                n
+              
+            
+          
+        
+        
+          ∑
+          
+            k
+            =
+            0
+          
+          
+            n
+          
+        
+        
+          
+            
+              (
+              −
+              1
+              
+                )
+                
+                  k
+                
+              
+            
+            
+              k
+              !
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \mu _{n}={\frac {!n}{\lambda ^{n}}}={\frac {n!}{\lambda ^{n}}}\sum _{k=0}^{n}{\frac {(-1)^{k}}{k!}}.}
+  where !n is the subfactorial of n
+The median of X is given by
+
+  
+    
+      
+        m
+        ⁡
+        [
+        X
+        ]
+        =
+        
+          
+            
+              ln
+              ⁡
+              (
+              2
+              )
+            
+            λ
+          
+        
+        <
+        E
+        ⁡
+        [
+        X
+        ]
+        ,
+      
+    
+    {\displaystyle \operatorname {m} [X]={\frac {\ln(2)}{\lambda }}<\operatorname {E} [X],}
+  where ln refers to the natural logarithm.  Thus the absolute difference between the mean and median is
+
+  
+    
+      
+        
+          |
+        
+        E
+        ⁡
+        [
+        X
+        ]
+        −
+        m
+        ⁡
+        [
+        X
+        ]
+        
+          |
+        
+        =
+        
+          
+            
+              1
+              −
+              ln
+              ⁡
+              (
+              2
+              )
+            
+            λ
+          
+        
+        <
+        
+          
+            1
+            λ
+          
+        
+        =
+        
+          standard deviation
+        
+        ,
+      
+    
+    {\displaystyle |\operatorname {E} [X]-\operatorname {m} [X]|={\frac {1-\ln(2)}{\lambda }}<{\frac {1}{\lambda }}={\text{standard deviation}},}
+  in accordance with the median-mean inequality.
+
+
+=== Memorylessness ===
+An exponentially distributed random variable T obeys the relation
+
+  
+    
+      
+        Pr
+        
+          (
+          
+            T
+            >
+            s
+            +
+            t
+            ∣
+            T
+            >
+            s
+          
+          )
+        
+        =
+        Pr
+        (
+        T
+        >
+        t
+        )
+        ,
+        
+        ∀
+        s
+        ,
+        t
+        ≥
+        0.
+      
+    
+    {\displaystyle \Pr \left(T>s+t\mid T>s\right)=\Pr(T>t),\qquad \forall s,t\geq 0.}
+  This can be seen by considering the complementary cumulative distribution function:
+
+  
+    
+      
+        
+          
+            
+              
+                Pr
+                
+                  (
+                  
+                    T
+                    >
+                    s
+                    +
+                    t
+                    ∣
+                    T
+                    >
+                    s
+                  
+                  )
+                
+              
+              
+                
+                =
+                
+                  
+                    
+                      Pr
+                      
+                        (
+                        
+                          T
+                          >
+                          s
+                          +
+                          t
+                          ∩
+                          T
+                          >
+                          s
+                        
+                        )
+                      
+                    
+                    
+                      Pr
+                      
+                        (
+                        
+                          T
+                          >
+                          s
+                        
+                        )
+                      
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      Pr
+                      
+                        (
+                        
+                          T
+                          >
+                          s
+                          +
+                          t
+                        
+                        )
+                      
+                    
+                    
+                      Pr
+                      
+                        (
+                        
+                          T
+                          >
+                          s
+                        
+                        )
+                      
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    
+                      e
+                      
+                        −
+                        λ
+                        (
+                        s
+                        +
+                        t
+                        )
+                      
+                    
+                    
+                      e
+                      
+                        −
+                        λ
+                        s
+                      
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  e
+                  
+                    −
+                    λ
+                    t
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                Pr
+                (
+                T
+                >
+                t
+                )
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\Pr \left(T>s+t\mid T>s\right)&={\frac {\Pr \left(T>s+t\cap T>s\right)}{\Pr \left(T>s\right)}}\\[4pt]&={\frac {\Pr \left(T>s+t\right)}{\Pr \left(T>s\right)}}\\[4pt]&={\frac {e^{-\lambda (s+t)}}{e^{-\lambda s}}}\\[4pt]&=e^{-\lambda t}\\[4pt]&=\Pr(T>t).\end{aligned}}}
+  When T is interpreted as the waiting time for an event to occur relative to some initial time, this relation implies that, if T is conditioned on a failure to observe the event over some initial period of time s, the distribution of the remaining waiting time is the same as the original unconditional distribution. For example, if an event has not occurred after 30 seconds, the conditional probability that occurrence will take at least 10 more seconds is equal to the unconditional probability of observing the event more than 10 seconds after the initial time.
+The exponential distribution and the geometric distribution are the only memoryless probability distributions.
+The exponential distribution is consequently also necessarily the only continuous probability distribution that has a constant failure rate.
+
+
+=== Quantiles ===
+
+The quantile function (inverse cumulative distribution function) for Exp(λ) is
+
+  
+    
+      
+        
+          F
+          
+            −
+            1
+          
+        
+        (
+        p
+        ;
+        λ
+        )
+        =
+        
+          
+            
+              −
+              ln
+              ⁡
+              (
+              1
+              −
+              p
+              )
+            
+            λ
+          
+        
+        ,
+        
+        0
+        ≤
+        p
+        <
+        1
+      
+    
+    {\displaystyle F^{-1}(p;\lambda )={\frac {-\ln(1-p)}{\lambda }},\qquad 0\leq p<1}
+  The quartiles are therefore:
+
+first quartile: ln(4/3)/λ
+median: ln(2)/λ
+third quartile: ln(4)/λAnd as a consequence the interquartile range is ln(3)/λ.
+
+
+=== Kullback–Leibler divergence ===
+The directed Kullback–Leibler divergence of 
+  
+    
+      
+        
+          e
+          
+            λ
+          
+        
+      
+    
+    {\displaystyle e^{\lambda }}
+   ("approximating" distribution) from 
+  
+    
+      
+        
+          e
+          
+            
+              λ
+              
+                0
+              
+            
+          
+        
+      
+    
+    {\displaystyle e^{\lambda _{0}}}
+   ('true' distribution) is given by
+
+  
+    
+      
+        
+          
+            
+              
+                Δ
+                (
+                
+                  λ
+                  
+                    0
+                  
+                
+                ∥
+                λ
+                )
+              
+              
+                
+                =
+                
+                  
+                    E
+                  
+                  
+                    
+                      λ
+                      
+                        0
+                      
+                    
+                  
+                
+                
+                  (
+                  
+                    log
+                    ⁡
+                    
+                      
+                        
+                          
+                            p
+                            
+                              
+                                λ
+                                
+                                  0
+                                
+                              
+                            
+                          
+                          (
+                          x
+                          )
+                        
+                        
+                          
+                            p
+                            
+                              λ
+                            
+                          
+                          (
+                          x
+                          )
+                        
+                      
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    E
+                  
+                  
+                    
+                      λ
+                      
+                        0
+                      
+                    
+                  
+                
+                
+                  (
+                  
+                    log
+                    ⁡
+                    
+                      
+                        
+                          
+                            λ
+                            
+                              0
+                            
+                          
+                          
+                            e
+                            
+                              −
+                              
+                                λ
+                                
+                                  0
+                                
+                              
+                              x
+                            
+                          
+                        
+                        
+                          λ
+                          
+                            e
+                            
+                              −
+                              λ
+                              x
+                            
+                          
+                        
+                      
+                    
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                log
+                ⁡
+                (
+                
+                  λ
+                  
+                    0
+                  
+                
+                )
+                −
+                log
+                ⁡
+                (
+                λ
+                )
+                −
+                (
+                
+                  λ
+                  
+                    0
+                  
+                
+                −
+                λ
+                )
+                
+                  E
+                  
+                    
+                      λ
+                      
+                        0
+                      
+                    
+                  
+                
+                (
+                x
+                )
+              
+            
+            
+              
+              
+                
+                =
+                log
+                ⁡
+                (
+                
+                  λ
+                  
+                    0
+                  
+                
+                )
+                −
+                log
+                ⁡
+                (
+                λ
+                )
+                +
+                
+                  
+                    λ
+                    
+                      λ
+                      
+                        0
+                      
+                    
+                  
+                
+                −
+                1.
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\Delta (\lambda _{0}\parallel \lambda )&=\mathbb {E} _{\lambda _{0}}\left(\log {\frac {p_{\lambda _{0}}(x)}{p_{\lambda }(x)}}\right)\\&=\mathbb {E} _{\lambda _{0}}\left(\log {\frac {\lambda _{0}e^{-\lambda _{0}x}}{\lambda e^{-\lambda x}}}\right)\\&=\log(\lambda _{0})-\log(\lambda )-(\lambda _{0}-\lambda )E_{\lambda _{0}}(x)\\&=\log(\lambda _{0})-\log(\lambda )+{\frac {\lambda }{\lambda _{0}}}-1.\end{aligned}}}
+  
+
+
+=== Maximum entropy distribution ===
+Among all continuous probability distributions with support [0, ∞) and mean μ, the exponential distribution with λ = 1/μ has the largest differential entropy. In other words, it is the maximum entropy probability distribution for a random variate X which is greater than or equal to zero and for which E[X] is fixed.
+
+
+=== Distribution of the minimum of exponential random variables ===
+Let X1, ..., Xn be independent exponentially distributed random variables with rate parameters λ1, ..., λn.  Then
+
+  
+    
+      
+        min
+        
+          {
+          
+            
+              X
+              
+                1
+              
+            
+            ,
+            …
+            ,
+            
+              X
+              
+                n
+              
+            
+          
+          }
+        
+      
+    
+    {\displaystyle \min \left\{X_{1},\dotsc ,X_{n}\right\}}
+  is also exponentially distributed, with parameter
+
+  
+    
+      
+        λ
+        =
+        
+          λ
+          
+            1
+          
+        
+        +
+        ⋯
+        +
+        
+          λ
+          
+            n
+          
+        
+        .
+      
+    
+    {\displaystyle \lambda =\lambda _{1}+\dotsb +\lambda _{n}.}
+  This can be seen by considering the complementary cumulative distribution function:
+
+  
+    
+      
+        
+          
+            
+              
+                Pr
+                
+                  (
+                  
+                    min
+                    {
+                    
+                      X
+                      
+                        1
+                      
+                    
+                    ,
+                    …
+                    ,
+                    
+                      X
+                      
+                        n
+                      
+                    
+                    }
+                    >
+                    x
+                  
+                  )
+                
+              
+              
+                
+                =
+                Pr
+                
+                  (
+                  
+                    
+                      X
+                      
+                        1
+                      
+                    
+                    >
+                    x
+                    ,
+                    …
+                    ,
+                    
+                      X
+                      
+                        n
+                      
+                    
+                    >
+                    x
+                  
+                  )
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∏
+                  
+                    i
+                    =
+                    1
+                  
+                  
+                    n
+                  
+                
+                Pr
+                (
+                
+                  X
+                  
+                    i
+                  
+                
+                >
+                x
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∏
+                  
+                    i
+                    =
+                    1
+                  
+                  
+                    n
+                  
+                
+                exp
+                ⁡
+                (
+                −
+                x
+                
+                  λ
+                  
+                    i
+                  
+                
+                )
+                =
+                exp
+                ⁡
+                
+                  (
+                  
+                    −
+                    x
+                    
+                      ∑
+                      
+                        i
+                        =
+                        1
+                      
+                      
+                        n
+                      
+                    
+                    
+                      λ
+                      
+                        i
+                      
+                    
+                  
+                  )
+                
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\Pr \left(\min\{X_{1},\dotsc ,X_{n}\}>x\right)&=\Pr \left(X_{1}>x,\dotsc ,X_{n}>x\right)\\&=\prod _{i=1}^{n}\Pr(X_{i}>x)\\&=\prod _{i=1}^{n}\exp(-x\lambda _{i})=\exp \left(-x\sum _{i=1}^{n}\lambda _{i}\right).\end{aligned}}}
+  The index of the variable which achieves the minimum is distributed according to the law
+
+  
+    
+      
+        Pr
+        
+          (
+          
+            k
+            ∣
+            
+              X
+              
+                k
+              
+            
+            =
+            min
+            {
+            
+              X
+              
+                1
+              
+            
+            ,
+            …
+            ,
+            
+              X
+              
+                n
+              
+            
+            }
+          
+          )
+        
+        =
+        
+          
+            
+              λ
+              
+                k
+              
+            
+            
+              
+                λ
+                
+                  1
+                
+              
+              +
+              ⋯
+              +
+              
+                λ
+                
+                  n
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle \Pr \left(k\mid X_{k}=\min\{X_{1},\dotsc ,X_{n}\}\right)={\frac {\lambda _{k}}{\lambda _{1}+\dotsb +\lambda _{n}}}.}
+  Note that
+
+  
+    
+      
+        max
+        {
+        
+          X
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          X
+          
+            n
+          
+        
+        }
+      
+    
+    {\displaystyle \max\{X_{1},\dotsc ,X_{n}\}}
+  is not exponentially distributed.
+
+
+=== Joint moments of i.i.d. exponential order statistics ===
+Let 
+  
+    
+      
+        
+          X
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          X
+          
+            n
+          
+        
+      
+    
+    {\displaystyle X_{1},\dotsc ,X_{n}}
+   be 
+  
+    
+      
+        n
+      
+    
+    {\displaystyle n}
+   independent and identically distributed exponential random variables with rate parameter λ. 
+Let 
+  
+    
+      
+        
+          X
+          
+            (
+            1
+            )
+          
+        
+        ,
+        …
+        ,
+        
+          X
+          
+            (
+            n
+            )
+          
+        
+      
+    
+    {\displaystyle X_{(1)},\dotsc ,X_{(n)}}
+   denote the corresponding order statistics. 
+For 
+  
+    
+      
+        i
+        <
+        j
+      
+    
+    {\displaystyle i<j}
+   , the joint moment 
+  
+    
+      
+        E
+        [
+        
+          X
+          
+            (
+            i
+            )
+          
+        
+        
+          X
+          
+            (
+            j
+            )
+          
+        
+        ]
+      
+    
+    {\displaystyle E[X_{(i)}X_{(j)}]}
+   of the order statistics 
+  
+    
+      
+        
+          X
+          
+            (
+            i
+            )
+          
+        
+      
+    
+    {\displaystyle X_{(i)}}
+   and 
+  
+    
+      
+        
+          X
+          
+            (
+            j
+            )
+          
+        
+      
+    
+    {\displaystyle X_{(j)}}
+   is given by
+
+  
+    
+      
+        E
+        [
+        
+          X
+          
+            (
+            i
+            )
+          
+        
+        
+          X
+          
+            (
+            j
+            )
+          
+        
+        ]
+        =
+        
+          
+            1
+            
+              (
+              n
+              −
+              j
+              +
+              1
+              )
+              λ
+            
+          
+        
+        E
+        [
+        
+          X
+          
+            (
+            i
+            )
+          
+        
+        ]
+        +
+        E
+        [
+        
+          X
+          
+            (
+            i
+            )
+          
+          
+            2
+          
+        
+        ]
+        =
+        
+          
+            1
+            
+              (
+              n
+              −
+              j
+              +
+              1
+              )
+              λ
+            
+          
+        
+        
+          
+            1
+            
+              (
+              n
+              −
+              i
+              +
+              1
+              )
+              λ
+            
+          
+        
+        +
+        
+          
+            2
+            
+              (
+              (
+              n
+              −
+              i
+              +
+              1
+              )
+              λ
+              
+                )
+                
+                  2
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle E[X_{(i)}X_{(j)}]={\frac {1}{(n-j+1)\lambda }}E[X_{(i)}]+E[X_{(i)}^{2}]={\frac {1}{(n-j+1)\lambda }}{\frac {1}{(n-i+1)\lambda }}+{\frac {2}{((n-i+1)\lambda )^{2}}}.}
+  This can be seen by invoking the law of total expectation and the memoryless property:
+
+  
+    
+      
+        
+          
+            
+              
+                E
+                ⁡
+                [
+                
+                  X
+                  
+                    (
+                    i
+                    )
+                  
+                
+                
+                  X
+                  
+                    (
+                    j
+                    )
+                  
+                
+                ]
+              
+              
+                
+                =
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                E
+                ⁡
+                [
+                
+                  X
+                  
+                    (
+                    i
+                    )
+                  
+                
+                
+                  X
+                  
+                    (
+                    j
+                    )
+                  
+                
+                ∣
+                
+                  X
+                  
+                    (
+                    i
+                    )
+                  
+                
+                =
+                x
+                ]
+                
+                  f
+                  
+                    
+                      X
+                      
+                        (
+                        i
+                        )
+                      
+                    
+                  
+                
+                (
+                x
+                )
+                
+                d
+                x
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∫
+                  
+                    x
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                x
+                E
+                ⁡
+                [
+                
+                  X
+                  
+                    (
+                    j
+                    )
+                  
+                
+                ∣
+                
+                  X
+                  
+                    (
+                    j
+                    )
+                  
+                
+                ≥
+                x
+                ]
+                
+                  f
+                  
+                    
+                      X
+                      
+                        (
+                        i
+                        )
+                      
+                    
+                  
+                
+                (
+                x
+                )
+                
+                d
+                x
+                
+                (
+                
+                  
+                    since
+                  
+                
+                 
+                
+                  X
+                  
+                    (
+                    i
+                    )
+                  
+                
+                =
+                x
+                
+                ⟹
+                
+                
+                  X
+                  
+                    (
+                    j
+                    )
+                  
+                
+                ≥
+                x
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∫
+                  
+                    x
+                    =
+                    0
+                  
+                  
+                    ∞
+                  
+                
+                x
+                
+                  [
+                  
+                    
+                      
+                        1
+                        
+                          (
+                          n
+                          −
+                          j
+                          +
+                          1
+                          )
+                          λ
+                        
+                      
+                    
+                    +
+                    x
+                  
+                  ]
+                
+                
+                  f
+                  
+                    
+                      X
+                      
+                        (
+                        i
+                        )
+                      
+                    
+                  
+                
+                (
+                x
+                )
+                
+                d
+                x
+                
+                (
+                
+                  by the memoryless property
+                
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    1
+                    
+                      (
+                      n
+                      −
+                      j
+                      +
+                      1
+                      )
+                      λ
+                    
+                  
+                
+                E
+                ⁡
+                [
+                
+                  X
+                  
+                    (
+                    i
+                    )
+                  
+                
+                ]
+                +
+                E
+                ⁡
+                [
+                
+                  X
+                  
+                    (
+                    i
+                    )
+                  
+                  
+                    2
+                  
+                
+                ]
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {E} [X_{(i)}X_{(j)}]&=\int _{0}^{\infty }\operatorname {E} [X_{(i)}X_{(j)}\mid X_{(i)}=x]f_{X_{(i)}}(x)\,dx\\&=\int _{x=0}^{\infty }x\operatorname {E} [X_{(j)}\mid X_{(j)}\geq x]f_{X_{(i)}}(x)\,dx\qquad ({\textrm {since}}~X_{(i)}=x\implies X_{(j)}\geq x)\\&=\int _{x=0}^{\infty }x\left[{\frac {1}{(n-j+1)\lambda }}+x\right]f_{X_{(i)}}(x)\,dx\qquad ({\text{by the memoryless property}})\\&={\frac {1}{(n-j+1)\lambda }}\operatorname {E} [X_{(i)}]+\operatorname {E} [X_{(i)}^{2}].\end{aligned}}}
+  The first equation follows from the law of total expectation.
+The second equation exploits the fact that once we condition on 
+  
+    
+      
+        
+          X
+          
+            (
+            i
+            )
+          
+        
+        =
+        x
+      
+    
+    {\displaystyle X_{(i)}=x}
+  , it must follow that 
+  
+    
+      
+        
+          X
+          
+            (
+            j
+            )
+          
+        
+        ≥
+        x
+      
+    
+    {\displaystyle X_{(j)}\geq x}
+  .
+The third equation relies on the memoryless property to replace 
+  
+    
+      
+        E
+        ⁡
+        [
+        
+          X
+          
+            (
+            j
+            )
+          
+        
+        ∣
+        
+          X
+          
+            (
+            j
+            )
+          
+        
+        ≥
+        x
+        ]
+      
+    
+    {\displaystyle \operatorname {E} [X_{(j)}\mid X_{(j)}\geq x]}
+   with 
+  
+    
+      
+        E
+        ⁡
+        [
+        
+          X
+          
+            (
+            j
+            )
+          
+        
+        ]
+        +
+        x
+      
+    
+    {\displaystyle \operatorname {E} [X_{(j)}]+x}
+  .
+
+
+=== Sum of two independent exponential random variables ===
+The probability distribution function (PDF) of a sum of two independent random variables is the convolution of their individual PDFs.  If 
+  
+    
+      
+        
+          X
+          
+            1
+          
+        
+      
+    
+    {\displaystyle X_{1}}
+   and 
+  
+    
+      
+        
+          X
+          
+            2
+          
+        
+      
+    
+    {\displaystyle X_{2}}
+   are independent exponential random variables with respective rate parameters 
+  
+    
+      
+        
+          λ
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \lambda _{1}}
+   and 
+  
+    
+      
+        
+          λ
+          
+            2
+          
+        
+        ,
+      
+    
+    {\displaystyle \lambda _{2},}
+   then the probability density of 
+  
+    
+      
+        Z
+        =
+        
+          X
+          
+            1
+          
+        
+        +
+        
+          X
+          
+            2
+          
+        
+      
+    
+    {\displaystyle Z=X_{1}+X_{2}}
+   is given by
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  f
+                  
+                    Z
+                  
+                
+                (
+                z
+                )
+              
+              
+                
+                =
+                
+                  ∫
+                  
+                    −
+                    ∞
+                  
+                  
+                    ∞
+                  
+                
+                
+                  f
+                  
+                    
+                      X
+                      
+                        1
+                      
+                    
+                  
+                
+                (
+                
+                  x
+                  
+                    1
+                  
+                
+                )
+                
+                  f
+                  
+                    
+                      X
+                      
+                        2
+                      
+                    
+                  
+                
+                (
+                z
+                −
+                
+                  x
+                  
+                    1
+                  
+                
+                )
+                
+                d
+                
+                  x
+                  
+                    1
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    z
+                  
+                
+                
+                  λ
+                  
+                    1
+                  
+                
+                
+                  e
+                  
+                    −
+                    
+                      λ
+                      
+                        1
+                      
+                    
+                    
+                      x
+                      
+                        1
+                      
+                    
+                  
+                
+                
+                  λ
+                  
+                    2
+                  
+                
+                
+                  e
+                  
+                    −
+                    
+                      λ
+                      
+                        2
+                      
+                    
+                    (
+                    z
+                    −
+                    
+                      x
+                      
+                        1
+                      
+                    
+                    )
+                  
+                
+                
+                d
+                
+                  x
+                  
+                    1
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  λ
+                  
+                    1
+                  
+                
+                
+                  λ
+                  
+                    2
+                  
+                
+                
+                  e
+                  
+                    −
+                    
+                      λ
+                      
+                        2
+                      
+                    
+                    z
+                  
+                
+                
+                  ∫
+                  
+                    0
+                  
+                  
+                    z
+                  
+                
+                
+                  e
+                  
+                    (
+                    
+                      λ
+                      
+                        2
+                      
+                    
+                    −
+                    
+                      λ
+                      
+                        1
+                      
+                    
+                    )
+                    
+                      x
+                      
+                        1
+                      
+                    
+                  
+                
+                
+                d
+                
+                  x
+                  
+                    1
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    {
+                    
+                      
+                        
+                          
+                            
+                              
+                                
+                                  
+                                    λ
+                                    
+                                      1
+                                    
+                                  
+                                  
+                                    λ
+                                    
+                                      2
+                                    
+                                  
+                                
+                                
+                                  
+                                    λ
+                                    
+                                      2
+                                    
+                                  
+                                  −
+                                  
+                                    λ
+                                    
+                                      1
+                                    
+                                  
+                                
+                              
+                            
+                          
+                          
+                            (
+                            
+                              
+                                e
+                                
+                                  −
+                                  
+                                    λ
+                                    
+                                      1
+                                    
+                                  
+                                  z
+                                
+                              
+                              −
+                              
+                                e
+                                
+                                  −
+                                  
+                                    λ
+                                    
+                                      2
+                                    
+                                  
+                                  z
+                                
+                              
+                            
+                            )
+                          
+                        
+                        
+                          
+                             if 
+                          
+                          
+                            λ
+                            
+                              1
+                            
+                          
+                          ≠
+                          
+                            λ
+                            
+                              2
+                            
+                          
+                        
+                      
+                      
+                        
+                          
+                            λ
+                            
+                              2
+                            
+                          
+                          z
+                          
+                            e
+                            
+                              −
+                              λ
+                              z
+                            
+                          
+                        
+                        
+                          
+                             if 
+                          
+                          
+                            λ
+                            
+                              1
+                            
+                          
+                          =
+                          
+                            λ
+                            
+                              2
+                            
+                          
+                          =
+                          λ
+                          .
+                        
+                      
+                    
+                    
+                  
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}f_{Z}(z)&=\int _{-\infty }^{\infty }f_{X_{1}}(x_{1})f_{X_{2}}(z-x_{1})\,dx_{1}\\&=\int _{0}^{z}\lambda _{1}e^{-\lambda _{1}x_{1}}\lambda _{2}e^{-\lambda _{2}(z-x_{1})}\,dx_{1}\\&=\lambda _{1}\lambda _{2}e^{-\lambda _{2}z}\int _{0}^{z}e^{(\lambda _{2}-\lambda _{1})x_{1}}\,dx_{1}\\&={\begin{cases}{\dfrac {\lambda _{1}\lambda _{2}}{\lambda _{2}-\lambda _{1}}}\left(e^{-\lambda _{1}z}-e^{-\lambda _{2}z}\right)&{\text{ if }}\lambda _{1}\neq \lambda _{2}\\[4pt]\lambda ^{2}ze^{-\lambda z}&{\text{ if }}\lambda _{1}=\lambda _{2}=\lambda .\end{cases}}\end{aligned}}}
+  In the case of equal rate parameters, the result is an Erlang distribution with shape 2 and parameter 
+  
+    
+      
+        λ
+        ,
+      
+    
+    {\displaystyle \lambda ,}
+   which in turn is a special case of gamma distribution.
+
+
+== Related distributions ==
+Exponential distribution is closed under scaling by a positive factor. If X ~ Exp(λ) then kX ~ Exp(λ/k).
+If X ~ Exp(1/2) then X ∼ χ22, i.e. X has a chi-squared distribution with 2 degrees of freedom. Hence:
+  
+    
+      
+        Exp
+        ⁡
+        (
+        λ
+        )
+        =
+        
+          
+            1
+            
+              2
+              λ
+            
+          
+        
+        Exp
+        ⁡
+        
+          (
+          
+            
+              1
+              2
+            
+          
+          )
+        
+        ∼
+        
+          
+            1
+            
+              2
+              λ
+            
+          
+        
+        
+          χ
+          
+            2
+          
+          
+            2
+          
+        
+        ⇒
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        Exp
+        ⁡
+        (
+        λ
+        )
+        ∼
+        
+          
+            1
+            
+              2
+              λ
+            
+          
+        
+        
+          χ
+          
+            2
+            n
+          
+          
+            2
+          
+        
+      
+    
+    {\displaystyle \operatorname {Exp} (\lambda )={\frac {1}{2\lambda }}\operatorname {Exp} \left({\frac {1}{2}}\right)\sim {\frac {1}{2\lambda }}\chi _{2}^{2}\Rightarrow \sum _{i=1}^{n}\operatorname {Exp} (\lambda )\sim {\frac {1}{2\lambda }}\chi _{2n}^{2}}
+  If Xi ~ Exp(λi) then min{X1, ..., Xn} ~ Exp(λ1+ ... +λn).
+The Benktander Weibull distribution reduces to a truncated exponential distribution. If X ~ Exp(λ) then 1 + X ~ BenktanderWeibull(λ, 1).
+The exponential distribution is a limit of a scaled beta distribution:
+  
+    
+      
+        
+          lim
+          
+            n
+            →
+            ∞
+          
+        
+        n
+        Beta
+        ⁡
+        (
+        1
+        ,
+        n
+        )
+        =
+        Exp
+        ⁡
+        (
+        1
+        )
+        .
+      
+    
+    {\displaystyle \lim _{n\to \infty }n\operatorname {Beta} (1,n)=\operatorname {Exp} (1).}
+  If Xi ~ Exp(λ) then the sum 
+  
+    
+      
+        
+          X
+          
+            1
+          
+        
+        +
+        ⋯
+        +
+        
+          X
+          
+            k
+          
+        
+        =
+        
+          ∑
+          
+            i
+          
+        
+        
+          X
+          
+            i
+          
+        
+        ∼
+      
+    
+    {\textstyle X_{1}+\cdots +X_{k}=\sum _{i}X_{i}\sim }
+   Erlang(k, λ)  which is just a Gamma(k, λ−1) (in (k, θ) parametrization) or Gamma(k, λ) (in (α,β) parametrization) with an integer shape parameter k.
+If X ~ Exp(1) then μ − σ log(X) ~ GEV(μ, σ, 0).
+If X ~ Exp(λ) then X ~ Gamma(1, λ−1) (in (k, θ) parametrization) or Gamma(1, λ) (in (α, β) parametrization).
+If X ~ Exp(λ) and Y ~ Exp(ν) then λX − νY ~ Laplace(0, 1).
+If X, Y ~ Exp(λ) then X − Y ~ Laplace(0, λ−1).
+If X ~ Laplace(μ, β−1) then |X − μ| ~ Exp(β).
+If X ~ Exp(1) then (logistic distribution):
+  
+    
+      
+        μ
+        −
+        β
+        log
+        ⁡
+        
+          (
+          
+            
+              
+                
+                  e
+                  
+                    −
+                    X
+                  
+                
+                
+                  1
+                  −
+                  
+                    e
+                    
+                      −
+                      X
+                    
+                  
+                
+              
+            
+          
+          )
+        
+        ∼
+        Logistic
+        ⁡
+        (
+        μ
+        ,
+        β
+        )
+      
+    
+    {\displaystyle \mu -\beta \log \left({\tfrac {e^{-X}}{1-e^{-X}}}\right)\sim \operatorname {Logistic} (\mu ,\beta )}
+  If X, Y ~ Exp(1) then (logistic distribution):
+  
+    
+      
+        μ
+        −
+        β
+        log
+        ⁡
+        
+          (
+          
+            
+              
+                X
+                Y
+              
+            
+          
+          )
+        
+        ∼
+        Logistic
+        ⁡
+        (
+        μ
+        ,
+        β
+        )
+      
+    
+    {\displaystyle \mu -\beta \log \left({\tfrac {X}{Y}}\right)\sim \operatorname {Logistic} (\mu ,\beta )}
+  If X ~ Exp(λ) then keX ~ Pareto(k, λ).
+If X ~ Pareto(1, λ) then log(X) ~ Exp(λ).
+Exponential distribution is a special case of type 3 Pearson distribution.
+If X ~ Exp(λ) then e−X ~ Beta(λ, 1).
+If X ~ Exp(λ) then 
+  
+    
+      
+        
+          
+            
+              
+                e
+                
+                  −
+                  X
+                
+              
+              k
+            
+          
+        
+        ∼
+        PowerLaw
+        ⁡
+        (
+        k
+        ,
+        λ
+        )
+      
+    
+    {\displaystyle {\tfrac {e^{-X}}{k}}\sim \operatorname {PowerLaw} (k,\lambda )}
+   (power law)
+If X ~ Exp(λ) then 
+  
+    
+      
+        
+          
+            X
+          
+        
+        ∼
+        Rayleigh
+        ⁡
+        
+          (
+          
+            1
+            
+              /
+            
+            
+              
+                2
+                λ
+              
+            
+          
+          )
+        
+        .
+      
+    
+    {\displaystyle {\sqrt {X}}\sim \operatorname {Rayleigh} \left(1/{\sqrt {2\lambda }}\right).}
+   (Rayleigh distribution)
+If X ~ Exp(λ) then 
+  
+    
+      
+        X
+        ∼
+        Weibull
+        ⁡
+        (
+        
+          
+            
+              1
+              λ
+            
+          
+        
+        ,
+        1
+        )
+      
+    
+    {\displaystyle X\sim \operatorname {Weibull} ({\tfrac {1}{\lambda }},1)}
+   (Weibull distribution)
+If X ~ Exp(λ) then 
+  
+    
+      
+        
+          X
+          
+            2
+          
+        
+        ∼
+        Weibull
+        ⁡
+        (
+        
+          
+            1
+            
+              λ
+              
+                2
+              
+            
+          
+        
+        ,
+        
+          
+            
+              1
+              2
+            
+          
+        
+        )
+      
+    
+    {\displaystyle X^{2}\sim \operatorname {Weibull} ({\frac {1}{\lambda ^{2}}},{\tfrac {1}{2}})}
+   (Weibull distribution)
+If Xi ~ U(0, 1) then
+  
+    
+      
+        
+          lim
+          
+            n
+            →
+            ∞
+          
+        
+        n
+        min
+        
+          (
+          
+            
+              X
+              
+                1
+              
+            
+            ,
+            …
+            ,
+            
+              X
+              
+                n
+              
+            
+          
+          )
+        
+        ∼
+        
+          
+            Exp
+          
+        
+        (
+        1
+        )
+      
+    
+    {\displaystyle \lim _{n\to \infty }n\min \left(X_{1},\ldots ,X_{n}\right)\sim {\textrm {Exp}}(1)}
+  If Y|X ~ Poisson(X) where X ~ Exp(λ−1) then 
+  
+    
+      
+        Y
+        ∼
+        Geometric
+        ⁡
+        (
+        
+          
+            
+              1
+              
+                1
+                +
+                λ
+              
+            
+          
+        
+        )
+      
+    
+    {\displaystyle Y\sim \operatorname {Geometric} ({\tfrac {1}{1+\lambda }})}
+   (geometric distribution)
+If X ~ Exp(1) and 
+  
+    
+      
+        Y
+        ∼
+        Γ
+        (
+        α
+        ,
+        
+          
+            
+              β
+              α
+            
+          
+        
+        )
+      
+    
+    {\displaystyle Y\sim \Gamma (\alpha ,{\tfrac {\beta }{\alpha }})}
+   then 
+  
+    
+      
+        
+          
+            X
+            Y
+          
+        
+        ∼
+        K
+        ⁡
+        (
+        α
+        ,
+        β
+        )
+      
+    
+    {\displaystyle {\sqrt {XY}}\sim \operatorname {K} (\alpha ,\beta )}
+   (K-distribution)
+The Hoyt distribution can be obtained from Exponential distribution and Arcsine distribution
+If X ~ Exp(λ) and Y ~ Erlang(n, λ) then:
+  
+    
+      
+        
+          
+            X
+            Y
+          
+        
+        +
+        1
+        ∼
+        Pareto
+        ⁡
+        (
+        1
+        ,
+        n
+        )
+      
+    
+    {\displaystyle {\frac {X}{Y}}+1\sim \operatorname {Pareto} (1,n)}
+  If X ~ Exp(λ) and 
+  
+    
+      
+        Y
+        ∼
+        Γ
+        (
+        n
+        ,
+        
+          
+            
+              1
+              λ
+            
+          
+        
+        )
+      
+    
+    {\displaystyle Y\sim \Gamma (n,{\tfrac {1}{\lambda }})}
+   then 
+  
+    
+      
+        
+          
+            
+              X
+              Y
+            
+          
+        
+        +
+        1
+        ∼
+        Pareto
+        ⁡
+        (
+        1
+        ,
+        n
+        )
+      
+    
+    {\displaystyle {\tfrac {X}{Y}}+1\sim \operatorname {Pareto} (1,n)}
+  
+If X ~  SkewLogistic(θ), then log(1 + e−X) ~ Exp(θ).
+If X ~ Exp(λ) and Y = μ − β log(Xλ) then Y ∼ Gumbel(μ, β).
+Let X ∼ Exp(λX) and Y ∼ Exp(λY) be independent. Then 
+  
+    
+      
+        Z
+        =
+        
+          
+            
+              
+                λ
+                
+                  X
+                
+              
+              X
+            
+            
+              
+                λ
+                
+                  Y
+                
+              
+              Y
+            
+          
+        
+      
+    
+    {\displaystyle Z={\frac {\lambda _{X}X}{\lambda _{Y}Y}}}
+   has probability density function 
+  
+    
+      
+        
+          f
+          
+            Z
+          
+        
+        (
+        z
+        )
+        =
+        
+          
+            1
+            
+              (
+              z
+              +
+              1
+              
+                )
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle f_{Z}(z)={\frac {1}{(z+1)^{2}}}}
+  . This can be used to obtain a confidence interval for 
+  
+    
+      
+        
+          
+            
+              λ
+              
+                X
+              
+            
+            
+              λ
+              
+                Y
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {\lambda _{X}}{\lambda _{Y}}}}
+  .
+If X,Y ~ Exp(λ), independent, then 
+  
+    
+      
+        
+          
+            X
+            
+              X
+              +
+              Y
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {X}{X+Y}}}
+   has uniform distribution (continuous) U(0,1)
+Gamma mixture: If λ ~ Gamma(shape = k, scale = θ) and X ~ Exponential(rate = λ) then the marginal distribution of X is Lomax(shape = k, scale = 1/θ)Other related distributions:
+
+Hyper-exponential distribution – the distribution whose density is a weighted sum of exponential densities.
+Hypoexponential distribution – the distribution of a general sum of exponential random variables.
+exGaussian distribution – the sum of an exponential distribution and a normal distribution.
+
+
+== Statistical Inference ==
+Below, suppose random variable X is exponentially distributed with rate parameter λ, and 
+  
+    
+      
+        
+          x
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+      
+    
+    {\displaystyle x_{1},\dotsc ,x_{n}}
+   are n independent samples from X, with sample mean 
+  
+    
+      
+        
+          
+            
+              x
+              ¯
+            
+          
+        
+      
+    
+    {\displaystyle {\bar {x}}}
+  .
+
+
+=== Parameter estimation ===
+The maximum likelihood estimator for λ is constructed as follows:
+The likelihood function for λ, given an independent and identically distributed sample x = (x1, ..., xn) drawn from the variable, is:
+
+  
+    
+      
+        L
+        (
+        λ
+        )
+        =
+        
+          ∏
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        λ
+        exp
+        ⁡
+        (
+        −
+        λ
+        
+          x
+          
+            i
+          
+        
+        )
+        =
+        
+          λ
+          
+            n
+          
+        
+        exp
+        ⁡
+        
+          (
+          
+            −
+            λ
+            
+              ∑
+              
+                i
+                =
+                1
+              
+              
+                n
+              
+            
+            
+              x
+              
+                i
+              
+            
+          
+          )
+        
+        =
+        
+          λ
+          
+            n
+          
+        
+        exp
+        ⁡
+        
+          (
+          
+            −
+            λ
+            n
+            
+              
+                x
+                ¯
+              
+            
+          
+          )
+        
+        ,
+      
+    
+    {\displaystyle L(\lambda )=\prod _{i=1}^{n}\lambda \exp(-\lambda x_{i})=\lambda ^{n}\exp \left(-\lambda \sum _{i=1}^{n}x_{i}\right)=\lambda ^{n}\exp \left(-\lambda n{\overline {x}}\right),}
+  where:
+
+  
+    
+      
+        
+          
+            x
+            ¯
+          
+        
+        =
+        
+          
+            1
+            n
+          
+        
+        
+          ∑
+          
+            i
+            =
+            1
+          
+          
+            n
+          
+        
+        
+          x
+          
+            i
+          
+        
+      
+    
+    {\displaystyle {\overline {x}}={\frac {1}{n}}\sum _{i=1}^{n}x_{i}}
+  is the sample mean.
+The derivative of the likelihood function's logarithm is:
+
+  
+    
+      
+        
+          
+            d
+            
+              d
+              λ
+            
+          
+        
+        ln
+        ⁡
+        L
+        (
+        λ
+        )
+        =
+        
+          
+            d
+            
+              d
+              λ
+            
+          
+        
+        
+          (
+          
+            n
+            ln
+            ⁡
+            λ
+            −
+            λ
+            n
+            
+              
+                x
+                ¯
+              
+            
+          
+          )
+        
+        =
+        
+          
+            n
+            λ
+          
+        
+        −
+        n
+        
+          
+            x
+            ¯
+          
+        
+         
+        
+          
+            {
+            
+              
+                
+                  >
+                  0
+                  ,
+                
+                
+                  0
+                  <
+                  λ
+                  <
+                  
+                    
+                      1
+                      
+                        x
+                        ¯
+                      
+                    
+                  
+                  ,
+                
+              
+              
+                
+                  =
+                  0
+                  ,
+                
+                
+                  λ
+                  =
+                  
+                    
+                      1
+                      
+                        x
+                        ¯
+                      
+                    
+                  
+                  ,
+                
+              
+              
+                
+                  <
+                  0
+                  ,
+                
+                
+                  λ
+                  >
+                  
+                    
+                      1
+                      
+                        x
+                        ¯
+                      
+                    
+                  
+                  .
+                
+              
+            
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {d}{d\lambda }}\ln L(\lambda )={\frac {d}{d\lambda }}\left(n\ln \lambda -\lambda n{\overline {x}}\right)={\frac {n}{\lambda }}-n{\overline {x}}\ {\begin{cases}>0,&0<\lambda <{\frac {1}{\overline {x}}},\\[8pt]=0,&\lambda ={\frac {1}{\overline {x}}},\\[8pt]<0,&\lambda >{\frac {1}{\overline {x}}}.\end{cases}}}
+  Consequently, the maximum likelihood estimate for the rate parameter is:
+
+  
+    
+      
+        
+          
+            
+              λ
+              ^
+            
+          
+        
+        =
+        
+          
+            1
+            
+              x
+              ¯
+            
+          
+        
+        =
+        
+          
+            n
+            
+              
+                ∑
+                
+                  i
+                
+              
+              
+                x
+                
+                  i
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\widehat {\lambda }}={\frac {1}{\overline {x}}}={\frac {n}{\sum _{i}x_{i}}}}
+  This is not an unbiased estimator of 
+  
+    
+      
+        λ
+        ,
+      
+    
+    {\displaystyle \lambda ,}
+   although 
+  
+    
+      
+        
+          
+            x
+            ¯
+          
+        
+      
+    
+    {\displaystyle {\overline {x}}}
+   is an unbiased MLE estimator of 
+  
+    
+      
+        1
+        
+          /
+        
+        λ
+      
+    
+    {\displaystyle 1/\lambda }
+   and the distribution mean.
+The bias of 
+  
+    
+      
+        
+          
+            
+              
+                λ
+                ^
+              
+            
+          
+          
+            mle
+          
+        
+      
+    
+    {\displaystyle {\widehat {\lambda }}_{\text{mle}}}
+   is equal to 
+
+  
+    
+      
+        b
+        ≡
+        E
+        ⁡
+        
+          [
+          
+            (
+            
+              
+                
+                  
+                    λ
+                    ^
+                  
+                
+              
+              
+                mle
+              
+            
+            −
+            λ
+            )
+          
+          ]
+        
+        =
+        
+          
+            λ
+            n
+          
+        
+      
+    
+    {\displaystyle b\equiv \operatorname {E} \left[({\widehat {\lambda }}_{\text{mle}}-\lambda )\right]={\frac {\lambda }{n}}}
+  which yields the bias-corrected maximum likelihood estimator
+
+  
+    
+      
+        
+          
+            
+              
+                λ
+                ^
+              
+            
+          
+          
+            mle
+          
+          
+            ∗
+          
+        
+        =
+        
+          
+            
+              
+                λ
+                ^
+              
+            
+          
+          
+            mle
+          
+        
+        −
+        
+          
+            
+              b
+              ^
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\widehat {\lambda }}_{\text{mle}}^{*}={\widehat {\lambda }}_{\text{mle}}-{\widehat {b}}.}
+  
+
+
+=== Approximate minimizer of expected squared error ===
+Assume you have at least three samples. If we seek a minimizer of expected mean squared error (see also: Bias–variance tradeoff) that is similar to the maximum likelihood estimate (i.e. a multiplicative correction to the likelihood estimate) we have:
+
+  
+    
+      
+        
+          
+            
+              λ
+              ^
+            
+          
+        
+        =
+        
+          (
+          
+            
+              
+                n
+                −
+                2
+              
+              n
+            
+          
+          )
+        
+        
+          (
+          
+            
+              1
+              
+                
+                  x
+                  ¯
+                
+              
+            
+          
+          )
+        
+        =
+        
+          
+            
+              n
+              −
+              2
+            
+            
+              
+                ∑
+                
+                  i
+                
+              
+              
+                x
+                
+                  i
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\widehat {\lambda }}=\left({\frac {n-2}{n}}\right)\left({\frac {1}{\bar {x}}}\right)={\frac {n-2}{\sum _{i}x_{i}}}}
+  This is derived from the mean and variance of the Inverse-gamma distribution: 
+  
+    
+      
+        
+          
+            Inv-Gamma
+          
+        
+        (
+        n
+        ,
+        λ
+        )
+      
+    
+    {\textstyle {\mbox{Inv-Gamma}}(n,\lambda )}
+  .
+
+
+=== Fisher Information ===
+The Fisher information, denoted 
+  
+    
+      
+        
+          
+            I
+          
+        
+        (
+        λ
+        )
+      
+    
+    {\displaystyle {\mathcal {I}}(\lambda )}
+  , for an estimator of the rate parameter 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+   is given as:
+
+  
+    
+      
+        
+          
+            I
+          
+        
+        (
+        λ
+        )
+        =
+        E
+        ⁡
+        
+          [
+          
+            
+              
+              
+                
+                  (
+                  
+                    
+                      
+                        ∂
+                        
+                          ∂
+                          λ
+                        
+                      
+                    
+                    log
+                    ⁡
+                    f
+                    (
+                    x
+                    ;
+                    λ
+                    )
+                  
+                  )
+                
+                
+                  2
+                
+              
+              |
+            
+            λ
+          
+          ]
+        
+        =
+        ∫
+        
+          
+            (
+            
+              
+                
+                  ∂
+                  
+                    ∂
+                    λ
+                  
+                
+              
+              log
+              ⁡
+              f
+              (
+              x
+              ;
+              λ
+              )
+            
+            )
+          
+          
+            2
+          
+        
+        f
+        (
+        x
+        ;
+        λ
+        )
+        
+        d
+        x
+      
+    
+    {\displaystyle {\mathcal {I}}(\lambda )=\operatorname {E} \left[\left.\left({\frac {\partial }{\partial \lambda }}\log f(x;\lambda )\right)^{2}\right|\lambda \right]=\int \left({\frac {\partial }{\partial \lambda }}\log f(x;\lambda )\right)^{2}f(x;\lambda )\,dx}
+  Plugging in the distribution and solving gives:
+
+  
+    
+      
+        
+          
+            I
+          
+        
+        (
+        λ
+        )
+        =
+        
+          ∫
+          
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            (
+            
+              
+                
+                  ∂
+                  
+                    ∂
+                    λ
+                  
+                
+              
+              log
+              ⁡
+              λ
+              
+                e
+                
+                  −
+                  λ
+                  x
+                
+              
+            
+            )
+          
+          
+            2
+          
+        
+        λ
+        
+          e
+          
+            −
+            λ
+            x
+          
+        
+        
+        d
+        x
+        =
+        
+          ∫
+          
+            0
+          
+          
+            ∞
+          
+        
+        
+          
+            (
+            
+              
+                
+                  1
+                  λ
+                
+              
+              −
+              x
+            
+            )
+          
+          
+            2
+          
+        
+        λ
+        
+          e
+          
+            −
+            λ
+            x
+          
+        
+        
+        d
+        x
+        =
+        
+          λ
+          
+            −
+            2
+          
+        
+        .
+      
+    
+    {\displaystyle {\mathcal {I}}(\lambda )=\int _{0}^{\infty }\left({\frac {\partial }{\partial \lambda }}\log \lambda e^{-\lambda x}\right)^{2}\lambda e^{-\lambda x}\,dx=\int _{0}^{\infty }\left({\frac {1}{\lambda }}-x\right)^{2}\lambda e^{-\lambda x}\,dx=\lambda ^{-2}.}
+  This determines the amount of information each independent sample of an exponential distribution carries about the unknown rate parameter 
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+  .
+
+
+=== Confidence intervals ===
+The 100(1 − α)% confidence interval for the rate parameter of an exponential distribution is given by:
+
+  
+    
+      
+        
+          
+            
+              2
+              n
+            
+            
+              
+                
+                  
+                    λ
+                    ^
+                  
+                
+              
+              
+                χ
+                
+                  1
+                  −
+                  
+                    
+                      α
+                      2
+                    
+                  
+                  ,
+                  2
+                  n
+                
+                
+                  2
+                
+              
+            
+          
+        
+        <
+        
+          
+            1
+            λ
+          
+        
+        <
+        
+          
+            
+              2
+              n
+            
+            
+              
+                
+                  
+                    λ
+                    ^
+                  
+                
+              
+              
+                χ
+                
+                  
+                    
+                      α
+                      2
+                    
+                  
+                  ,
+                  2
+                  n
+                
+                
+                  2
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {2n}{{\widehat {\lambda }}\chi _{1-{\frac {\alpha }{2}},2n}^{2}}}<{\frac {1}{\lambda }}<{\frac {2n}{{\widehat {\lambda }}\chi _{{\frac {\alpha }{2}},2n}^{2}}}}
+  which is also equal to:
+
+  
+    
+      
+        
+          
+            
+              2
+              n
+              
+                
+                  x
+                  ¯
+                
+              
+            
+            
+              χ
+              
+                1
+                −
+                
+                  
+                    α
+                    2
+                  
+                
+                ,
+                2
+                n
+              
+              
+                2
+              
+            
+          
+        
+        <
+        
+          
+            1
+            λ
+          
+        
+        <
+        
+          
+            
+              2
+              n
+              
+                
+                  x
+                  ¯
+                
+              
+            
+            
+              χ
+              
+                
+                  
+                    α
+                    2
+                  
+                
+                ,
+                2
+                n
+              
+              
+                2
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\frac {2n{\overline {x}}}{\chi _{1-{\frac {\alpha }{2}},2n}^{2}}}<{\frac {1}{\lambda }}<{\frac {2n{\overline {x}}}{\chi _{{\frac {\alpha }{2}},2n}^{2}}}}
+  where χ2p,v is the 100(p) percentile of the  chi squared distribution with v degrees of freedom, n is the number of observations of inter-arrival times in the sample, and x-bar is the sample average. A simple approximation to the exact interval endpoints can be derived using a normal approximation to the χ2p,v distribution. This approximation gives the following values for a 95% confidence interval:
+
+  
+    
+      
+        
+          λ
+          
+            lower
+          
+        
+        =
+        
+          
+            
+              λ
+              ^
+            
+          
+        
+        
+          (
+          
+            1
+            −
+            
+              
+                1.96
+                
+                  n
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \lambda _{\text{lower}}={\widehat {\lambda }}\left(1-{\frac {1.96}{\sqrt {n}}}\right)}
+  
+
+  
+    
+      
+        
+          λ
+          
+            upper
+          
+        
+        =
+        
+          
+            
+              λ
+              ^
+            
+          
+        
+        
+          (
+          
+            1
+            +
+            
+              
+                1.96
+                
+                  n
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle \lambda _{\text{upper}}={\widehat {\lambda }}\left(1+{\frac {1.96}{\sqrt {n}}}\right)}
+  This approximation may be acceptable for samples containing at least 15 to 20 elements.
+
+
+=== Bayesian inference ===
+The conjugate prior for the exponential distribution is the gamma distribution (of which the exponential distribution is a special case).  The following parameterization of the gamma probability density function is useful:
+
+  
+    
+      
+        Gamma
+        ⁡
+        (
+        λ
+        ;
+        α
+        ,
+        β
+        )
+        =
+        
+          
+            
+              β
+              
+                α
+              
+            
+            
+              Γ
+              (
+              α
+              )
+            
+          
+        
+        
+          λ
+          
+            α
+            −
+            1
+          
+        
+        exp
+        ⁡
+        (
+        −
+        λ
+        β
+        )
+        .
+      
+    
+    {\displaystyle \operatorname {Gamma} (\lambda ;\alpha ,\beta )={\frac {\beta ^{\alpha }}{\Gamma (\alpha )}}\lambda ^{\alpha -1}\exp(-\lambda \beta ).}
+  The posterior distribution p can then be expressed in terms of the likelihood function defined above and a gamma prior:
+
+  
+    
+      
+        
+          
+            
+              
+                p
+                (
+                λ
+                )
+              
+              
+                
+                ∝
+                L
+                (
+                λ
+                )
+                ×
+                Γ
+                (
+                λ
+                ;
+                α
+                ,
+                β
+                )
+              
+            
+            
+              
+              
+                
+                =
+                
+                  λ
+                  
+                    n
+                  
+                
+                exp
+                ⁡
+                
+                  (
+                  
+                    −
+                    λ
+                    n
+                    
+                      
+                        x
+                        ¯
+                      
+                    
+                  
+                  )
+                
+                ×
+                
+                  
+                    
+                      β
+                      
+                        α
+                      
+                    
+                    
+                      Γ
+                      (
+                      α
+                      )
+                    
+                  
+                
+                
+                  λ
+                  
+                    α
+                    −
+                    1
+                  
+                
+                exp
+                ⁡
+                (
+                −
+                λ
+                β
+                )
+              
+            
+            
+              
+              
+                
+                ∝
+                
+                  λ
+                  
+                    (
+                    α
+                    +
+                    n
+                    )
+                    −
+                    1
+                  
+                
+                exp
+                ⁡
+                (
+                −
+                λ
+                
+                  (
+                  
+                    β
+                    +
+                    n
+                    
+                      
+                        x
+                        ¯
+                      
+                    
+                  
+                  )
+                
+                )
+                .
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}p(\lambda )&\propto L(\lambda )\times \Gamma (\lambda ;\alpha ,\beta )\\&=\lambda ^{n}\exp \left(-\lambda n{\overline {x}}\right)\times {\frac {\beta ^{\alpha }}{\Gamma (\alpha )}}\lambda ^{\alpha -1}\exp(-\lambda \beta )\\&\propto \lambda ^{(\alpha +n)-1}\exp(-\lambda \left(\beta +n{\overline {x}}\right)).\end{aligned}}}
+  Now the posterior density p has been specified up to a missing normalizing constant.  Since it has the form of a gamma pdf, this can easily be filled in, and one obtains:
+
+  
+    
+      
+        p
+        (
+        λ
+        )
+        =
+        Γ
+        (
+        λ
+        ;
+        α
+        +
+        n
+        ,
+        β
+        +
+        n
+        
+          
+            x
+            ¯
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle p(\lambda )=\Gamma (\lambda ;\alpha +n,\beta +n{\overline {x}}).}
+  Here the hyperparameter α can be interpreted as the number of prior observations, and β as the sum of the prior observations.
+The posterior mean here is:
+
+  
+    
+      
+        
+          
+            
+              α
+              +
+              n
+            
+            
+              β
+              +
+              n
+              
+                
+                  x
+                  ¯
+                
+              
+            
+          
+        
+        .
+      
+    
+    {\displaystyle {\frac {\alpha +n}{\beta +n{\overline {x}}}}.}
+  
+
+
+== Occurrence and applications ==
+
+
+=== Occurrence of events ===
+The exponential distribution occurs naturally when describing the lengths of the inter-arrival times in a homogeneous Poisson process.
+The exponential distribution may be viewed as a continuous counterpart of the geometric distribution, which describes the number of Bernoulli trials necessary for a discrete process to change state. In contrast, the exponential distribution describes the time for a continuous process to change state.
+In real-world scenarios, the assumption of a constant rate (or probability per unit time) is rarely satisfied. For example, the rate of incoming phone calls differs according to the time of day. But if we focus on a time interval during which the rate is roughly constant, such as from 2 to 4 p.m. during work days, the exponential distribution can be used as a good approximate model for the time until the next phone call arrives. Similar caveats apply to the following examples which yield approximately exponentially distributed variables:
+
+The time until a radioactive particle decays, or the time between clicks of a Geiger counter
+The time it takes before your next telephone call
+The time until default (on payment to company debt holders) in reduced form credit risk modelingExponential variables can also be used to model situations where certain events occur with a constant probability per unit length, such as the distance between mutations on a DNA strand, or between roadkills on a given road.
+In queuing theory, the service times of agents in a system (e.g. how long it takes for a bank teller etc. to serve a customer) are often modeled as exponentially distributed variables.  (The arrival of customers for instance is also modeled by the Poisson distribution if the arrivals are independent and distributed identically.)  The length of a process that can be thought of as a sequence of several independent tasks follows the Erlang distribution (which is the distribution of the sum of several independent exponentially distributed variables).
+Reliability theory and reliability engineering also make extensive use of the exponential distribution. Because of the memoryless property of this distribution, it is well-suited to model the constant hazard rate portion of the bathtub curve used in reliability theory. It is also very convenient because it is so easy to add failure rates in a reliability model. The exponential distribution is however not appropriate to model the overall lifetime of organisms or technical devices, because the "failure rates" here are not constant: more failures occur for very young and for very old systems.
+
+In physics, if you observe a gas at a fixed temperature and pressure in a uniform gravitational field, the heights of the various molecules also follow an approximate exponential distribution, known as the Barometric formula. This is a consequence of the entropy property mentioned below.
+In hydrology, the exponential distribution is used to analyze extreme values of such variables as monthly and annual maximum values of daily rainfall and river discharge volumes.
+The blue picture illustrates an example of fitting the exponential distribution to ranked annually maximum one-day rainfalls showing also the 90% confidence belt based on the binomial distribution. The rainfall data are represented by plotting positions as part of the cumulative frequency analysis.
+
+
+=== Prediction ===
+Having observed a sample of n data points from an unknown exponential distribution a common task is to use these samples to make predictions about future data from the same source. A common predictive distribution over future samples is the so-called plug-in distribution, formed by plugging a suitable estimate for the rate parameter λ into the exponential density function. A common choice of estimate is the one provided by the principle of maximum likelihood, and using this yields the predictive density over a future sample xn+1, conditioned on the observed samples x = (x1, ..., xn) given by
+
+  
+    
+      
+        
+          p
+          
+            
+              M
+              L
+            
+          
+        
+        (
+        
+          x
+          
+            n
+            +
+            1
+          
+        
+        ∣
+        
+          x
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+        )
+        =
+        
+          (
+          
+            
+              1
+              
+                x
+                ¯
+              
+            
+          
+          )
+        
+        exp
+        ⁡
+        
+          (
+          
+            −
+            
+              
+                
+                  x
+                  
+                    n
+                    +
+                    1
+                  
+                
+                
+                  x
+                  ¯
+                
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle p_{\rm {ML}}(x_{n+1}\mid x_{1},\ldots ,x_{n})=\left({\frac {1}{\overline {x}}}\right)\exp \left(-{\frac {x_{n+1}}{\overline {x}}}\right)}
+  The Bayesian approach provides a predictive distribution which takes into account the uncertainty of the estimated parameter, although this may depend crucially on the choice of prior.
+A predictive distribution free of the issues of choosing priors that arise under the subjective Bayesian approach is
+
+  
+    
+      
+        
+          p
+          
+            
+              C
+              N
+              M
+              L
+            
+          
+        
+        (
+        
+          x
+          
+            n
+            +
+            1
+          
+        
+        ∣
+        
+          x
+          
+            1
+          
+        
+        ,
+        …
+        ,
+        
+          x
+          
+            n
+          
+        
+        )
+        =
+        
+          
+            
+              
+                n
+                
+                  n
+                  +
+                  1
+                
+              
+              
+                
+                  (
+                  
+                    
+                      x
+                      ¯
+                    
+                  
+                  )
+                
+                
+                  n
+                
+              
+            
+            
+              
+                (
+                
+                  n
+                  
+                    
+                      x
+                      ¯
+                    
+                  
+                  +
+                  
+                    x
+                    
+                      n
+                      +
+                      1
+                    
+                  
+                
+                )
+              
+              
+                n
+                +
+                1
+              
+            
+          
+        
+        ,
+      
+    
+    {\displaystyle p_{\rm {CNML}}(x_{n+1}\mid x_{1},\ldots ,x_{n})={\frac {n^{n+1}\left({\overline {x}}\right)^{n}}{\left(n{\overline {x}}+x_{n+1}\right)^{n+1}}},}
+  which can be considered as
+
+a frequentist confidence distribution, obtained from the distribution of the pivotal quantity 
+  
+    
+      
+        
+          
+            x
+            
+              n
+              +
+              1
+            
+          
+        
+        
+          /
+        
+        
+          
+            x
+            ¯
+          
+        
+      
+    
+    {\displaystyle {x_{n+1}}/{\overline {x}}}
+  ;
+a profile predictive likelihood, obtained by eliminating the parameter λ from the joint likelihood of xn+1 and λ by maximization;
+an objective Bayesian predictive posterior distribution, obtained using the non-informative Jeffreys prior 1/λ;
+the Conditional Normalized Maximum Likelihood (CNML) predictive distribution, from information theoretic considerations.The accuracy of a predictive distribution may be measured using the distance or divergence between the true exponential distribution with rate parameter, λ0, and the predictive distribution based on the sample x. The Kullback–Leibler divergence is a commonly used, parameterisation free measure of the difference between two distributions. Letting Δ(λ0||p) denote the Kullback–Leibler divergence between an exponential with rate parameter λ0 and a predictive distribution p it can be shown that
+
+  
+    
+      
+        
+          
+            
+              
+                
+                  E
+                  
+                    
+                      λ
+                      
+                        0
+                      
+                    
+                  
+                
+                ⁡
+                
+                  [
+                  
+                    Δ
+                    (
+                    
+                      λ
+                      
+                        0
+                      
+                    
+                    ∥
+                    
+                      p
+                      
+                        
+                          M
+                          L
+                        
+                      
+                    
+                    )
+                  
+                  ]
+                
+              
+              
+                
+                =
+                ψ
+                (
+                n
+                )
+                +
+                
+                  
+                    1
+                    
+                      n
+                      −
+                      1
+                    
+                  
+                
+                −
+                log
+                ⁡
+                (
+                n
+                )
+              
+            
+            
+              
+                
+                  E
+                  
+                    
+                      λ
+                      
+                        0
+                      
+                    
+                  
+                
+                ⁡
+                
+                  [
+                  
+                    Δ
+                    (
+                    
+                      λ
+                      
+                        0
+                      
+                    
+                    ∥
+                    
+                      p
+                      
+                        
+                          C
+                          N
+                          M
+                          L
+                        
+                      
+                    
+                    )
+                  
+                  ]
+                
+              
+              
+                
+                =
+                ψ
+                (
+                n
+                )
+                +
+                
+                  
+                    1
+                    n
+                  
+                
+                −
+                log
+                ⁡
+                (
+                n
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}\operatorname {E} _{\lambda _{0}}\left[\Delta (\lambda _{0}\parallel p_{\rm {ML}})\right]&=\psi (n)+{\frac {1}{n-1}}-\log(n)\\\operatorname {E} _{\lambda _{0}}\left[\Delta (\lambda _{0}\parallel p_{\rm {CNML}})\right]&=\psi (n)+{\frac {1}{n}}-\log(n)\end{aligned}}}
+  where the expectation is taken with respect to the exponential distribution with rate parameter λ0 ∈ (0, ∞), and ψ( · ) is the digamma function. It is clear that the CNML predictive distribution is strictly superior to the maximum likelihood plug-in distribution in terms of average Kullback–Leibler divergence for all sample sizes n > 0.
+
+
+== Computational methods ==
+
+
+=== Generating exponential variates ===
+A conceptually very simple method for generating exponential variates is based on inverse transform sampling: Given a random variate U drawn from the uniform distribution on the unit interval (0, 1), the variate
+
+  
+    
+      
+        T
+        =
+        
+          F
+          
+            −
+            1
+          
+        
+        (
+        U
+        )
+      
+    
+    {\displaystyle T=F^{-1}(U)}
+  has an exponential distribution, where F −1 is the quantile function, defined by
+
+  
+    
+      
+        
+          F
+          
+            −
+            1
+          
+        
+        (
+        p
+        )
+        =
+        
+          
+            
+              −
+              ln
+              ⁡
+              (
+              1
+              −
+              p
+              )
+            
+            λ
+          
+        
+        .
+      
+    
+    {\displaystyle F^{-1}(p)={\frac {-\ln(1-p)}{\lambda }}.}
+  Moreover, if U is uniform on (0, 1), then so is 1 − U.  This means one can generate exponential variates as follows:
+
+  
+    
+      
+        T
+        =
+        
+          
+            
+              −
+              ln
+              ⁡
+              (
+              U
+              )
+            
+            λ
+          
+        
+        .
+      
+    
+    {\displaystyle T={\frac {-\ln(U)}{\lambda }}.}
+  Other methods for generating exponential variates are discussed by Knuth and Devroye.A fast method for generating a set of ready-ordered exponential variates without using a sorting routine is also available.
+
+
+== See also ==
+Dead time – an application of exponential distribution to particle detector analysis.
+Laplace distribution, or the "double exponential distribution".
+Relationships among probability distributions
+Marshall–Olkin exponential distribution
+
+
+== References ==
+
+
+== External links ==
+Hazewinkel, Michiel, ed. (2001) [1994], "Exponential distribution", Encyclopedia of Mathematics, Springer Science+Business Media B.V. / Kluwer Academic Publishers, ISBN 978-1-55608-010-4
+Online calculator of Exponential Distribution

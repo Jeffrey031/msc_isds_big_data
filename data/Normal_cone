@@ -1,0 +1,1964 @@
+In algebraic geometry, the normal cone CXY of a subscheme X of a scheme Y is a scheme analogous to the normal bundle or tubular  neighborhood in differential geometry.
+
+
+== Definition ==
+The normal cone CXY or 
+  
+    
+      
+        
+          C
+          
+            X
+            
+              /
+            
+            Y
+          
+        
+      
+    
+    {\displaystyle C_{X/Y}}
+   of an embedding i: X → Y, defined by some sheaf of ideals I  is  defined as the relative Spec
+
+  
+    
+      
+        
+          Spec
+          
+            X
+          
+        
+        ⁡
+        (
+        
+          ⊕
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          I
+          
+            n
+          
+        
+        
+          /
+        
+        
+          I
+          
+            n
+            +
+            1
+          
+        
+        )
+        .
+      
+    
+    {\displaystyle \operatorname {Spec} _{X}(\oplus _{n=0}^{\infty }I^{n}/I^{n+1}).}
+  When the embedding i is regular the normal cone is the normal bundle, the vector bundle on X corresponding to the dual of the sheaf I/I2.
+If X is a point, then the normal cone and the normal bundle to it are also called the tangent cone and the tangent space (Zariski tangent space) to the point. When Y = Spec R is affine, the definition means that the normal cone to X = Spec R/I is the Spec of the associated graded ring of R with respect to I.
+If Y is the product X × X and the embedding i is the diagonal embedding, then the normal bundle to X in Y is the tangent bundle to X.
+The normal cone (or rather its projective cousin) appears as a result of blow-up. Precisely, let
+
+  
+    
+      
+        π
+        :
+        
+          Bl
+          
+            X
+          
+        
+        ⁡
+        Y
+        =
+        
+          Proj
+          
+            Y
+          
+        
+        ⁡
+        (
+        
+          ⊕
+          
+            n
+            =
+            0
+          
+          
+            ∞
+          
+        
+        
+          I
+          
+            n
+          
+        
+        )
+        →
+        Y
+      
+    
+    {\displaystyle \pi :\operatorname {Bl} _{X}Y=\operatorname {Proj} _{Y}(\oplus _{n=0}^{\infty }I^{n})\to Y}
+  be the blow-up of Y along X. Then, by definition, the exceptional divisor is the pre-image 
+  
+    
+      
+        E
+        =
+        
+          π
+          
+            −
+            1
+          
+        
+        (
+        X
+        )
+      
+    
+    {\displaystyle E=\pi ^{-1}(X)}
+  ; which is the projective cone of 
+  
+    
+      
+        
+          ⊕
+          
+            0
+          
+          
+            ∞
+          
+        
+        
+          I
+          
+            n
+          
+        
+        
+          ⊗
+          
+            
+              
+                
+                  O
+                
+              
+              
+                Y
+              
+            
+          
+        
+        
+          
+            
+              O
+            
+          
+          
+            X
+          
+        
+        =
+        
+          ⊕
+          
+            0
+          
+          
+            ∞
+          
+        
+        
+          I
+          
+            n
+          
+        
+        
+          /
+        
+        
+          I
+          
+            n
+            +
+            1
+          
+        
+      
+    
+    {\displaystyle \oplus _{0}^{\infty }I^{n}\otimes _{{\mathcal {O}}_{Y}}{\mathcal {O}}_{X}=\oplus _{0}^{\infty }I^{n}/I^{n+1}}
+  . Thus,
+
+  
+    
+      
+        E
+        =
+        
+          P
+        
+        (
+        
+          C
+          
+            X
+          
+        
+        Y
+        )
+      
+    
+    {\displaystyle E=\mathbb {P} (C_{X}Y)}
+  .The global sections of the normal bundle classify embedded infinitesimal deformations of Y in X; there is a natural bijection between the set of closed subschemes of Y ×k D, flat over the ring D of dual numbers and having X as the special fiber, and H0(X, NX Y).
+
+
+== Properties ==
+If 
+  
+    
+      
+        i
+        :
+        X
+        ↪
+        Y
+        ,
+        
+        j
+        :
+        Y
+        ↪
+        Z
+      
+    
+    {\displaystyle i:X\hookrightarrow Y,\,j:Y\hookrightarrow Z}
+   are regular embedding, then 
+  
+    
+      
+        j
+        ∘
+        i
+      
+    
+    {\displaystyle j\circ i}
+   is a regular embedding and there is a natural exact sequence of vector bundles on X:
+
+  
+    
+      
+        0
+        →
+        
+          N
+          
+            X
+            
+              /
+            
+            Y
+          
+        
+        →
+        
+          N
+          
+            X
+            
+              /
+            
+            Z
+          
+        
+        →
+        
+          i
+          
+            ∗
+          
+        
+        
+          N
+          
+            Y
+            
+              /
+            
+            Z
+          
+        
+        →
+        0
+      
+    
+    {\displaystyle 0\to N_{X/Y}\to N_{X/Z}\to i^{*}N_{Y/Z}\to 0}
+  .If 
+  
+    
+      
+        
+          Y
+          
+            i
+          
+        
+        ↪
+        X
+      
+    
+    {\displaystyle Y_{i}\hookrightarrow X}
+   are regular embeddings of codimensions 
+  
+    
+      
+        
+          c
+          
+            i
+          
+        
+      
+    
+    {\displaystyle c_{i}}
+   and if 
+  
+    
+      
+        W
+        :=
+        
+          ⋂
+          
+            i
+          
+        
+        
+          Y
+          
+            i
+          
+        
+        ↪
+        X
+      
+    
+    {\displaystyle W:=\bigcap _{i}Y_{i}\hookrightarrow X}
+   is a regular embedding of codimension 
+  
+    
+      
+        ∑
+        
+          c
+          
+            i
+          
+        
+      
+    
+    {\displaystyle \sum c_{i}}
+  , then
+
+  
+    
+      
+        
+          N
+          
+            W
+            
+              /
+            
+            X
+          
+        
+        =
+        
+          ⨁
+          
+            i
+          
+        
+        
+          N
+          
+            
+              Y
+              
+                i
+              
+            
+            
+              /
+            
+            X
+          
+        
+        
+          
+            |
+          
+          
+            W
+          
+        
+      
+    
+    {\displaystyle N_{W/X}=\bigoplus _{i}N_{Y_{i}/X}|_{W}}
+  .In particular, if 
+  
+    
+      
+        X
+        →
+        S
+      
+    
+    {\displaystyle X\to S}
+   is a smooth morphism, then the normal bundle to the diagonal embedding
+  
+    
+      
+        Δ
+        :
+        X
+        ↪
+        X
+        
+          ×
+          
+            S
+          
+        
+        ⋯
+        
+          ×
+          
+            S
+          
+        
+        X
+      
+    
+    {\displaystyle \Delta :X\hookrightarrow X\times _{S}\cdots \times _{S}X}
+   (r-fold) is  the direct sum of r - 1 copies of the relative tangent bundle 
+  
+    
+      
+        
+          T
+          
+            X
+            
+              /
+            
+            S
+          
+        
+      
+    
+    {\displaystyle T_{X/S}}
+  .
+If 
+  
+    
+      
+        X
+        ↪
+        
+          X
+          ′
+        
+      
+    
+    {\displaystyle X\hookrightarrow X'}
+   is a closed immersion and if 
+  
+    
+      
+        
+          Y
+          ′
+        
+        →
+        Y
+      
+    
+    {\displaystyle Y'\to Y}
+   is a flat morphism such that 
+  
+    
+      
+        
+          X
+          ′
+        
+        =
+        X
+        
+          ×
+          
+            Y
+          
+        
+        
+          Y
+          ′
+        
+      
+    
+    {\displaystyle X'=X\times _{Y}Y'}
+  , then
+
+  
+    
+      
+        
+          C
+          
+            
+              X
+              ′
+            
+            
+              /
+            
+            
+              Y
+              ′
+            
+          
+        
+        =
+        
+          C
+          
+            X
+            
+              /
+            
+            Y
+          
+        
+        
+          ×
+          
+            X
+          
+        
+        
+          X
+          ′
+        
+        .
+      
+    
+    {\displaystyle C_{X'/Y'}=C_{X/Y}\times _{X}X'.}
+  If 
+  
+    
+      
+        X
+        →
+        S
+      
+    
+    {\displaystyle X\to S}
+   is a smooth morphism and 
+  
+    
+      
+        X
+        ↪
+        Y
+      
+    
+    {\displaystyle X\hookrightarrow Y}
+   is a regular embedding, then there is a natural exact sequence of vector bundles on X:
+
+  
+    
+      
+        0
+        →
+        
+          T
+          
+            X
+            
+              /
+            
+            S
+          
+        
+        →
+        
+          T
+          
+            Y
+            
+              /
+            
+            S
+          
+        
+        
+          
+            |
+          
+          
+            X
+          
+        
+        →
+        
+          N
+          
+            X
+            
+              /
+            
+            Y
+          
+        
+        →
+        0
+      
+    
+    {\displaystyle 0\to T_{X/S}\to T_{Y/S}|_{X}\to N_{X/Y}\to 0}
+  ,(which is a special case of an exact sequence for cotangent sheaves.)
+Let 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   be a scheme of finite type over a field and 
+  
+    
+      
+        W
+        ⊂
+        X
+      
+    
+    {\displaystyle W\subset X}
+   a closed subscheme. If 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   is of pure dimension r; i.e., every irreducible component has dimension r, then 
+  
+    
+      
+        
+          C
+          
+            W
+            
+              /
+            
+            X
+          
+        
+      
+    
+    {\displaystyle C_{W/X}}
+   is also of pure dimension r. (This can be seen as a consequence of #Deformation to the normal cone.) This property is a key to an application in intersection theory: given a pair of closed subschemes 
+  
+    
+      
+        V
+        ,
+        X
+      
+    
+    {\displaystyle V,X}
+   in some ambient space, while the scheme-theoretic intersection 
+  
+    
+      
+        V
+        ∩
+        X
+      
+    
+    {\displaystyle V\cap X}
+   has irreducible components of various dimensions, depending delicately on the positions of 
+  
+    
+      
+        V
+        ,
+        X
+      
+    
+    {\displaystyle V,X}
+  , the normal cone to 
+  
+    
+      
+        V
+        ∩
+        X
+      
+    
+    {\displaystyle V\cap X}
+   is of pure dimension.
+
+
+== Examples ==
+Let 
+  
+    
+      
+        D
+        ↪
+        X
+      
+    
+    {\displaystyle D\hookrightarrow X}
+   be an effective Cartier divisor. Then the normal bundle to it (or equivalently the normal cone to it) is
+  
+    
+      
+        
+          N
+          
+            D
+            
+              /
+            
+            X
+          
+        
+        =
+        
+          
+            
+              O
+            
+          
+          
+            D
+          
+        
+        (
+        D
+        )
+        :=
+        
+          
+            
+              O
+            
+          
+          
+            X
+          
+        
+        (
+        D
+        )
+        
+          
+            |
+          
+          
+            D
+          
+        
+      
+    
+    {\displaystyle N_{D/X}={\mathcal {O}}_{D}(D):={\mathcal {O}}_{X}(D)|_{D}}
+  .
+
+
+=== Non-regular Embedding ===
+Consider the non-regular embedding
+
+  
+    
+      
+        X
+        =
+        
+          Spec
+        
+        
+          (
+          
+            
+              
+                
+                  C
+                
+                [
+                x
+                ,
+                y
+                ,
+                z
+                ]
+              
+              
+                (
+                x
+                z
+                ,
+                y
+                z
+                )
+              
+            
+          
+          )
+        
+        →
+        
+          
+            A
+          
+          
+            3
+          
+        
+      
+    
+    {\displaystyle X={\text{Spec}}\left({\frac {\mathbb {C} [x,y,z]}{(xz,yz)}}\right)\to \mathbb {A} ^{3}}
+  then, we can compute the normal cone by first observing
+
+  
+    
+      
+        
+          
+            
+              
+                I
+              
+              
+                
+                =
+                (
+                x
+                z
+                ,
+                y
+                z
+                )
+              
+            
+            
+              
+                
+                  I
+                  
+                    2
+                  
+                
+              
+              
+                
+                =
+                (
+                
+                  x
+                  
+                    2
+                  
+                
+                
+                  z
+                  
+                    2
+                  
+                
+                ,
+                x
+                y
+                
+                  z
+                  
+                    2
+                  
+                
+                ,
+                
+                  y
+                  
+                    2
+                  
+                
+                
+                  z
+                  
+                    2
+                  
+                
+                )
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}I&=(xz,yz)\\I^{2}&=(x^{2}z^{2},xyz^{2},y^{2}z^{2})\\\end{aligned}}}
+  If we make the auxillary variables 
+  
+    
+      
+        a
+        =
+        x
+        z
+      
+    
+    {\displaystyle a=xz}
+   and 
+  
+    
+      
+        b
+        =
+        y
+        z
+      
+    
+    {\displaystyle b=yz}
+   then observe that
+
+  
+    
+      
+        
+          I
+          
+            2
+          
+        
+        =
+        (
+        
+          a
+          
+            2
+          
+        
+        ,
+        a
+        b
+        ,
+        
+          b
+          
+            2
+          
+        
+        )
+      
+    
+    {\displaystyle I^{2}=(a^{2},ab,b^{2})}
+  giving the relation
+
+  
+    
+      
+        
+          a
+          
+            2
+          
+        
+        
+          b
+          
+            2
+          
+        
+        −
+        a
+        b
+        =
+        0
+      
+    
+    {\displaystyle a^{2}b^{2}-ab=0}
+  We can use this to give a presentation of the normal cone:
+
+  
+    
+      
+        
+          C
+          
+            X
+          
+        
+        
+          
+            A
+          
+          
+            3
+          
+        
+        =
+        
+          
+            Spec
+          
+          
+            X
+          
+        
+        
+          (
+          
+            
+              
+                
+                  
+                    
+                      O
+                    
+                  
+                  
+                    X
+                  
+                
+                [
+                a
+                ,
+                b
+                ]
+              
+              
+                (
+                
+                  a
+                  
+                    2
+                  
+                
+                
+                  b
+                  
+                    2
+                  
+                
+                −
+                a
+                b
+                )
+              
+            
+          
+          )
+        
+      
+    
+    {\displaystyle C_{X}\mathbb {A} ^{3}={\text{Spec}}_{X}\left({\frac {{\mathcal {O}}_{X}[a,b]}{(a^{2}b^{2}-ab)}}\right)}
+  
+
+
+== Deformation to the normal cone ==
+Suppose i: X → Y is an embedding. This can be deformed to the embedding of X  in the normal cone CXY in the following sense: there is a family of embeddings parameterized by an element t of the projective or affine line, such that if t=0 the embedding is the embedding into the normal cone, and for other t is it isomorphic to the given embedding i. (See below for construction.)
+One application of this is to define intersection products in the Chow ring. Suppose that X and V are closed subschemes of Y with intersection W, and we wish to define the intersection product of X and V in the Chow ring of Y. Deformation to the normal cone in this case means that we replace the embeddings of X and W in Y and V by their normal cones CY(X) and CW(V), so that we want to find the product of X and CWV in CXY.
+This can be much easier: for example, if X is regularly embedded in Y then its normal cone is a vector bundle, so we are reduced to the problem of finding the intersection product of a subscheme CWV of a vector bundle CXY with the zero section X. However this intersection product is just given by applying the Gysin isomorphism to CWV.
+Concretely, the deformation to the normal cone can be constructed by means of blowup. Precisely, let
+
+  
+    
+      
+        π
+        :
+        M
+        →
+        Y
+        ×
+        
+          
+            P
+          
+          
+            1
+          
+        
+      
+    
+    {\displaystyle \pi :M\to Y\times \mathbb {P} ^{1}}
+  be the blow-up of 
+  
+    
+      
+        Y
+        ×
+        
+          
+            P
+          
+          
+            1
+          
+        
+      
+    
+    {\displaystyle Y\times \mathbb {P} ^{1}}
+   along 
+  
+    
+      
+        X
+        ×
+        0
+      
+    
+    {\displaystyle X\times 0}
+  . The exceptional divisor is 
+  
+    
+      
+        
+          
+            
+              
+                C
+                
+                  X
+                
+              
+              Y
+            
+            ¯
+          
+        
+        =
+        
+          P
+        
+        (
+        
+          C
+          
+            X
+          
+        
+        Y
+        ⊕
+        1
+        )
+      
+    
+    {\displaystyle {\overline {C_{X}Y}}=\mathbb {P} (C_{X}Y\oplus 1)}
+  , the projective completion of the normal cone; for the notation used here see cone#Properties. The normal cone 
+  
+    
+      
+        
+          C
+          
+            X
+          
+        
+        Y
+      
+    
+    {\displaystyle C_{X}Y}
+   is an open subscheme of 
+  
+    
+      
+        
+          
+            
+              
+                C
+                
+                  X
+                
+              
+              Y
+            
+            ¯
+          
+        
+      
+    
+    {\displaystyle {\overline {C_{X}Y}}}
+   and 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   is embedded as a zero-section into 
+  
+    
+      
+        
+          C
+          
+            X
+          
+        
+        Y
+      
+    
+    {\displaystyle C_{X}Y}
+  .
+Now, we note:
+
+Item 1. is clear (check torsion-free-ness). In general, given 
+  
+    
+      
+        X
+        ⊂
+        Y
+      
+    
+    {\displaystyle X\subset Y}
+  , we have 
+  
+    
+      
+        
+          Bl
+          
+            V
+          
+        
+        ⁡
+        X
+        ⊂
+        
+          Bl
+          
+            V
+          
+        
+        ⁡
+        Y
+      
+    
+    {\displaystyle \operatorname {Bl} _{V}X\subset \operatorname {Bl} _{V}Y}
+  . Since 
+  
+    
+      
+        X
+        ×
+        0
+      
+    
+    {\displaystyle X\times 0}
+   is already an effective Cartier divisor on 
+  
+    
+      
+        X
+        ×
+        
+          
+            P
+          
+          
+            1
+          
+        
+      
+    
+    {\displaystyle X\times \mathbb {P} ^{1}}
+  , we get
+
+  
+    
+      
+        X
+        ×
+        
+          
+            P
+          
+          
+            1
+          
+        
+        =
+        
+          Bl
+          
+            X
+            ×
+            0
+          
+        
+        ⁡
+        X
+        ×
+        
+          
+            P
+          
+          
+            1
+          
+        
+        ↪
+        M
+      
+    
+    {\displaystyle X\times \mathbb {P} ^{1}=\operatorname {Bl} _{X\times 0}X\times \mathbb {P} ^{1}\hookrightarrow M}
+  ,yielding 
+  
+    
+      
+        
+          
+            
+              i
+              ~
+            
+          
+        
+      
+    
+    {\displaystyle {\widetilde {i}}}
+  . Item 3. follows from the fact the blowdown map π is an isomorphism away from the center 
+  
+    
+      
+        X
+        ×
+        0
+      
+    
+    {\displaystyle X\times 0}
+  . The last two items are seen from explicit local computation. 
+  
+    
+      
+        ◻
+      
+    
+    {\displaystyle \square }
+  
+Now, the last item in the previous paragraph implies that the image of 
+  
+    
+      
+        X
+        ×
+        0
+      
+    
+    {\displaystyle X\times 0}
+   in M does not intersect 
+  
+    
+      
+        
+          
+            
+              Y
+              ~
+            
+          
+        
+      
+    
+    {\displaystyle {\widetilde {Y}}}
+  . Thus, one gets the deformation of i to the zero-section embedding of X into the normal cone.
+
+
+== Intrinsic normal cone ==
+Let X be a Deligne–Mumford stack locally of finite type over a field k. If 
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            X
+          
+        
+      
+    
+    {\displaystyle {\textbf {L}}_{X}}
+   denotes the cotangent complex of X relative to k, then the intrinsic normal bundle to X is the quotient stack
+
+  
+    
+      
+        
+          
+            
+              N
+            
+          
+          
+            X
+          
+        
+        :=
+        
+          h
+          
+            1
+          
+        
+        
+          /
+        
+        
+          h
+          
+            0
+          
+        
+        (
+        
+          
+            
+              L
+            
+          
+          
+            X
+            ,
+            
+              fppf
+            
+          
+          
+            ∨
+          
+        
+        )
+      
+    
+    {\displaystyle {\mathfrak {N}}_{X}:=h^{1}/h^{0}({\textbf {L}}_{X,{\text{fppf}}}^{\vee })}
+  which is the stack of fppf 
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            X
+          
+          
+            ∨
+            ,
+            0
+          
+        
+      
+    
+    {\displaystyle {\textbf {L}}_{X}^{\vee ,0}}
+  -torsors on 
+  
+    
+      
+        
+          
+            
+              L
+            
+          
+          
+            X
+          
+          
+            ∨
+            ,
+            1
+          
+        
+      
+    
+    {\displaystyle {\textbf {L}}_{X}^{\vee ,1}}
+  . More concretely, suppose there is an étale morphism 
+  
+    
+      
+        U
+        →
+        X
+      
+    
+    {\displaystyle U\to X}
+   from an affine finite-type k-scheme U together with a locally closed immersion 
+  
+    
+      
+        f
+        :
+        U
+        →
+        M
+      
+    
+    {\displaystyle f:U\to M}
+   into a smooth affine finite-type k-scheme M. Then one can show
+
+  
+    
+      
+        
+          
+            
+              N
+            
+          
+          
+            X
+          
+        
+        
+          
+            |
+          
+          
+            U
+          
+        
+        =
+        [
+        
+          N
+          
+            U
+            
+              /
+            
+            M
+          
+        
+        
+          /
+        
+        
+          f
+          
+            ∗
+          
+        
+        
+          T
+          
+            M
+          
+        
+        ]
+        .
+      
+    
+    {\displaystyle {\mathfrak {N}}_{X}|_{U}=[N_{U/M}/f^{*}T_{M}].}
+  The intrinsic normal cone to X, denoted as 
+  
+    
+      
+        
+          
+            
+              C
+            
+          
+          
+            X
+          
+        
+      
+    
+    {\displaystyle {\mathfrak {C}}_{X}}
+  , is then defined by replacing the normal bundle 
+  
+    
+      
+        
+          N
+          
+            U
+            
+              /
+            
+            M
+          
+        
+      
+    
+    {\displaystyle N_{U/M}}
+   with the normal cone 
+  
+    
+      
+        
+          C
+          
+            U
+            
+              /
+            
+            M
+          
+        
+      
+    
+    {\displaystyle C_{U/M}}
+  ; i.e.,
+
+  
+    
+      
+        
+          
+            
+              C
+            
+          
+          
+            X
+          
+        
+        
+          
+            |
+          
+          
+            U
+          
+        
+        =
+        [
+        
+          C
+          
+            U
+            
+              /
+            
+            M
+          
+        
+        
+          /
+        
+        
+          f
+          
+            ∗
+          
+        
+        
+          T
+          
+            M
+          
+        
+        ]
+        .
+      
+    
+    {\displaystyle {\mathfrak {C}}_{X}|_{U}=[C_{U/M}/f^{*}T_{M}].}
+  Example: One has that 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   is a local complete intersection if and only if 
+  
+    
+      
+        
+          
+            
+              C
+            
+          
+          
+            X
+          
+        
+        =
+        
+          
+            
+              N
+            
+          
+          
+            X
+          
+        
+      
+    
+    {\displaystyle {\mathfrak {C}}_{X}={\mathfrak {N}}_{X}}
+  . In particular, if X is smooth, then 
+  
+    
+      
+        
+          
+            
+              C
+            
+          
+          
+            X
+          
+        
+        =
+        
+          
+            
+              N
+            
+          
+          
+            X
+          
+        
+        =
+        B
+        
+          T
+          
+            X
+          
+        
+      
+    
+    {\displaystyle {\mathfrak {C}}_{X}={\mathfrak {N}}_{X}=BT_{X}}
+   is the classifying stack of the tangent bundle 
+  
+    
+      
+        
+          T
+          
+            X
+          
+        
+      
+    
+    {\displaystyle T_{X}}
+  , which is a commutative group scheme over X.
+More generally, let 
+  
+    
+      
+        X
+        →
+        Y
+      
+    
+    {\displaystyle X\to Y}
+   is a Deligne-Mumford Type (DM-type) morphism of Artin Stacks which is locally of finite type. Then 
+  
+    
+      
+        
+          
+            
+              C
+            
+          
+          
+            X
+            
+              /
+            
+            Y
+          
+        
+        ⊆
+        
+          
+            
+              N
+            
+          
+          
+            X
+            
+              /
+            
+            Y
+          
+        
+      
+    
+    {\displaystyle {\mathfrak {C}}_{X/Y}\subseteq {\mathfrak {N}}_{X/Y}}
+   is characterised as the closed substack such that, for any \'etale map 
+  
+    
+      
+        U
+        →
+        X
+      
+    
+    {\displaystyle U\to X}
+   for which 
+  
+    
+      
+        U
+        →
+        X
+        →
+        Y
+      
+    
+    {\displaystyle U\to X\to Y}
+   factors through some smooth map 
+  
+    
+      
+        M
+        →
+        Y
+      
+    
+    {\displaystyle M\to Y}
+   (e.g., 
+  
+    
+      
+        
+          
+            A
+          
+          
+            Y
+          
+          
+            n
+          
+        
+        →
+        Y
+      
+    
+    {\displaystyle \mathbb {A} _{Y}^{n}\to Y}
+  ), the pullback is:
+
+  
+    
+      
+        
+          
+            
+              C
+            
+          
+          
+            X
+            
+              /
+            
+            Y
+          
+        
+        
+          
+            |
+          
+          
+            U
+          
+        
+        =
+        [
+        
+          C
+          
+            U
+            
+              /
+            
+            M
+          
+        
+        
+          /
+        
+        
+          T
+          
+            M
+            
+              /
+            
+            Y
+          
+        
+        
+          
+            |
+          
+          
+            U
+          
+        
+        ]
+        .
+      
+    
+    {\displaystyle {\mathfrak {C}}_{X/Y}|_{U}=[C_{U/M}/T_{M/Y}|_{U}].}
+  
+
+
+== See also ==
+Residual intersection
+
+
+== Notes ==
+
+
+== References ==
+Behrend, K.; Fantechi, B. (1997-03-01). "The intrinsic normal cone". Inventiones Mathematicae. 128 (1): 45–88. doi:10.1007/s002220050136. ISSN 0020-9910.
+William Fulton. (1998), Intersection theory, Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge., 2 (2nd ed.), Berlin, New York: Springer-Verlag, ISBN 978-3-540-62046-4, MR 1644323
+Hartshorne, Robin (1977), Algebraic Geometry, Graduate Texts in Mathematics, 52, New York: Springer-Verlag, ISBN 978-0-387-90244-9, MR 0463157

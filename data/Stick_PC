@@ -1,0 +1,20 @@
+A stick PC or PC on a stick is a single-board computer in a small elongated casing resembling a stick, that can usually be plugged directly (without an HDMI cable) into an HDMI video port. A stick PC is a device which has independent CPUs or processing chips and which does not rely on another computer. It should not be confused with passive storage devices such as thumb drives.
+A stick PC can be connected to a peripheral device such as a monitor, TV, or kiosk display to produce visual or audio output.
+
+
+== History ==
+
+The stick PC was first introduced in 2003. The Gumstix, which came out that same year, used the ARM architecture System on a chip (SoC) and the Linux 2.6 kernel. Windows CE can be installed on this stick. It was based on the idea of making a PC similar in size to that of an average stick of chewing gum.As the popularity of smart TVs and set-top boxes to view streaming services (such as the Roku) grew, companies started looking at making these small computers even smaller and easier to use.
+Several stick PCs using ARM architecture SoCs were introduced around 2012, made of sticks pluggable in an HDMI port, including Android Mini PC MK802 series from Rikomagic, using Android or Linux distributions, both based on Linux and Allwinner Technology or Rockchip SoC and Cotton Candy, using Samsung Exynos SoC.2013-2014 saw several manufacturers come out with stick PCs. MeeGoPad released the first x86 based stick PC, featuring the Intel© Atom™ Z3735F Processor. In April 2013, Tronsmart released the MK908, using the Rockchip RK3188 (featuring the quad-core ARM Cortex-A9 and ARM Mali-400MP GPU). On July 24 2013, Google introduced the Google Chromecast, a streaming device similar in function and design to a stick PC.On November 19, 2014, Amazon released a smaller version of the Amazon Fire TV called the Fire TV Stick.
+
+In March 2015, ASUS and Google introduced the Chromebit, a stick PC based on the Rockchip RK3288 SoC and running Google's Chrome OS.In 2016, Intel introduced the Intel Compute Stick.
+
+
+== Neural compute sticks ==
+In July 2017, Intel released the Movidius Neural Compute Stick which included a Vision Processing Unit for vision-specific AI workload. In January 2018, the Laceli AI Compute Stick came out, including a neural network processor unit for AI workload called Lightspeeur 2801S Neural Processor, and claiming to be more powerful and more energy-efficient than the Movidius. In November 2018, the Orange Pi AI Stick 2801 came out, also featuring the Lightspeeur 2801S Neural Processor.
+
+
+== See also ==
+
+
+== References ==

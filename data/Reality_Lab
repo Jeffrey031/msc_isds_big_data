@@ -1,0 +1,14 @@
+Reality Lab was a 3D computer graphics API created by RenderMorphics to provide a standardized interface for writing games. It was one of the main contenders in the realtime 3D middleware marketplace at the time, alongside Criterion Software's RenderWare and Argonaut Software's BRender.
+Reality Lab was a scene graph API that would run with acceptable performance on graphics cards or the host computer's CPU.
+"Reality Lab(TM), provides high-performance 3-D graphics technology for a variety of personal computer-based games and
+multimedia applications.  Reality Lab has been acclaimed by a wide range of developers, including Autodesk, Creative Labs,
+Kaleida Labs and Virgin Entertainment."After a short time on the market, RenderMorphics was purchased by Microsoft in February 1995 and Reality Lab formed the basis for Direct3D (splitting into separate immediate mode and retained mode APIs). Direct3D shipped for the first time in the DirectX 2.0 SDK in June 1996.
+
+
+== See also ==
+Glide
+
+
+== References ==
+
+Drummond, Michael (November 2000). Renegades of the Empire: How Three Software Warriors Started a Revolution Behind the Walls of Fortress Microsoft. California: Three Rivers Press. ISBN 978-0-609-80745-3. Covers the early years of DirectX development within Microsoft, including the acquisition of RenderMorphics.

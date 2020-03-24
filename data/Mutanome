@@ -1,0 +1,26 @@
+The mutanome is the entirety of somatic cancer mutations in an individual tumor.
+
+
+== Description ==
+Carcinogenesis is largely driven by changes in the DNA sequence of the genomes of cancer cells. This process leads to a unique repertoire of mutations (′the mutanome′) in every patient’s tumor. The mutanome encodes peptides that can be targets for T cells, which play a central role in the immune response.A description of individual mutanomes of human tumors has been made feasible by the introduction of Next Generation Sequencing Technology (NGS). Cancer mutanomes can be defined by comparing exome sequencing data obtained by NGS of individual healthy tissue with sequences from tumor-derived nucleic acids. As the vast majority of cancer-associated mutations are patient specific, shared mutations are rare, even within the same type of cancer.
+
+
+=== Neoantigens and neoepitopes ===
+The mutanome encodes a pattern of tumor-specific mutated peptides referred to as neoantigens or m-peptides. Neoantigens are products of mutations that first occur in the course of cancer development. Each and every tumor has its own unique neoantigenic pattern, and even within the same type of cancer, only a small percentage of neoantigens are shared.Neoantigens are presented on major histocompatibility complex (MHC) molecules of tumor cells. The antigenic determinants of neoantigens – neoepitopes – are recognized by the immune system as a target for T cells, thus triggering immune responses against cancer.A neoepitope is an epitope the immune system has not encountered before. Therefore it is not subject to tolerance mechanisms of the immune system. Since the mutated gene product is only expressed in tumors, but not on healthy cells, neoepitopes may evoke vigorous T cell response.
+
+
+== Mutanome immunotherapy ==
+The vast majority of cancer mutations are unique to the individual patient, and a significant portion of mutations (21-45%) are immunogenic. Therefore, the patients' individual mutanome and the neoepitopes are used as the basis for a novel strategy against cancer, which is referred to as individualized cancer immunotherapy. Cancer immunotherapy uses the body's own immune defense system and is based on the recognition by cytotoxic and helper T cells with antitumor activity.
+
+
+=== Mutanome-specific vaccines ===
+Strategies to immunotherapeutically address the individual mutanome are currently under investigation. Ongoing mutanome cancer vaccine trials use synthetic peptides and antigen-encoding DNA or RNA as formats. For an individualized treatment, neoepitopes that are thought to elicit a strong immune response are selected out of the patient's mutanome.An increasingly explored concept for individualized cancer immunotherapy is the treatment of a patient with immunogenic mRNA vaccines for a given patient's individual cancer mutanome (IVAC® - Individualized Vaccine Against Cancer). The IVAC® concept is based on decoding the individual mutanome by NGS and on-demand mRNA manufacturing for use in single patients to produce therapeutic vaccines against cancer.Since 2016, the IVAC concept has been developed as Individualized Neoantigen Specific Therapy (iNeST). 
+The process of NSG based cancer mutanome mapping, target selection, prioritization approaches, synthetic mRNA vaccine manufacturing and delivery is also referred to as MERIT (mutanome engineered RNA immunotherapy). By vaccination with the synthetic mRNA, which contains the blueprint of a mutant tumor peptide, T lymphocytes are activated against the tumor.
+
+
+== References ==
+
+
+== External links ==
+The MERIT (Mutanome Engineered RNA Immuno-Therapy) project – European Union funded Initiative
+GAPVAC (Glioma Actively Personalized Vaccine Consortium) – European Union funded Initiative

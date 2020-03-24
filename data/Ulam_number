@@ -1,0 +1,94 @@
+An Ulam number is a member of an integer sequence devised by and named after Stanislaw Ulam, who introduced it in 1964.  The standard Ulam sequence (the (1, 2)-Ulam  sequence) starts with U1 = 1 and U2 = 2.  Then for n > 2, Un is defined to be the smallest integer that is the sum of two distinct earlier terms in exactly one way and larger than all earlier terms.
+
+
+== Examples ==
+As a consequence of the definition, 3 is an Ulam number (1+2); and 4 is an Ulam number (1+3). (Here 2+2 is not a second representation of 4, because the previous terms must be distinct.)  The integer 5 is not an Ulam number, because 5 = 1 + 4 = 2 + 3.  The first few terms are
+
+1, 2, 3, 4, 6, 8, 11, 13, 16, 18, 26, 28, 36, 38, 47, 48, 53, 57, 62, 69, 72, 77, 82, 87, 97, 99, 102, 106, 114, 126, 131, 138, 145, 148, 155, 175, 177, 180, 182, 189, 197, 206, 209, 219, 221, 236, 238, 241, 243, 253, 258, 260, 273, 282, ... (sequence A002858 in the OEIS).There are infinitely many Ulam numbers. For, after the first n numbers in the sequence have already been determined, it is always possible to extend the sequence by one more element: Un − 1 + Un is uniquely represented as a sum of two of the first n numbers, and there may be other smaller numbers that are also uniquely represented in this way, so the next element can be chosen as the smallest of these uniquely representable numbers.Ulam is said to have conjectured that the numbers have zero density, but they seem to have a density of approximately 0.07398.
+
+
+== Hidden structure ==
+It has been observed that the first 10 million Ulam numbers satisfy 
+  
+    
+      
+        cos
+        ⁡
+        
+          (
+          2.5714474995
+          
+            a
+            
+              n
+            
+          
+          )
+        
+        <
+        0
+      
+    
+    {\displaystyle \cos {(2.5714474995a_{n})}<0}
+   except for the four elements 
+  
+    
+      
+        
+          {
+          
+            2
+            ,
+            3
+            ,
+            47
+            ,
+            69
+          
+          }
+        
+      
+    
+    {\displaystyle \left\{2,3,47,69\right\}}
+   (this has now been verified up to 
+  
+    
+      
+        n
+        =
+        
+          10
+          
+            9
+          
+        
+      
+    
+    {\displaystyle n=10^{9}}
+  ). Inequalities of this type are usually true for sequences exhibiting some form of periodicity but the Ulam sequence does not seem to be periodic and the phenomenon is not understood. It can be exploited to do a fast computation of the Ulam sequence (see external links).
+
+
+== Generalizations ==
+The idea can be generalized as (u, v)-Ulam numbers by selecting different starting values (u, v). A sequence of (u, v)-Ulam numbers is regular if the sequence of differences between consecutive numbers in the sequence is eventually periodic. When v is an odd number greater than three, the (2, v)-Ulam numbers are regular. When v is congruent to 1 (mod 4) and at least five, the (4, v)-Ulam numbers are again regular. However, the Ulam numbers themselves do not appear to be regular.A sequence of numbers is said to be s-additive if each number in the sequence, after the initial 2s terms of the sequence, has exactly s representations as a sum of two previous numbers. Thus, the Ulam numbers and the (u, v)-Ulam numbers are 1-additive sequences.If a sequence is formed by appending the largest number with a unique representation as a sum of two earlier numbers, instead of appending the smallest uniquely representable number, then the resulting sequence is the sequence of Fibonacci numbers.
+
+
+== Notes ==
+
+
+== References ==
+Cassaigne, Julien; Finch, Steven R. (1995), "A class of 1-additive sequences and quadratic recurrences", Experimental Mathematics, 4 (1): 49–60, doi:10.1080/10586458.1995.10504307, MR 1359417
+Finch, Steven R. (1992), "On the regularity of certain 1-additive sequences", Journal of Combinatorial Theory, Series A, 60 (1): 123–130, doi:10.1016/0097-3165(92)90042-S, MR 1156652
+Guy, Richard (2004), Unsolved Problems in Number Theory (3rd ed.), Springer-Verlag, pp. 166–167, ISBN 0-387-20860-7
+Queneau, Raymond (1972), "Sur les suites s-additives", Journal of Combinatorial Theory, Series A (in French), 12 (1): 31–71, doi:10.1016/0097-3165(72)90083-0, MR 0302597
+Recaman, Bernardo (1973), "Questions on a sequence of Ulam", American Mathematical Monthly, 80 (8): 919–920, doi:10.2307/2319404, JSTOR 2319404, MR 1537172
+Schmerl, James; Spiegel, Eugene (1994), "The regularity of some 1-additive sequences", Journal of Combinatorial Theory, Series A, 66 (1): 172–175, doi:10.1016/0097-3165(94)90058-2, MR 1273299
+Ulam, Stanislaw (1964a), "Combinatorial analysis in infinite sets and some physical theories", SIAM Review, 6: 343–355, doi:10.1137/1006090, JSTOR 2027963, MR 0170832
+Ulam, Stanislaw (1964b), Problems in Modern Mathematics, New York: John Wiley & Sons, Inc, p. xi, MR 0280310
+Steinerberger, Stefan (2015), A Hidden Signal in the Ulam sequence, Experimental Mathematics, arXiv:1507.00267, Bibcode:2015arXiv150700267S
+
+
+== External links ==
+Ulam Sequence from MathWorld
+Fast computation of the Ulam sequence by Philip Gibbs
+Description of Algorithm by Donald Knuth
+The github page of Daniel Ross

@@ -1,0 +1,56 @@
+XEphem is a Motif based ephemeris and planetarium program for Unix-like operating systems developed by Elwood C. Downey.
+
+
+== History ==
+XEphem started as a Unix and Motif conversion of the IBM PC-based ephem. It was initially released in December 1993 with version 2.5. The most recent stable version is 3.7.6 (2013). XEphem's source code is available, but its free usage is restricted for personal and educational purposes only. The full set of catalogs is only distributed with a purchase of the commercial version.
+
+
+== Algorithms and models ==
+XEphem uses
+
+The VSOP87D planetary theory (full and reduced precision) for Solar System ephemeris,
+Approximation to DE200  for the outer planets and Pluto, and
+Formulae from J. Meeus (1982) for Jovian and Saturnian natural satellites
+Model by the Bureau des Longitudes for Martian and Uranian natural satellitesand includes
+
+About 452 million stars from both the Tycho-2 Catalogue and a magnitude limited subset of the Guide Star Catalog II,
+About 1 million deep sky objects mainly from a subset of HYPERLEDA,
+About 288,000 minor planets and comets orbital elements from the IAU Minor Planet Center and Lowell Observatory (that can be updated),and other specialized catalogs. It also include the Digital Lunar Orbiter Photographic Atlas of the Moon. XEphem is a client for Internet data sources such as the Digitized Sky Survey, Solar and Heliospheric Observatory, AAVSO light curves, and global temperature and cloud coverage. Through the Instrument Neutral Distributed Interface, XEphem can control some models of amateur telescopes, such as by Meade, Celestron, and Vixen, and auxiliary telescope components.
+
+
+== Catalogs ==
+While the free version of XEphem only includes a subset of the SKYMAP Master Catalog and the Messier Catalog, the internal format of the remaining catalogs can be inferred from the source code, and e.g. the internal binary Tycho-2 catalog can be generated from the original data. This is also possible for the non-stellar catalogs in the ASCII .edb format, such as for HYPERLEDA.XEphem can also read several astrometric catalogs in their original formats:
+
+GSC 1.2 and GSC-ACT 
+USNO A/SA 1.0/2.0
+UCAC2 Numerical routines are used in PyEphem with permission of Elwood Downey.
+
+
+== See also ==
+
+Cartes du Ciel
+Celestia
+Digital Universe Atlas
+Google Mars
+Google Moon
+Google Sky
+Hallo Northern Sky (HN Sky)
+KStars
+NASA World Wind
+RedShift
+Starry Night
+Stellarium
+TheSky
+Universe Sandbox
+WinStars
+WorldWide Telescope
+
+
+== References ==
+
+
+== External links ==
+Official website
+"openSUSE RPM". | "Linux RPMs".
+VanDevender, Steve. "Programs to generate XEphem 3.4 xe2 catalogs".
+Mathar, R. J. "Translation of some star catalogs to the XEphem Format".

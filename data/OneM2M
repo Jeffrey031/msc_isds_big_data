@@ -1,0 +1,115 @@
+oneM2M is a global partnership project founded in 2012 and constituted by 8 of the world's leading ICT standards development organizations, notably: ARIB (Japan), ATIS (United States), CCSA (China), ETSI (Europe), TIA (USA), TSDSI (India), TTA (Korea) and TTC (Japan). The goal of the organization is to create a global technical standard for interoperability concerning the architecture, API specifications, security and enrolment solutions for Machine-to-Machine and IoT technologies based on requirements contributed by its members.
+The produced standardised specifications enables an Eco-System to support a wide range of applications and services such as smart cities, smart grid, connected car, home automation, public safety, and health.
+oneM2M technology is removing fragmentation in the IoT world. Because it is independent of the connectivity- or protocol technology that is used for transport, it is designed to be a long term solution for IoT deployment.
+
+
+== Organisation ==
+Membership
+A oneM2M Member is any legal entity which has an interest in the development and/or implementation of oneM2M Technical Specifications and Technical Reports. oneM2M Members must be members of a oneM2M Partner:
+•	ARIB – Japan
+•	ATIS - U.S.
+•	CCSA – China
+•	ETSI – Europe
+•	TIA - U.S.
+•	TSDSI – India
+•	TTA - Korea
+•	TTC - Japan.
+Members can attend and participate in the oneM2M Technical Plenary meetings and its Working Groups where they have one vote each. They can also attend the oneM2M Steering Committee meetings but do not have voting rights.
+oneM2M currently have more than 200 participating partners and members, among the main actors of the ICT industry like for instance Nokia, AT&T, BT Group, Samsung, Telecom Italia, IBM, Deutsche Telekom, SK Telecom, Cisco, Orange, Qualcomm, InterDigital, Intel, Huawei, LG Uplus, KDDI, etc. The full list of members may be found here.
+oneM2M actively encourages industry associations and forums with specific application requirements to participate in oneM2M, in order to ensure that the solutions developed support their specific needs.
+
+
+== oneM2M Standard ==
+It is an open standard with a transparent development process & an open access to all deliverables. All the specifications, even the drafts are available at http://onem2m.org/technical/published-drafts
+
+
+== ITU-T Transposition ==
+The oneM2M standards are internationally recognized and transposed by ITU-T under the Y.4500 series (see https://www.itu.int/rec/T-REC-Y/en) 
+
+
+== Technical overview ==
+Service Layer for multivendor interoperability.
+The architecture standardised by oneM2M defines an IoT Service Layer, i.e. a vendor-independent software Middleware between processing and communication hardware and IoT applications providing a set of functions commonly needed by IoT applications.
+The oneM2M Service Layer provides use case-independent functions.
+•	oneM2M Common Service layer Functions (CSF’s) provide proper:
+•	Identification of users and applications
+•	Authentication and authorisation of users and applications
+•	End-to-end data encryption
+•	Remote provisioning and service activation
+•	Device management
+•	Connectivity setup and data transmission scheduling
+•	Data aggregation, buffering in case of missing connectivity and synchronisation upon connectivity re-establishment
+•	Group management and application and data discovery functions
+The functions listed above provided by the oneM2M common service layer, are exposed and controlled via globally standardized vendor-independent and uniform APIs, towards the IoT applications.
+IoT applications or more generically “Application Entities” AE’s are generic terms for applications executed in so-called Application Dedicated Nodes ADNs or Middle Nodes MNs and at the Infrastructure Node IN.
+Applications (AEs) at the device (ADN, MN) and the Infrastructure Platform (IN) are separated by the oneM2M APIs from the actual oneM2M Common Service functions (CSFs) like the ones listed above.
+Details and specifics of the underlying - connectivity technologies, transport protocols and data serialisation formats are not exposed to the application developer. This avoids the necessity of detailed expertise in used connectivity technologies, and hence allows the application developer to focus on the actual customer IoT application.
+Interactions between oneM2M Common Service Functions (CSFs) and the application are solely based on the oneM2M globally standardised, vendor independent, uniform APIs towards the applications.
+For an application developer, oneM2M based technology appears like an operating system, which takes over common basic functions in context of connectivity and hardware as listed above. Hence the IoT Service Layer specified by oneM2M can be seen in a similar way as a mobile operating system within the smart phone eco system.
+Due to this separation, application developers can focus on developing the actual IoT application for the Device e.g focusing on:
+•	Measuring physical parameters, pre-processing of data, controlling attached hardware or Interworking with other technologies (Modbus, CAN-Bus, OPC-UA gateways, etc.)
+On the infrastructure (Platform) the separation by APIs between oneM2M CSFs and applications, enables a separation between “low level” tasks in context of connectivity over wide area networks (Device Management, scheduling of data transmission, enrolment of security functions and credentials, revocation of faulty device applications), and actual cloud and IoT application platforms like:
+•	Data analytics, rule engines, presentation of data, user interfaces, etc.
+Compared to IoT devices being connected to IoT Platforms without oneM2M, the separation between Applications and oneM2M CSFs, enables the device to become independent from the actual cloud respective IoT Application Platform provider. Beneficially the oneM2M CSFs will become part of the communication chipset to achieve coverage in a wide range of devices.
+
+
+== Architecture Overview ==
+oneM2M standard employs a simple horizontal, platform architecture that fits within a three layer model comprising applications, services and networks. In the first of these layers, Application Entities (AEs) reside within individual device and sensor applications. They provide a standardized interface to manage and interact with applications. Common Services Entities (CSEs) play a similar role in the services layer which resides between the applications layer and the in the network layer. The network layer ensures that devices and sensors and applications are able to function in a network-agnostic manner.
+
+
+== History ==
+oneM2M was formed in July 2012 and consists of eight of the world's preeminent standards development organizations (SDOs), notably: 
+
+ARIB (Japan),
+ATIS (United States),
+CCSA (China),
+ETSI (Europe),
+TIA (USA),
+TSDSI (India),
+TTA (Korea)
+TTC (Japan).These SDOs were joined by six industry fora, consortia or standards bodies (Broadband Forum, CEN, CENELEC, GlobalPlatform, Next Generation M2M Consortium, OMA).
+oneM2M began some of the earliest work on standardization of a common platform for internet of things (IoT) systems. In 2018, S. Korea's TTA reported its cooperative efforts with the ITU to bridge standardization gaps by transposing the oneM2M standard to an ITU standard.
+
+
+=== Partners ===
+oneM2M currently have more than 200 participating partners and members consisting of Alcatel-Lucent, AT&T, BT Group, Adobe, Ericsson, Deutsche Telekom, IBM, Cisco, Sierra Wireless, InterDigital, Intel, Samsung, LG Uplus and Telefonica.
+
+
+=== Regional Developments ===
+South Korea is one of the leading markets for solutions based on the oneM2M standard. South Korea’s national IoT Master Plan makes explicit reference to oneM2M as a strategic enabler for IoT applications and companies developing IoT solutions. The city of Busan is implementing an open platform based on oneM2M to support a smart-city eco-system of industry-university associations.In Europe, HP Enterprise has reported commercial success in the enterprise and smart cities sectors.Within the UK, a public-private partnership is using InterDigital's oneM2MTM standards-based IoT platform developed by InterDigital to support a large-scale, intelligent transport systems trial. The trial, oneTRANSPORT, is part funded by InnovateUK and involves 11 public and private sector organizations with an operational footprint that covers four contiguous counties in England (Buckinghamshire, Hertfordshire, Northamptonshire and Oxfordshire). The aim of the trial is to demonstrate several journey planning, transport-event and incident management applications.
+
+
+== Standardization Releases ==
+Release 1 was issued in February 2015. It provided a standardized, general-purpose horizontal architecture for IoT platform operators and service providers to deploy IoT solutions.
+Release 2 was issued in August 2016. It added an interworking framework enabling each service provider to support more types of devices on their IoT platform. Release 2 also provided enhanced end-to-end security features.
+Release 3 was issued in December 2018. It added a complementary set of oneM2M value-added services to complement IoT features in 3GPP standards. These features help to mitigate network congestion and security issues in mobile operator networks, creating a pathway to scalable IoT deployments.
+
+
+== Open Source Projects ==
+Several independent Open Source foundations and projects have been actively using oneM2M.
+•	OM2M, hosted by the Eclipse Foundation and part of Eclipse’s IoT Working Group: Offers a flexible oneM2M-based platform to implement horizontal M2M servers, gateways, and devices. It brings forward a modular architecture, running on top of an OSGi container, which is highly extensible via plug-ins.
+•	OCEAN, open alliance for IoT standard, Open source implementations for oneM2M server/gateway/device platforms and applications are supported. Also, developer tools including platform resouce browser, self-conformance testing tool are provided. The oneM2M implementations for open hardwares like Raspberry Pi, Arduino are distributed to help oneM2M product development. Mobius, the oneM2M server implementation, got the oneM2M certification and it is designated as one of the golden samples.
+•	OS-IoT, the ATIS Open Source Internet of Things is an open source software library that simplifies the development of IoT devices, particularly small clients, that connect to the oneM2M ecosystem.
+•	OpenMTC is an integration middleware based on the oneM2M standard, for conducting applied research and developing innovative M2M and IoT applications. Its horizontal service approach easily integrates devices from different Industrial IoT verticals, independent of the underlying hardware or network infrastructure.
+•	IOTDM, part of the OpenDaylight project hosted by the Linux Foundation: Developing a oneM2M-based IoT Data Broker to enable authorised applications to retrieve IoT data uploaded by any device.
+•	OASIS SI, part of Open-source Architecture Semantic IoT Service-platform project: Developing code for the oneM2M-based IoT server platform. It consists of protocol binding, controller & resource handling and database layer for flexibility.
+•	oneM2MTester is the world's first free open source conformance testing tool that developers can use to check the compliance of their platforms and applications with oneM2M specifications. The oneM2MTester is built upon Eclipse TITAN, which is a free open source TTCN-3 compilation and execution framework also supporting Eclipse IDE.
+
+
+== Developer Resources ==
+In addition to standards development activities, members participating in the oneM2M Partnership Project provide a portfolio of resources to assist potential users and developers. These include the following:
+
+An introductory overview of oneM2M to help developers to get started [1]
+A set of developer guides for a variety of use-case examples [2]
+A WiKi for developers to learn about the oneM2M community, software releases and collaborative development processes.
+A forum to address technical comments and questions [3]
+A StackOverflow forum to respond to developer issues [4]
+
+
+== References ==
+
+
+== External links ==
+Official website
+oneM2M Developer Corner
+Pilot Things oneM2M commercial product

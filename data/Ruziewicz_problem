@@ -1,0 +1,11 @@
+In mathematics, the Ruziewicz problem (sometimes Banach-Ruziewicz problem) in measure theory asks whether the usual Lebesgue measure on the n-sphere is characterised, up to proportionality, by its properties of being finitely additive, invariant under rotations, and defined on all Lebesgue measurable sets. 
+This was answered affirmatively and independently for n ≥ 4 by Grigory Margulis and Dennis Sullivan around 1980, and for n = 2 and 3 by Vladimir Drinfeld (published 1984). It fails for the circle.
+The problem is named after Stanisław Ruziewicz.
+
+
+== References ==
+Lubotzky, Alexander (1994), Discrete groups, expanding graphs and invariant measures, Progress in Mathematics, 125, Basel: Birkhäuser Verlag, ISBN 0-8176-5075-X.
+Drinfeld, Vladimir (1984), "Finitely-additive measures on S2 and S3, invariant with respect to rotations", Funktsional. Anal. i Prilozhen., 18 (3): 77, MR 0757256.
+Margulis, Grigory (1980), "Some remarks on invariant means", Monatshefte für Mathematik, 90 (3): 233–235, doi:10.1007/BF01295368, MR 0596890.
+Sullivan, Dennis (1981), "For n > 3 there is only one finitely additive rotationally invariant measure on the n-sphere on all Lebesgue measurable sets", Bulletin of the American Mathematical Society, 4 (1): 121–123, doi:10.1090/S0273-0979-1981-14880-1, MR 0590825.
+Survey of the area by Hee Oh

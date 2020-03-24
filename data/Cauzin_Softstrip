@@ -1,0 +1,13 @@
+Cauzin Softstrip was the first commercial 2D barcode format.  Introduced in 1985, it could store up to 1000 bytes per square inch, which was 20 to 100 times more than the bar codes of the day. It was designed to allow magazines to distribute computer programs by simply printing a pattern on a page. Several computer magazines printed Softstrip data that encoded program source listings, or even executable programs. It is now known as Datastrip code.
+Softstrip format never became very popular for program distribution. It was intended to replace the tedium of entering type-in programs from magazines but the format encoded less than a thousand bytes per square inch, which meant that large files took up a lot of space in a magazine.  The bar codes didn't work well if the magazine ink was smeared; and the reader hardware was relatively expensive at around US$200. The high cost of the unit and the added demands placed on publishers led to a chicken or egg dilemma between supply and demand where magazines were reluctant to publish listings in Softstrip format until there was a sizable user base, and users waited for the bar codes to become common in magazines before buying the unit.
+More recently, other applications for the code have been developed, including its use on identification cards and similar documents to encode text and biometric data.
+
+
+== References ==
+
+
+== External links ==
+Photos of a Cauzin Softstrip Reader
+Brief history of the Softstrip format
+New York Times article about the introduction of Softstrip technology
+Investigation and reproduction of the format in modern times

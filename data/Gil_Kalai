@@ -1,0 +1,26 @@
+Gil Kalai (born 1955) is the Henry and Manya Noskwith Professor of Mathematics at the Hebrew University of Jerusalem, and adjunct professor of mathematics and of computer science at Yale University.
+
+
+== Biography ==
+Gil Kalai received his Ph.D. from Hebrew University in 1983, under the supervision of Micha Perles, and joined the Hebrew University faculty in 1985 after a postdoctoral fellowship at the Massachusetts Institute of Technology. He was the recipient of the Pólya Prize in 1992, the Erdős Prize of the Israel Mathematical Society in 1993, and the Fulkerson Prize in 1994. He is known for finding variants of the simplex algorithm in linear programming that can be proven to run in subexponential time, for showing that every monotone property of graphs has a sharp phase transition, for solving Borsuk's problem (known as Borsuk's conjecture) on the number of pieces needed to partition convex sets into subsets of smaller diameter, and for his work on the Hirsch conjecture on the diameter of convex polytopes and in polyhedral combinatorics more generally.He was the winner of the 2012 Rothschild Prize in mathematics.  From 1995 to 2001, he was the Editor-in-Chief of the Israel Journal of Mathematics. In 2016, he was elected honorary member of the Hungarian Academy of Sciences. In 2018 he was a plenary speaker with talk Noise Stability, Noise Sensitivity and the Quantum Computer Puzzle at the International Congress of Mathematicians in Rio de Janeiro.
+
+
+== Kalai's conjectures on quantum computing ==
+Conjecture 1 (No quantum error correction). The process for creating a quantum error-correcting code will necessarily lead to a mixture of the desired codewords with undesired codewords. The probability of the undesired codewords is uniformly bounded away from zero. (In every implementation of quantum error-correcting codes with one encoded qubit, the probability of not getting the intended qubit is at least some δ > 0, independently of the number of qubits used for encoding.)
+Conjecture 2. A noisy quantum computer is subject to noise in which information leaks for two substantially entangled qubits have a substantial positive correlation.
+Conjecture 3. In any quantum computer at a highly entangled state there will be a strong effect of error-synchronization.
+Conjecture 4. Noisy quantum processes are subject to detrimental noise.
+
+
+== See also ==
+Kalai's 3d conjecture
+Entropy influence conjecture
+
+
+== References ==
+
+
+== External links ==
+Kalai's home page at Hebrew University
+Combinatorics and more, Kalai's blog
+"Noise stability, noise sensitivity and the quantum computer puzzle - Gil Kalai - ICM2018". YouTube. 19 September 2018. (Plenary Lecture 19)

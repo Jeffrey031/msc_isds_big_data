@@ -1,0 +1,30 @@
+In molecular biology, a hybridization probe is a fragment of DNA or RNA of variable length (usually 100–10000 bases long) which can be radioactively or fluorescently labeled. It can then be used in DNA or RNA samples to detect the presence of nucleotide substances (the RNA target) that are complementary to the sequence in the probe. The probe thereby hybridizes to single-stranded nucleic acid (DNA or RNA) whose base sequence allows probe–target base pairing due to complementarity between the probe and target. The labeled probe is first denatured (by heating or under alkaline conditions such as exposure to sodium hydroxide) into single stranded DNA (ssDNA) and then hybridized to the target ssDNA (Southern blotting) or RNA (northern blotting) immobilized on a membrane or in situ.
+To detect hybridization of the probe to its target sequence, the probe is tagged (or "labeled") with a molecular marker of either radioactive or (more recently) fluorescent molecules; commonly used markers are 32P (a radioactive isotope of phosphorus incorporated into the phosphodiester bond in the probe DNA) or digoxigenin, which is a non-radioactive, antibody-based marker. DNA sequences or RNA transcripts that have moderate to high sequence similarity to the probe are then detected by visualizing the hybridized probe via autoradiography or other imaging techniques. Normally, either X-ray pictures are taken of the filter, or the filter is placed under UV light. Detection of sequences with moderate or high similarity depends on how stringent the hybridization conditions were applied—high stringency, such as high hybridization temperature and low salt in hybridization buffers, permits only hybridization between nucleic acid sequences that are highly similar, whereas low stringency, such as lower temperature and high salt, allows hybridization when the sequences are less similar. Hybridization probes used in DNA microarrays refer to DNA covalently attached to an inert surface, such as coated glass slides or gene chips, to which a mobile cDNA target is hybridized.
+Depending on the method, the probe may be synthesized using the phosphoramidite method, or it can be generated and labeled by PCR amplification or cloning (both are older methods). In order to increase the in vivo stability of the probe RNA is not used. Instead, RNA analogues may be used, in particular morpholino- derivatives. Molecular DNA- or RNA-based probes are now routinely used in screening gene libraries, detecting nucleotide sequences with blotting methods, and in other gene technologies, such as nucleic acid and tissue microarrays.
+
+
+== Examples of probes ==
+Scorpion® probes
+Molecular Beacon probes
+TaqMan® probes
+LNA® (Locked Nucleic Acid) probes
+Cycling Probe Technology (CPT)
+
+
+== Uses in microbial ecology ==
+Within the field of microbial ecology, oligonucleotide probes are used in order to determine the presence of microbial species, genera, or microorganisms classified on a more broad level, such as bacteria, archaea, and eukaryotes via fluorescence in situ hybridization (FISH). rRNA probes have enabled scientists to visualize microorganisms, yet to be cultured in laboratory settings, by retrieval of rRNA sequences directly from the environment. Examples of these types of microorganisms include:
+
+Nevskia ramosa: N. ramosa is a neuston bacterium that forms typical, dichotomically-branching rosettes on the surface of shallow freshwater habitats.
+Achromatium oxaliferum: This huge bacterium (cell length up to >100 µm, diameter up to 50 µm) contains sulfur globules and massive calcite inclusions and inhabits the upper layers of freshwater sediments. It is visible to the naked eye and has, by its resistance to cultivation, puzzled generations of microbiologists.
+
+
+=== Limitations ===
+In some instances, differentiation between species may be problematic when using 16S rRNA sequences due to similarity. In such instances, 23S rRNA may be a better alternative. The global standard library of rRNA sequences is constantly becoming larger and continuously being updated, and thus the possibility of a random hybridization event between a specifically-designed probe (based on complete and current data from a range of test organisms) and an undesired/unknown target organism cannot be easily dismissed. On the contrary, it is plausible that there exist microorganisms, yet to be identified, which are phylogenetically members of a probe target group, but have partial or near-perfect target sites. usually applies when designing group-specific probes.
+Probably the greatest practical limitation to this technique is the lack of available automation.
+
+
+== Use in forensic science ==
+In forensic science, hybridization probes are used, for example, for detection of short tandem repeats (microsatellite) regions and in restriction fragment length polymorphism (RFLP) methods, all of which are widely used as part of DNA profiling analysis.
+
+
+== References ==

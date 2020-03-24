@@ -1,0 +1,6 @@
+In mathematics, formal moduli are an aspect of the theory of moduli spaces (of algebraic varieties or vector bundles, for example), closely linked to deformation theory and formal geometry. Roughly speaking, deformation theory can provide the Taylor polynomial level of information about deformations, while formal moduli theory can assemble consistent Taylor polynomials to make a formal power series theory. The step to moduli spaces, properly speaking, is an algebraization question, and has been largely put on a firm basis by Artin's approximation theorem.
+A formal universal deformation is by definition a formal scheme over a complete local ring, with special fiber the scheme over a field being studied, and with a universal property amongst such set-ups. The local ring in question is then the carrier of the formal moduli.
+
+
+== References ==
+Hazewinkel, Michiel, ed. (2001) [1994], "Deformation", Encyclopedia of Mathematics, Springer Science+Business Media B.V. / Kluwer Academic Publishers, ISBN 978-1-55608-010-4

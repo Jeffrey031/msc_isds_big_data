@@ -1,0 +1,77 @@
+Minishogi (5五将棋 gogo shōgi "5V chess" or "5×5 chess") is a modern variant of shogi (Japanese chess). The game was invented (or rediscovered) around 1970 by Shigenobu Kusumoto of Osaka, Japan. The rules are nearly identical to those of standard shogi, with the exception that it is played on a 5x5 board with a reduced number of pieces, and each player's promotion zone consists only of the rank farthest from the player.
+
+
+== Rules of the game ==
+
+
+=== Objective ===
+Like in standard shogi, each player aims to capture the opponent's king.
+
+
+=== Game equipment ===
+Two players play on a board ruled into a grid of five ranks (rows) by five files (columns). The squares are undifferentiated by marking or color.
+Each player begins with a set of 6 wedge-shaped pieces; these are:
+
+1 king
+1 rook
+1 bishop
+1 gold general
+1 silver general
+1 pawnTheir movements are identical to those of their namesakes in standard shogi. 
+
+
+=== Setup ===
+
+Each player places his/her pieces in the positions shown below, pointing towards the opponent.
+In the rank nearest to the player: 
+
+The king is placed in the leftmost file;
+The gold general is placed in the adjacent file to the king;
+The silver general is placed adjacent to the gold general;
+The bishop is placed adjacent to the silver general;
+The rook is placed in the rightmost file, adjacent to the bishop.That is, the setup of the first rank is as follows: |K|G|S|B|R|.
+In the second rank, each player places the pawn in the same file as the king (i.e. directly in front of the king).
+
+
+=== Promotion ===
+Like in standard shogi, a piece may (but is not obliged to) be promoted when it is moves into, within, or out of the promotion zone. The zone only lies within the rank farthest from the player (unlike in the standard game, where it lies within the last three ranks). All pieces promote the same way as their namesakes in standard shogi (and likewise, the kings and gold generals do not promote at all). The pawns must be promoted once they reach the farthest rank (since otherwise they would not have any legal moves).
+
+
+=== Drops ===
+The rules for dropping pieces are identical to those in standard shogi: all dropped pieces must start unpromoted (even if they have been captured as promoted pieces and/or are dropped into the farthest rank); a pawn may not be dropped onto the farthest rank, or onto a square that results in an immediate checkmate; the two pawns may not lie in the same file when they belong to the same player.
+
+
+=== Repetition ===
+If the same position (with the same side to move and same pieces in hand) occurs for the fourth time, the game ends and the final result is a loss for the player that made the very first move in the game (this is different from regular shogi, where such a scenario would result in a draw). The only exception to this rule is when one player perpetually checks the opponent; in that case the checking side loses the game.
+
+
+== Strategy ==
+Due to the small size of the board, the rook and bishop lose a significant amount of their relative strength, relative to the gold and silver generals. Because of the reduced ability for each player to achieve king safety, threats of checkmate are always present, and having pieces on hand presents many checkmate threats which reduce the opponent's mobility. This must be balanced against the defense of one's own king by friendly pieces on the board.
+As in many variants of chess, a common strategy is to develop the less powerful pieces (i.e. gold and silver generals) before the more powerful pieces (i.e. rooks and bishops).
+
+
+=== Handicap play ===
+The traditional rook, bishop, and 2-piece handicaps in shogi may be applied to this game. Additionally, there exist 3-piece, 4-piece, and even naked-king handicaps. In naked-king-handicap game, black can theoretically force a mate in 8 plies.
+
+
+== Computer Minishogi ==
+Minishogi is popular with artificial-intelligence researchers and there are many strong programs that play it. Due to minishogi being smaller, it can play a much stronger game than on the standard board size. Several tournaments in which such programs can enter to compete against each other are organized yearly, often associated with scientific conferences. The most prestigious of these tournaments is the UEC Cup, organized by the University of Electro-Communication in Tokyo. Other such events are TAAI (in Taiwan) and the ICGA Computer Olympiad.
+Minishogi can use the same standard protocols as regular shogi for communicating between graphical interfaces (which display a shogi board) and the artificial intelligence modules ('engines'), such as USI (Universal Shogi Interface) or XBoard protocol. There are several free strong minishogi engines that can be used with the WinBoard interface, which support both XBoard protocol and USI.
+
+
+== See also ==
+Shogi variant
+Tori shogi
+Microshogi
+Judkins shogi
+Kyoto shogi
+Cannon shogi
+Yari shogi
+
+
+== External links ==
+Minishogi at The Chess Variant Pages
+Website of the Japanese Minishogi Association (in Japanese, but contains game records which can be understood without knowing Japanese)
+Mini Shogi 6x5 Mini Shogi iPhone software
+UEC Minishogi website (mostly Japanese)
+free PC software for playing Minishogi

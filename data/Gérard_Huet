@@ -1,0 +1,37 @@
+Gérard Pierre Huet (born 7 July 1947) is a French computer scientist, linguist and mathematician. He is senior research director at INRIA and mostly known for his major and seminal contributions to type theory, programming language theory and to the theory of computation.
+
+
+== Biography ==
+Gérard Huet graduated from the Université Denis Diderot (Paris VII), Case Western Reserve University, and the Université de Paris.He is senior research director at INRIA, a member of the French Academy of Sciences, and a member of Academia Europaea. Formerly he was a visiting professor at Asian Institute of Technology in Bangkok, a visiting professor at Carnegie Mellon University, and a guest researcher at SRI International.
+He is the author of a unification algorithm for simply typed lambda calculus, and of a complete proof method for Church's theory of types (constrained resolution). He worked on the Mentor program editor in 1974–1977 with Gilles Kahn. He worked on the KB equational proof system in 1978–1984 with Jean-Marie Hullot. He led the Formel project in the 1980s, which developed the Caml programming language. He designed the Calculus of Constructions in 1984 with Thierry Coquand. He led the Coq project in the 1990s with Christine Paulin, who developed the Coq proof assistant. He invented the zipper data structure in 1996. He was Head of International Relations for INRIA in 1996–2000. He designed the Zen Computational Linguistics toolkit in 2000–2004.
+He organized the Institute of Logical Foundations of Functional Programming during the Year of Programming at the University of Texas in Austin in Spring 1987. He organised the Colloquium “Proving and Improving Programs’’ in Arc-et-Senans in 1975, the 5th International Conference on Automated Deduction (CADE) in Les Arcs in 1980, the Logic in Computer Science Symposium (LICS) in Paris in 1994, and the First International Symposium in Sanskrit Computational Linguistics in 2007. He was coordinator of the ESPRIT European projects Logical Frameworks, then TYPES, from 1990 to 1995.
+He has made major contributions to the theory of unification and to the development of typed functional programming languages, in particular CAML.  More recently he has been a scholar on computational linguistics in Sanskrit. In particular, he is working on Eilenberg machines and on the formal structure of Sanskrit.  He is webmaster of the Sanskrit Heritage Site.Huet received the Herbrand Award in 1998 and received the EATCS Award in 2009.
+
+
+== Publications ==
+Le Projet prévision-réalisation des vols, Société d'informatique, de conseils et de recherche opérationnelle (SINCRO), Paris, 1970. WorldCat Record
+Spécifications pour une base commune de données, SINCRO, Paris, 1971. WorldCat Record
+Gérard P. Huet (1973). "A Mechanization of Type Theory" (PDF).  In Nils J. Nilsson (ed.). Proc. 3rd Int. Joint Conf. on Artificial Intelligence (IJCAI). William Kaufmann. pp. 139–146.
+Gérard P. Huet (1973). "The Undecidability of Unification in Third Order Logic". Information and Control. 22 (3): 257–267. doi:10.1016/s0019-9958(73)90301-x.
+La Gestion des données dans les systèmes informatiques, École supérieure d'électricité, Malakoff, 1974. WorldCat Record
+"A Unification Algorithm for Typed Lambda-Calculus", Gerard P. Huet, Theoretical Computer Science 1 (1975), 27-57
+Gérard Huet (Sep 1976). Resolution d'Equations dans des Langages d'Ordre 1,2,...ω (Ph.D.). Universite de Paris VII.
+Gérard Huet, Bernard Lang (1978). "Proving and Applying Program Transformations Expressed with Second-Order Patterns". Acta Informatica. 11: 31–55. doi:10.1007/bf00264598.
+Gérard Huet, D.S. Lankford (Mar 1978). On the Uniform Halting Problem for Term Rewriting Systems (PDF) (Technical report). IRIA. p. 8. 283.G. Huet, J.M. Hullot (Oct 1980). "Proofs by Induction in Equational Theories with Constructors". 21st Ann. Symp. on Foundations of Computer Science. Journal of Computer and System Sciences. 25. IEEE. pp. 96–107. doi:10.1016/0022-0000(82)90006-X.
+G. Huet, D.C. Oppen (Jan 1980). Equations and Rewrite Rules: A Survey (PDF) (Technical report). Stanford Univ., CS Dept. p. 52. STAN-CS-80-785.
+Gérard Huet (1981). "A Complete Proof of Correctness of the Knuth-Bendix Completion Algorithm". J. Comput. Syst. Sci. 23 (1): 11–21. doi:10.1016/0022-0000(81)90002-7.
+Gérard Huet (May 1986). Formal Structures for Computation and Deduction. International Summer School on Logic of Programming and Calculi of Discrete Design. Archived from the original on 2014-07-14. Retrieved 2014-06-19.
+Gérard Huet (1988).  K. Fuchi and M. Nivat (ed.). Induction Principles Formalized in the Calculus of Constructions (PDF). North-Holland. pp. 205–216. Archived from the original (PDF) on 2015-07-01. Retrieved 2014-06-19.Gérard Huet (Aug 1993). Residual Theory in λ-Calculus: A Formal Development (PDF) (Technical report). INRIA. 2009. Archived from the original (PDF) on 2015-07-01. Retrieved 2014-06-19.
+Huet, G.P. (1996).  Ganzinger, Harald (ed.). Design Proof Assistant (invited lecture). LNCS. 1103. Springer-Verlag. p. 153.
+Gérard Huet, H. Laulhère (Sep 1997). "Finite-state Transducers as Regular Böhm Trees" (PDF).  In M. Abadi and T. Ito (ed.). Theoretical Aspects of Computer Software. LNCS. 1281. Springer. pp. 604–610. Archived from the original (PDF) on 2014-12-22. Retrieved 2014-06-19.
+Gérard Huet (1998). "Regular Böhm Trees" (PDF). Math. Struct. In Comp. Science. 8 (6): 671–680. doi:10.1017/s0960129598002643. Archived from the original (PDF) on 2016-01-24. Retrieved 2014-06-19.Gérard Huet (2002). "Higher Order Unification 30 years later" (PDF).  In V. Carreño and C. Muñoz and S. Tahar (ed.). Proceedings, 15th International Conference TPHOL. LNCS. 2410. Springer. pp. 3–12. Postscript
+Gérard Huet (2003).  Fairouz Kamareddine (ed.). Linear Contexts and the Sharing Functor: Techniques for Symbolic Computation (PDF). Kluwer. Archived from the original (PDF) on 2015-07-01. Retrieved 2014-06-19.
+
+
+== References ==
+
+
+== External links ==
+Gérard Huet at the Mathematics Genealogy Project
+Gérard Huet's home page
+"Gérard Huet Héritage du sanskrit dictionnaire sanskrit-français" (PDF). (3.32 MB) (428 pages, 5 April 2007)

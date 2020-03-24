@@ -1,0 +1,320 @@
+Atmospheric lidar is a class of instruments that uses laser light to study atmospheric properties from the ground up to the top of the atmosphere. Such instruments have been used to study, among other,  atmospheric gases, aerosols, clouds, and temperature.
+
+
+== History ==
+The basic concepts to study the atmosphere using light were developed before World War II. In 1930, E.H. Synge proposed to study the density of the upper atmosphere using a searchlight beam 
+. In the following years, searchlight beams were used to study cloud altitude using both scanning and pulsed light. Advanced techniques to study cloud properties using scattered light with different wavelengths were also proposed. With the first experiments, light scattering patterns were observed in the troposphere that were not compatible with a pure molecular atmosphere. This incompatibility was attributed to suspended haze particles.
+Similar techniques were also developed in the U.S.S.R. The searchlight beam technique continued to improve after the end of the War, with more precise instruments and new atmospheric parameters, like temperature  At the same time, pulsed light was used to construct a rangefinder to measure the distance of objects, but remained only an experimental design.In 1960, T. Maiman demonstrated the first functional laser at Hughes Research Laboratories. The demonstration was a pivotal moment for lidar development. Soon afterwards, engineers at Hughes Aircraft Company developed a laser rangefinder using ruby laser light.
+The new device, named colidar (coherent light detection and ranging), gained widespread publicity
+. In 1962, L. Smullin and G. Fiocco used a ruby laser to detect echoes from the Moon. During their experiments they observed light scattered in the upper atmosphere that they attributed to dust particles. Soon, several research groups constructed similar devices to observe the atmosphere. By 1969,  “over 20 lasers were in use by meteorologists in the United States on at least a semi-routine basis” for various applications including aerosol measurements, sub-visible cirrus and noctilucent clouds observations, and visibility measurement
+
+
+== Design ==
+
+A simplified representation of a lidar set-up is demonstrated in Figure 1. The transmission unit consists of a laser source, followed by a series of mirrors, and a beam expander which sends the collimated light beam vertically up to the open atmosphere. Part of the transmitted radiation is scattered by atmospheric components (i.e., gases, molecules, aerosols, clouds) backward to the lidar, where it is collected  by a telescope. The backscattered light is driven to an optical analyzer where the optical signal is first spectrally separated, amplified and transformed to an electrical signal. Finally, the signal is digitized and stored in a computer unit.
+
+
+== Applications ==
+
+
+=== Clouds ===
+Lidars have been proven useful for classification of cloud types (i.e., cumuli versus cirrus). Cloud boundaries can be retrieved from a ground-based lidar operating at a visible and/or near-infrared band. Cloud-base height can be identified by the time difference between the transmittance of the laser pulse to the sky and the detection of the backscattered light by the telescope. The laser beam is always attenuated when it penetrates through the clouds. However, when a powerful laser (e.g., Nd:YAG laser with high energy per pulse) is used, cloud tops can be retrieved too.  Another physical parameter that can be retrieved is the cloud phase. By using a linear polarized laser beam, a linear particle depolarization ratio (δ) can be defined as the ratio of measured perpendicular backscatter intensity over parallel backscatter intensity with respect to the transmitter polarization axis:
+
+  
+    
+      
+        δ
+        =
+        
+          
+            
+              I
+              
+                ⊥
+              
+            
+            
+              I
+              
+                ∥
+              
+            
+          
+        
+      
+    
+    {\displaystyle \delta ={\frac {I_{\perp }}{I_{\parallel }}}}
+  
+When this parameter is zero (the backscattered signal is linearly polarized), the cloud contains liquid spherical droplets. However, when the cloud contains ice crystals, backscattered light arrives at the receiver unit with a cross-polarized component, and δ has a higher value (0 < δ < 1). Liquid droplets tend to behave as symmetrical scattering elements, while ice crystals are asymmetrical.The use of the polarization ratio generally includes an implicit assumption that the particles in the volume are randomly oriented.  The polarization properties of oriented particles cannot be properly represented by the depolarization ratio.  Ice crystals are known to horizontally orient when they are large enough that drag forces overcome the randomizing effects of Brownian motion.  Rain is also generally oriented, where drag forces flatten the drops along the fall direction.  In such cases, the measured depolarization ratio may depend on the particular polarization state used by the lidar system.  Some polarization lidar systems can measure the entire backscatter phase matrix, thereby avoiding the ambiguity of the depolarization ratio when oriented particles are present.
+
+
+=== Aerosol particles ===
+One of the biggest uncertainties for climate change is the importance of aerosol direct and indirect effects. The uncertainties were stressed in the 4th Assessment Report by the Intergovernmental Panel for Climate Change (IPCC). The large diversity of aerosol optical properties, including their sources and the meteorological processes they are subjected to, requires vertically resolved measurements, which can only be performed with routine lidar observations. Networks of aerosol lidars such as the European Aerosol Research Lidar Network (EARLINET)  were established to investigate aerosol properties, along with transport and modification phenomena, in a coherent way on a regional to continental scale. As of 2015, EARLINET consists of 27 lidar stations hosting more than 44000 profiles.
+Elastic-backscatter lidars (EBL) have been used extensively to investigate clouds and aerosol layers since the 1960s. EBLs detect the total backscattered signal (particle and molecular contributions). Profiles of the extinction coefficient have to be estimated using the molecular signal and the assumption of a conditionally “constant” (roughly speaking) aerosol extinction to backscatter ratio, called the lidar ratio. The main equation involved, known as the lidar equation is:
+
+where P(r) is the power of the backscattered radiation received by the lidar telescope in distance r, E is transmitted laser-pulse energy, L is the lidar constant summarizing its optical and detection characteristics, O(r) is the overlap function, and 
+  
+    
+      
+        
+          β
+          
+            
+              a
+              e
+              r
+              
+                /
+              
+              m
+              o
+              l
+            
+          
+        
+        (
+        r
+        )
+      
+    
+    {\displaystyle \beta _{\mathrm {aer/mol} }(r)}
+    and 
+  
+    
+      
+        
+          α
+          
+            
+              a
+              e
+              r
+              
+                /
+              
+              m
+              o
+              l
+            
+          
+        
+        (
+        r
+        )
+      
+    
+    {\displaystyle \alpha _{\mathrm {aer/mol} }(r)}
+   are the aerosol/molecular backscatter- and extinction coefficient respectively. Molecular backscatter and extinction can be derived by meteorological data, therefore the only unknowns in the lidar equation are 
+  
+    
+      
+        
+          β
+          
+            
+              a
+              e
+              r
+              
+                /
+              
+              m
+              o
+              l
+            
+          
+        
+        (
+        r
+        )
+      
+    
+    {\displaystyle \beta _{\mathrm {aer/mol} }(r)}
+    and 
+  
+    
+      
+        
+          α
+          
+            
+              a
+              e
+              r
+              
+                /
+              
+              m
+              o
+              l
+            
+          
+        
+        (
+        r
+        )
+      
+    
+    {\displaystyle \alpha _{\mathrm {aer/mol} }(r)}
+  . However the lidar ratio, as an intensive aerosol property, strongly depends on the size, morphology and chemical composition of the particles and is highly variable with respect to height, which often risks the extinction profile credibility.  The process for calculating backscatter- and extinction coefficient profiles from EBL returns is widely known as the Klett method  and was originally formalised by Hitschfeld and Bordan in 1954.  
+The aforementioned defect on estimating extinction profiles is overcome by Raman (inelastic) backscatter lidar and high spectral resolution lidar (HSRL).  Raman lidar works by additionally measuring the inelastic backscatter by nitrogen and/or oxygen molecules.  HSRL uses a processing approach but obtains the additional measure of molecular only backscatter at the transmitted wavelength by blocking the spectrally narrow aerosol returns and passing the spectrally broad molecular returns. These techniques provide a direct calculation of the extinction coefficient, eliminating the need for a lidar ratio assumption since any additional terms involved (e.g. the molecular extinction coefficient) are handled by meteorological (e.g. radiosoundings) and standard-atmosphere data. After some mathematical manipulations of the lidar equation the extinction-related equation reads:
+
+where the subscripts “inc” and “sca” refer to the incident laser light and the shifted backscattered light respectively (in HSRL these terms are the same thus further simplifying the equation, but the distinction is needed in the case of Raman lidar), N is the nitrogen / oxygen molecule number density and 
+  
+    
+      
+        
+          
+            Å
+          
+        
+      
+    
+    {\displaystyle \mathrm {\AA} }
+   is the Ångström exponent. A drawback of this method is the presence of a derivative in the resulting extinction coefficient formula (2) which results in potential numerical instability, introducing an active field of research.
+
+
+=== Inversion of aerosol microphysical properties ===
+Extracting the microphysical properties of particles is motivated by the need for a deeper understanding of the effect of aerosols on climate by investigating their spatial and temporal variability. A key parameter is the distribution of the number of particles with respect to their size. Other microphysical parameters involving the characterization of aerosols are the mean (effective) radius, the total volume and surface-area concentration, the complex refractive index and the single-scattering albedo (climate forcing). While knowing the aerosol properties (forward problem) and predicting the lidar signal is a straightforward calculation, the inverse process is mathematically ill-posed (i.e., non-unique and incomplete solution space), showing a strong sensitivity on input uncertainties.
+Optical parameters can be obtained from measurements using multi-wavelength elastic-Raman lidar systems. The parameters are used as inputs to the inversion algorithms. 
+The extinction (
+  
+    
+      
+        α
+      
+    
+    {\displaystyle \alpha }
+  ) and backscatter (
+  
+    
+      
+        β
+      
+    
+    {\displaystyle \beta }
+  ) coefficients measured by a multi-wavelength (
+  
+    
+      
+        λ
+      
+    
+    {\displaystyle \lambda }
+   ) lidar is related to the number size distribution via the Fredholm integral equation of the first kind:
+
+where r is particle radius, m is the complex refractive index, and ? are the kernel functions which summarize the size, shape and composition of particles. The non-linear dependence on the refractive index is usually tackled by assuming a grid of viable options. The solution space is built and further restricted by physical and/or mathematical constraints and the particle size bounds 
+  
+    
+      
+        
+          [
+          
+            
+              r
+              
+                min
+              
+            
+            ,
+            
+              r
+              
+                max
+              
+            
+          
+          ]
+        
+      
+    
+    {\displaystyle \left[r_{\min },r_{\max }\right]}
+   are also pre-determined. The model Eq. (1) further assumes a wavelength-independent refractive index.
+The wavelength is restricted to several discrete values depending on current technology and availability of the lidar system. The minimum optical data setup consists of 5 values, where 
+  
+    
+      
+        
+          λ
+          
+            i
+          
+        
+        =
+        {
+        355
+        ,
+        532
+        ,
+        1064
+        }
+      
+    
+    {\displaystyle \lambda _{i}=\{355,532,1064\}}
+   nm, 
+  
+    
+      
+        i
+        =
+        {
+        1
+        ,
+        2
+        ,
+        3
+        }
+      
+    
+    {\displaystyle i=\{1,2,3\}}
+  .
+Eq. (1) has to be discretized as it cannot be solved analytically. The theory of inverse ill-posed problems demonstrates that potential noisy components in the lidar data will cause the solution to blow up, regardless of the error level magnitude. Regularization methods are used to counteract the inherent instability of the inversion. The goal of these methods is to filter out the noisy components of the solutions, keeping at the same time as much of the solution content as possible. The ideal compromise between noise and regularity is expressed by the so-called parameter choice rules. Commonly used regularization methods are the Truncated Singular Value Decomposition, Tikhonov regularization combined with the Discrepancy Principle, the L-curve method or the Generalized Cross Validation method as a parameter choice rule. 
+While the model Eq. (1) offers a reasonable approximation for almost-spherical particles (e.g. biomass burning aerosols), it no longer provides a viable description for the non-spherical case. Particle shape is known to have substantial effects for the scattering in side- and backward direction. Recent studies show that the spheroidal particle approximation is able to reproduce the optical data much more accurately than spheres.
+
+
+=== Gases ===
+Lidar systems can be used to measure concentration profiles of atmospheric gases (i.e., water vapor, ozone), and industrial emissions (i.e., SO2, NO2, HCl). Such measurements are performed using two basic types of lidar; Raman lidar and Differential Absorption lidars (DIAL). In the first type, the Raman lidar detects the scattering of the laser beam due to Raman scattering. The frequency shift induced by such scattering is unique for each molecule, and acts as a “signature” to detect its specific contribution. The second type, DIAL systems, emit two beams with two distinct frequencies. One beam is tuned exactly on a molecular absorption line and the other beam is tuned in a nearby wavelength without molecular absorption. By examining the intensity difference of the scattered light at the two frequencies, DIAL systems can separate the contribution of the specific molecule in the atmosphere.
+
+
+=== Temperature ===
+Lidar systems can measure atmospheric temperature from the ground up to approximately 120 km using a variety of techniques, each adapted for a specific altitude range 
+. 
+Measuring temperature in the lower part of the atmosphere is typically done by taking advantage of temperature-dependent changes in molecular scattering properties. Rotational Raman systems can take advantage of the temperature-dependent intensity of the rotational Raman band of laser light scattered from reference gases like nitrogen and oxygen
+. By precisely measuring only this scattered light, such systems can determine the temperature profile up to 40 km during night and up to 12 km during day. In rare cases, DIAL systems are also used to retrieve temperature profiles, which take advantage of the temperature-dependent shape of specific molecular absorption lines.
+EBLs are used to derive temperature profiles from the upper atmosphere (~ 30 km to ~ 100 km). Without the presence of clouds or aerosol, the backscattered laser light from these altitudes is only due to molecular scattering. The received signal is proportional to molecular numerical density, which is in turn connected to temperature based on the ideal gas law. Temperature profiles at higher altitudes, up to 120 km, can be derived by measuring the broadening of absorption spectra of atoms of metals such as Na, Ca, K, Fe. State-of-the-art lidar systems can combine several of these techniques in one system and deliver temperature profiles from the ground up to approximately 90 km altitude 
+.
+
+
+=== Wind ===
+Lidars are capable of retrieving the complete wind vector based on the optical Doppler effect. The so-called Doppler lidars can capture the movement of molecules and particles by detecting the frequency shift of the backscattered light. In particular, supposing that the emitting radiation is at a frequency f0=c/λ0, where λ0 is the wavelength of the laser beam, for a moving target (i.e., aerosol particle or molecule) with a relative line-of-sight velocity v, the backscattered light detected by the lidar receiver has a frequency shift equal to Δf=2v/c. The particle velocity is defined where a positive line-of-sight velocity means that a target is moving towards the lidar and leads to a positive frequency shift. In literature regarding lidar applications, the line-of-sight velocity is always referred as radial velocity. The magnitude of the shift can be detected by several methods, the major being coherent and direct-detection detection techniques When aerosols are used as tracers, the strength of the return signal depends upon the aerosol load in the atmosphere and this is known to be dependent upon geographic location, the condition of the atmosphere, and the synoptic situation. The operational wavelength can be any wavelength sensitive to the underlying particle sizes. In general, aerosol return improves at lower wavelengths in the UV band. Nevertheless, the lidar signal gets more sensitive to air molecules in the UV band, and an expected aerosol-to-molecule backscatter ratio is harder to be met. Doppler lidars are usually pointed to zenith and provide vertically-resolved profiles of the vertical wind component. Scanning techniques are applied to retrieve the horizontal wind component.
+Several such systems are operated from the ground for applications related to e.g. airports, wind-farms, study of the Planetary Boundary Layer turbulence etc. The ADM-Aeolus satellite mission of the European Space Agency, will be the first wind lidar to operate from space.
+JAXA and Mitsubishi Electric are developing the SafeAvio airborne lidar to halve accidents due to clear-air turbulence.
+The 1.9 kW, 148-kg (325-lb.) prototype has a spatial resolution of 300 m (980 ft.) and a 1-30-km (0.5-16-nmi) remote sensing range reduced to 9 km at 40,000 ft.
+It will alert crews to tell passengers to fasten seatbelts, before developing automatic attitude control to minimize shaking.
+The prototype was flight-tested in Boeing’s 777F EcoDemonstrator in March 2018, goals and requirements should be determined by March 2019, and a feasibility report should be completed by March 2020 before a decision to develop the system.
+
+
+=== Metallic species in the atmosphere ===
+Lidars take advantage of resonance scattering in the upper atmosphere to detect metallic atoms. In such systems, the emitted laser light has to be precisely tuned in the resonance frequency of the studied species
+. 
+The first such measurements were the detection of atomic layers of metallic Sodium (Na) in the mesopause. The same technique is now applied to detect metallic Potassium (K), Lithium (Li), Calcium (Ca), and Calcium ion (Ca ion), and Iron (Fe). These measurements provide important information in an under-studied region of the atmosphere and have helped increase the knowledge on species concentration, origin, and the complex atmospheric dynamics at these altitudes.
+
+
+=== Applications of lidar to weather and climate ===
+The planetary boundary layer (PBL) is the part of the troposphere that is directly influenced by the presence of the earth’s surface, and responds to surface forcings with a timescale of about an hour or less
+. Convective turbulent mixing processes are dominant in the mixed layer (ML) of the PBL and have a major influence on the growth and transport of atmospheric pollutants. Meteorological variables (i.e. temperature, humidity, wind) in the PBL are critically important as inputs for reliable simulations in air quality models. One of the key parameters which determine the vertical extent of the ML is the PBL height.
+From an observational perspective, PBL height has historically been measured with radiosondes  but in recent years remote sensing instruments such as lidar have been utilized. Since it is well known that PBL height varies greatly in both time and space, on the order of a few meters and several minutes, radiosoundings aren’t the optimal choice for observations of PBL height. The concept of using lidar to detect PBL height relies on the assumption that there is a strong gradient in the concentration of aerosols in the ML versus the free atmosphere. An advantage of using remote sensing instruments over radiosondes for detection of the PBL height is the possibility of nearly continuous monitoring versus typical observations of twice per day from radiosondes. Continuous monitoring of PBL height will allow for a better understanding of the depth of convective turbulent processes in the ML which are a primary driver of air pollutants.
+The depth of the PBL is defined as the height of the inversion level separating the free troposphere (FT) from the boundary layer. Normally at the top of the PBL, buoyancy flux reaches a minimum and large gradients of potential temperature, water vapor, and aerosols are observed. Identifying an accurate position of the depth of the PBL is essential for reliable representation of parameters in meteorological and air quality models as the PBL is the region of maximum turbulence.
+It is well known that convective mixing processes are predominant in the PBL which in result influences the structure and composition of aerosols. Knowing the vertical extent of the convective mixing will allow a more accurate depiction of the atmosphere in the boundary layer.  
+In recent years, remote sensing instruments such as lidar have been employed to identify and observe the PBL height. An advantage to using lidar is its high-resolution temporal and vertical spatial coverage which can possibly be operated continuously and in a nearly automated status. Thus, an instantaneous PBL height can be recorded which allows more in-depth analysis such as diurnal evolution and long-term climate studies.
+Several methods have been applied to determine the PBL height from lidar observations.  They are both objective and subjective methods.  Objective methods consist of various forms of derivative methods, wavelet analysis methods, the variance method, and the ideal profile fitting method. Visual inspection methods  are infrequently used as a subjective approach but they are not the best approach.
+Ceilometers are a ground based Lidar optimised for measurement of cloud on the approach path of aircraft,  they can also be used for PBL studies.
+
+
+== References ==
+
+
+== Further reading ==
+Kovalev, Vladimir A.; Eichinger, William E. (2004). Elastic lidar: Theory, practice, and analysis methods. New York: John Wiley & Sons. doi:10.1002/0471643173. ISBN 9780471643173.
+Measures, Raymond M. (1984). Laser remote sensing: fundamentals and applications. Wiley.
+Weitkamp, Claus (2005). Lidar: Range-Resolved Optical Remote Sensing of the Atmosphere. Springer Series in Optical Sciences. 102. Springer. doi:10.1007/b106786. ISBN 978-0-387-40075-4.

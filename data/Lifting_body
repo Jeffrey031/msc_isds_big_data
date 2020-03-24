@@ -1,0 +1,97 @@
+A lifting body is a fixed-wing aircraft or spacecraft configuration in which the body itself produces lift. In contrast to a flying wing, which is a wing with minimal or no conventional fuselage, a lifting body can be thought of as a fuselage with little or no conventional wing. Whereas a flying wing seeks to maximize cruise efficiency at subsonic speeds by eliminating non-lifting surfaces, lifting bodies generally minimize the drag and structure of a wing for subsonic, supersonic and hypersonic flight, or spacecraft re-entry. All of these flight regimes pose challenges for proper flight safety.
+Lifting bodies were a major area of research in the 1960s and 70s as a means to build a small and lightweight manned spacecraft. The US built a number of lifting body rocket planes to test the concept, as well as several rocket-launched re-entry vehicles that were tested over the Pacific. Interest waned as the US Air Force lost interest in the manned mission, and major development ended during the Space Shuttle design process when it became clear that the highly shaped fuselages made it difficult to fit fuel tankage.
+Advanced spaceplane concepts in the 1990s and 2000s did use lifting-body designs.  Examples include the HL-20 Personnel Launch System (1990) and the Prometheus spaceplane (2010). The Dream Chaser lifting-body spaceplane, an extension of HL-20 technology, was under development as of 2012 as one of three vehicles to potentially carry US crew to and from the International Space Station. In 2015 the ESA Intermediate eXperimental Vehicle performed the first ever successful reentry of a lifting body spacecraft.
+
+
+== History ==
+The lifting body was conceived as long ago as 1917, when it was described in a patent by Roy Scroggs. However at low airspeeds the lifting body is inefficient and did not enter mainstream airplane design.Aerospace-related lifting body research arose from the idea of spacecraft re-entering the Earth's atmosphere and landing much like a regular aircraft. Following atmospheric re-entry, the traditional capsule-like spacecraft from the Mercury, Gemini, and Apollo series had very little control over where they landed. A steerable spacecraft with wings could significantly extend its landing envelope. However, the vehicle's wings would have to be designed to withstand the dynamic and thermal stresses of both re-entry and hypersonic flight. A proposed solution eliminated wings altogether: design the fuselage body itself to produce lift.
+NASA's refinements of the lifting body concept began in 1962 with R. Dale Reed of NASA's Armstrong Flight Research Center. The first full-size model to come out of Reed's program was the NASA M2-F1, an unpowered craft made of wood. Initial tests were performed by towing the M2-F1 along a dry lakebed at Edwards Air Force Base California, behind a modified Pontiac Catalina. Later the craft was towed behind a C-47 and released. Since the M2-F1 was a glider, a small rocket motor was added in order to extend the landing envelope. The M2-F1 was soon nicknamed the "Flying Bathtub".
+In 1963, NASA began programs with heavier rocket-powered lifting-body vehicles to be air launched from under the starboard wing of a NB-52B, a derivative of the B-52 jet bomber. The first flights started in 1966. Of the Dryden lifting bodies, all but the unpowered NASA M2-F1 used an XLR11 rocket engine as was used on the Bell X-1.  A follow-on design designated the Northrop HL-10 was developed at NASA  Langley Research Center.
+Air flow separation caused the crash of the Northrop M2-F2 lifting body.
+The HL-10 attempted to solve part of this problem by angling the port and starboard vertical stabilizers outward and enlarging the center one.Starting 1965 the Russian lifting-body Mikoyan-Gurevich MiG-105 or EPOS (Russian acronym for Experimental Passenger Orbital Aircraft) was developed and several test flights made. Work ended in 1978 when the efforts shifted to the Buran program, while work on another small-scale spacecraft partly continued in the Bor program.
+The IXV is a European Space Agency lifting body experimental re-entry vehicle intended to validate European reusable launchers which could be evaluated in the frame of the FLPP program. The IXV made its first flight in February 2015, launched by a Vega rocket.Orbital Sciences proposed a commercial lifting-body spaceplane in 2010.  The Prometheus is more fully described below.
+
+
+== Aerospace applications ==
+Lifting bodies pose complex control, structural, and internal configuration issues. Lifting bodies were eventually rejected in favor of a delta wing design for the Space Shuttle. Data acquired in flight test using high-speed landing approaches at very steep descent angles and high sink rates was used for modeling Shuttle flight and landing profiles.
+In planning for atmospheric re-entry, the landing site is selected in advance. For reusable reentry vehicles, typically a primary site is preferred that is closest to the launch site in order to reduce costs and improve launch turnaround time. However, weather near the landing site is a major factor in flight safety. In some seasons, weather at landing sites can change quickly relative to the time necessary to initiate and execute re-entry and safe landing. Due to weather, it is possible the vehicle may have to execute a landing at an alternate site.  Furthermore, most airports do not have runways of sufficient length to support the approach landing speed and roll distance required by spacecraft. Few airports exist in the world that can support or be modified to support this type of requirement. Therefore, alternate landing sites are very widely spaced across the U.S. and around the world.
+The Shuttle's delta wing design was driven by these issues. These requirements were further exacerbated by military requirements (the USAF would use the future shuttle for defense satellite payloads and other missions) that extended the Shuttle's flight landing envelope.
+Although a lifting body configuration would not have been vulnerable to the wing leading edge failure that caused the second shuttle loss, such a configuration could not meet the flight envelope requirements of both NASA and the military.Nonetheless, the lifting body concept has been implemented in a number of other aerospace programs, the previously mentioned NASA X-38, Lockheed Martin X-33,  BAC's Multi Unit Space Transport And Recovery Device, Europe's EADS Phoenix, and the joint Russian-European Kliper spacecraft. Of the three basic design shapes usually analyzed for such programs (capsule, lifting body, aircraft) the lifting body may offer the best trade-off in terms of maneuverability and thermodynamics while meeting its customers' mission requirements.
+Another use of a lifting body is SpaceX's Falcon 9 rocket's first stage. During landing attempts, the first stage deploys grid fins which steer lift produced by the cylindrical body of the first stage. According to SpaceX, the grid fins can tilt the first stage to approximately twenty degrees to generate lift and steer the stage towards a floating landing platform or ground landing pad.
+
+
+== Lifting body aircraft today ==
+The Dream Chaser is a crewed suborbital and orbital vertical-takeoff, horizontal-landing (VTHL) lifting-body spaceplane being developed by Sierra Nevada Corporation (SNC). The Dream Chaser design is planned to carry up to seven people to and from low-Earth orbit. The vehicle would launch vertically on an Atlas V and land horizontally on conventional runways.
+
+
+== Body lift ==
+
+Some aircraft with wings also employ bodies that generate lift. Some of the early 1930s high-wing monoplane designs of the Bellanca Aircraft Company, such as the Bellanca Aircruiser, had vaguely airfoil-shaped fuselages capable of generating some lift, with even the wing struts on some versions given widened fairings to give them some lift-generating capability.  The Gee Bee R-1 Super Sportster racing plane of the 1930s, likewise, from more modern aerodynamic studies, has been shown to have had considerable ability to generate lift with its fuselage design, important for the R-1's intended racing role, while in highly banked pylon turns while racing. Vincent Burnelli developed several aircraft between the 1920s and 1950 that used fuselage lift. Like the earlier Bellanca monoplanes, the Short SC.7 Skyvan produces a substantial amount of lift from its fuselage shape, almost as much as the 35% each of the wings produces. Fighters like the F-15 Eagle also produce substantial lift from the wide fuselage between the wings. Because the F-15 Eagle's wide fuselage is so efficient at lift, an F-15 was able to land successfully with only one wing, albeit under nearly full power, with thrust contributing significantly to lift. 
+
+In the summer of 1983, an Israeli F-15 staged a mock dogfight with Skyhawks for training purposes, near Nahal Tzin in the Negev desert. During the exercise, one of the Skyhawks miscalculated and collided forcefully with the F-15's wing root. The F-15's pilot was aware that the wing had been seriously damaged, but decided to try and land in a nearby airbase, not knowing the extent of his wing damage. It was only after he had landed, when he climbed out of the cockpit and looked backward, that the pilot realized what had happened: the wing had been completely torn off the plane, and he had landed the plane with only one wing attached. A few months later, the damaged F-15 had been given a new wing, and returned to operational duty in the squadron. The engineers at McDonnell Douglas had a hard time believing the story of the one-winged landing: as far as their planning models were concerned, this was an impossibility.
+
+In 2010, Orbital Sciences proposed the Prometheus "blended lifting-body" spaceplane vehicle, about one-quarter the size of the Space Shuttle, as a commercial option for carrying astronauts to low-Earth orbit under the commercial crew program.
+The Vertical Takeoff, Horizontal Landing (VTHL) vehicle was to have been launched on a human-rated Atlas V rocket but would land on a runway.
+The initial design was to have carried a crew of 4, but it could carry up to 6, or a combination of crew and cargo. In addition to Orbital Sciences, the consortium behind the proposal included Northrop Grumman, which would have built the spaceplane, and the United Launch Alliance, which would have provided the launch vehicle.
+Failing to be selected for a CCDev phase 2 award by NASA, Orbital announced in April 2011 that they would likely wind down their efforts to develop a commercial crew vehicle.Design principles of lifting bodies are used also in the construction of hybrid airships.
+
+
+== List of Armstrong Flight Research Center lifting body vehicles (1963 to 1975) ==
+The US government developed a variety of proof-of-concept and flight-test vehicle lifting body designs from the early 1960s through the mid-1970s at Armstrong Flight Research Center. These included:
+
+M2-F1
+M2-F2
+M2-F3
+HL-10
+X-24A
+X-24B
+
+
+=== Lifting body pilots and flights ===
+* Wood, Haise and Engle each made a single, car-towed, ground flight of the M2-F1.
+
+
+== Popular culture ==
+
+Lifting bodies have appeared in some science fiction works, including the movie Marooned, and as John Crichton's spacecraft Farscape-1 in the TV series Farscape. The Discovery Channel TV series conjectured using lifting bodies to deliver a probe to a distant earth-like planet in the computer animated Alien Planet. Gerry Anderson's 1969 Doppelgänger used a VTOL lifting body lander / ascender to visit an Earth-like planet, only to crash in both attempts. His series UFO featured a lifting body craft visually similar to the M2-F2 for orbital operations ("The Man Who Came Back"). In the Buzz Aldrin's Race Into Space computer game, a modified X-24A becomes an alternative lunar capable spacecraft that the player can choose over the Gemini or Apollo capsule.
+The 1970s television program The Six Million Dollar Man used footage of a lifting body aircraft, culled from actual NASA exercises, in the show's title sequence.  The scenes included an HL-10's separation from its carrier plane—a modified B-52—and an M2-F2 piloted by Bruce Peterson, crashing and tumbling violently along the Edwards dry lakebed runway. The cause of the crash was attributed to the onset of Dutch roll stemming from control instability as induced by flow separation.
+
+
+== See also ==
+Martin X-23 PRIME
+BOR-4
+Kliper
+HL-20 Personnel Launch System
+Dream Chaser (spacecraft)
+Prometheus (spacecraft)
+Facetmobile
+Blended wing body
+Flying wing
+MUSTARD
+1953 Horton "Wingless" http://aerospacelegacyfoundation.com/aviation-history-flying-wings/
+Arup S-2 1932, Snyder "Arup" (blurs the boundary between "flying wing" and lifting body)
+Burnelli RB-1
+
+
+== References ==
+
+
+=== References ===
+
+
+=== Other sources ===
+McPhee, John (1973), The Deltoid Pumpkin Seed; ISBN 0-374-51635-9. (Story of the Aereon, a combination aerodyne/aerostat, a.k.a. hybrid airship.)
+
+
+== External links ==
+Lifting Bodies Fact Sheet (NASA)
+NASA Tech Paper 3101: Numerical Analysis and Simulation of an Assured Crew Return Vehicle Flow Field (The math of airflow over a lifting body)
+NASA Photo Collections from Dryden Flight Research Center
+HL-10
+M2-F1
+M2-F2
+M2-F3
+X-24A and X24B
+Short M2-F1 history
+Some history of lifting body flight
+Wingless Flight: The Lifting Body Story. NASA History Series SP-4220 1997 PDF
